@@ -550,10 +550,10 @@ export default function CFPPartnersPage() {
                 with expert real estate guidance that aligned with their financial plans.
               </p>
               <Link
-                href="/case-studies/empty-nester-transition"
+                href="/services/empty-nester"
                 className="text-blue-600 dark:text-blue-400 hover:underline text-sm"
               >
-                Read Case Study →
+                Learn More About Empty Nester Services →
               </Link>
             </div>
             <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
@@ -563,10 +563,10 @@ export default function CFPPartnersPage() {
                 satisfaction, and enhanced the financial planning practice's value proposition.
               </p>
               <Link
-                href="/case-studies/cfp-partnership-success"
+                href="/testimonials"
                 className="text-blue-600 dark:text-blue-400 hover:underline text-sm"
               >
-                Read Case Study →
+                Read Client Testimonials →
               </Link>
             </div>
             <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
@@ -576,10 +576,10 @@ export default function CFPPartnersPage() {
                 communities, coordinated with retirement planning strategies.
               </p>
               <Link
-                href="/case-studies/55-community-move"
+                href="/services/55-plus-communities"
                 className="text-blue-600 dark:text-blue-400 hover:underline text-sm"
               >
-                Read Case Study →
+                Learn More About 55+ Community Planning →
               </Link>
             </div>
           </div>

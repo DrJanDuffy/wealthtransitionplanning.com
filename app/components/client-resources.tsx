@@ -9,12 +9,12 @@ export function ClientResources() {
     {
       name: 'Right Capital',
       description: 'Financial planning and portfolio management platform',
-      url: '#',
+      url: null, // Client portal access provided upon engagement
     },
     {
       name: 'Stratifi',
       description: 'Investment analysis and reporting tools',
-      url: '#',
+      url: null, // Client portal access provided upon engagement
     },
   ]
 
@@ -26,22 +26,33 @@ export function ClientResources() {
       </p>
       <div className="grid md:grid-cols-2 gap-4">
         {resources.map((resource, index) => (
-          <a
+          <div
             key={index}
-            href={resource.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-6 border border-neutral-200 rounded-lg hover:border-blue-600 transition-colors bg-white"
+            className="p-6 border border-neutral-200 rounded-lg bg-white"
           >
             <h3 className="text-lg font-semibold mb-2 text-gray-900">{resource.name}</h3>
-            <p className="text-sm text-gray-800">
+            <p className="text-sm text-gray-800 mb-2">
               {resource.description}
             </p>
-          </a>
+            {resource.url ? (
+              <a
+                href={resource.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline text-sm font-medium"
+              >
+                Access Portal →
+              </a>
+            ) : (
+              <p className="text-sm text-gray-600 italic">
+                Access provided upon engagement
+              </p>
+            )}
+          </div>
         ))}
       </div>
       <p className="mt-6 text-sm text-gray-800">
-        * Client portal access provided upon engagement
+        * Client portal access provided upon engagement. Contact us to get started.
       </p>
     </section>
   )

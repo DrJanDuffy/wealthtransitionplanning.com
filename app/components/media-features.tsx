@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 /**
  * Media Features Section
  * Shows where the business has been featured
@@ -35,12 +37,12 @@ export function MediaFeatures() {
         ))}
       </div>
       <div className="text-center mt-8">
-        <a
-          href="/in-the-media"
+        <Link
+          href="/about"
           className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
         >
-          View All Media Features →
-        </a>
+          Learn More About Dr. Janet Duffy →
+        </Link>
       </div>
     </section>
   )
