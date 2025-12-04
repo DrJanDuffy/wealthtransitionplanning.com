@@ -43,7 +43,7 @@ export default function EmptyNesterServicesPage() {
             <li className="text-neutral-900 dark:text-neutral-100">Empty Nester Services</li>
           </ol>
         </nav>
-
+      <article className="prose prose-lg max-w-none">
         {/* Hero Section */}
         <section className="mb-16 text-center">
           <h1 className="text-5xl font-bold mb-6">Empty Nester Real Estate Services in Las Vegas</h1>
