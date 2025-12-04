@@ -3,6 +3,8 @@ import { businessConfig } from 'app/config/business'
 import { baseUrl } from 'app/sitemap'
 import { FAQSchema } from 'app/components/faq-schema'
 import { TargetFAQ, targetFAQQuestions } from 'app/components/faq-target-questions'
+import { CFPHero } from 'app/components/cfp-partners/cfp-hero'
+import { BenefitsGrid } from 'app/components/cfp-partners/benefits-grid'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -74,11 +76,8 @@ export default function CFPPartnersPage() {
       </nav>
       <article className="prose prose-lg max-w-none">
 
-        <h1 className="text-4xl font-bold mb-4">Partner with a Las Vegas Real Estate Expert</h1>
-        
-        <p className="text-xl text-gray-800 mb-8">
-          Expand Your CERTIFIED Financial Planner Practice with Expert Real Estate Services in Las Vegas
-        </p>
+        {/* Improved Hero Section */}
+        <CFPHero />
 
         {/* Overview Section */}
         <section className="mb-12">
@@ -218,15 +217,10 @@ export default function CFPPartnersPage() {
 
         {/* Benefits Section */}
         <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6">Benefits for Certified Financial Planners</h2>
-          <p className="mb-4 text-lg">
-            Partnering with <strong>{businessConfig.name}</strong> provides numerous benefits 
-            that enhance your financial planning practice and improve your clients' outcomes. 
-            Our real estate services are specifically designed to complement financial planning, 
-            ensuring seamless integration with your existing practice.
-          </p>
+          {/* Improved Benefits Grid */}
+          <BenefitsGrid />
           
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
+          <div className="grid md:grid-cols-2 gap-6 mb-8 hidden">
             <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
               <h3 className="text-xl font-semibold mb-3">Expanded Real Estate Service Offerings</h3>
               <p className="mb-4">

@@ -10,6 +10,8 @@ import { Certifications } from 'app/components/certifications'
 import { serviceTiers } from 'app/config/services'
 import { ServiceTierCard } from 'app/components/services/service-tier-card'
 import { TargetFAQ, targetFAQQuestions } from 'app/components/faq-target-questions'
+import { HomeHero } from 'app/components/home/home-hero'
+import { ServiceCardsSection } from 'app/components/home/service-cards-section'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -56,121 +58,11 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      {/* Main Hero Section with Enhanced Styling */}
-      <section className="mb-20 text-center bg-white py-16 px-4 rounded-2xl shadow-lg border border-gray-200">
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900" style={{ lineHeight: '1.2' }}>
-          Real Estate Services That Support Financial Planners and Their Clients in Las Vegas
-        </h1>
-        <p className="text-2xl text-gray-900 mb-8 max-w-3xl mx-auto leading-relaxed font-semibold">
-          <strong className="text-gray-900 font-bold">{businessConfig.name}</strong> provides comprehensive real estate services 
-          specifically designed to support CERTIFIED Financial Planners (CFPs) and fiduciary 
-          financial advisors in Las Vegas, Nevada. We specialize in empty nester real estate 
-          transitions, 55+ community planning, and wealth transition strategies that complement 
-          your financial planning services.
-        </p>
-        <div className="flex flex-wrap justify-center gap-4 mt-8">
-          <FinancialCheckupCTA />
-        </div>
-      </section>
+      {/* Improved Hero Section */}
+      <HomeHero />
 
-      {/* How We Support Financial Planners - Streamlined */}
-      <section className="mb-20">
-        <h2 className="text-4xl font-bold mb-8 text-center text-gray-900 dark:text-white">How We Support Financial Planners and Their Clients</h2>
-        
-        <div className="max-w-4xl mx-auto mb-12">
-          <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
-            As a Certified Financial Planner, you understand that real estate decisions are 
-            integral to your clients' overall financial picture. Whether your clients are 
-            empty nesters looking to downsize, retirees considering 55+ communities, or 
-            families planning wealth transitions, real estate plays a crucial role in their 
-            financial success. That's where we come in.
-          </p>
-          
-          <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
-            <strong className="font-bold">{businessConfig.name}</strong> offers specialized real estate services 
-            that seamlessly integrate with your financial planning practice. We work alongside 
-            CFPs to provide expert real estate guidance, ensuring your clients make informed 
-            decisions that align with their financial goals, estate plans, and retirement strategies.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl card-hover border border-blue-100 dark:border-blue-800">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Empty Nester Real Estate Services</h3>
-            <p className="mb-4 text-gray-900 dark:text-gray-100">
-              Help your clients navigate the transition from family homes to more suitable 
-              properties. We specialize in empty nester real estate in Las Vegas, understanding 
-              the financial implications, tax considerations, and lifestyle factors that impact 
-              your clients' decisions.
-            </p>
-            <ul className="list-disc pl-6 space-y-2 text-sm text-gray-800 dark:text-gray-200">
-              <li>Market timing analysis for optimal sale prices</li>
-              <li>Downsizing property recommendations</li>
-              <li>Tax-efficient real estate transition strategies</li>
-              <li>Coordination with estate planning goals</li>
-            </ul>
-            <Link 
-              href="/services/empty-nester" 
-              className="inline-block mt-4 text-blue-600 dark:text-blue-400 hover:underline font-medium"
-            >
-              Learn More →
-            </Link>
-          </div>
-
-          <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl card-hover border border-blue-100 dark:border-blue-800">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">55+ Community Planning</h3>
-            <p className="mb-4 text-gray-900 dark:text-gray-100">
-              Las Vegas offers exceptional 55+ active adult communities, and we help your 
-              clients find the perfect fit for their retirement lifestyle and financial situation. 
-              We understand the unique considerations of 55+ community living and how it impacts 
-              your clients' financial plans.
-            </p>
-            <ul className="list-disc pl-6 space-y-2 text-sm text-gray-800 dark:text-gray-200">
-              <li>55+ community market analysis in Las Vegas</li>
-              <li>Financial impact assessment for retirement planning</li>
-              <li>Community amenities and lifestyle evaluation</li>
-              <li>Integration with retirement income strategies</li>
-            </ul>
-            <Link 
-              href="/services/55-plus-communities" 
-              className="inline-block mt-4 text-blue-600 dark:text-blue-400 hover:underline font-medium"
-            >
-              Learn More →
-            </Link>
-          </div>
-
-          <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl card-hover border border-blue-100 dark:border-blue-800">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Wealth Transition Real Estate</h3>
-            <p className="mb-4 text-gray-900 dark:text-gray-100">
-              Real estate is often the largest asset in your clients' portfolios, and strategic 
-              real estate decisions are essential for successful wealth transitions. We work 
-              with you to ensure your clients' real estate decisions support their estate 
-              planning, tax strategies, and wealth transfer goals.
-            </p>
-            <ul className="list-disc pl-6 space-y-2 text-sm text-gray-800 dark:text-gray-200">
-              <li>Real estate portfolio analysis for wealth transfer</li>
-              <li>Estate planning integration</li>
-              <li>Tax-efficient property transition strategies</li>
-              <li>Multi-generational property planning</li>
-            </ul>
-            <Link 
-              href="/services/wealth-transition" 
-              className="inline-block mt-4 text-blue-600 dark:text-blue-400 hover:underline font-medium"
-            >
-              Learn More →
-            </Link>
-          </div>
-        </div>
-
-        <div className="text-center">
-          <Link
-            href="/services"
-            className="inline-block px-8 py-4 cta-gradient text-white rounded-lg hover:shadow-lg transition-all font-semibold text-lg"
-          >
-            View All Real Estate Services
-          </Link>
-        </div>
-      </section>
+      {/* Improved Service Cards Section */}
+      <ServiceCardsSection />
 
       {/* Why Partner With Us - Brief Preview */}
       <section className="mb-20 p-12 bg-neutral-50 rounded-2xl">

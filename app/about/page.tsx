@@ -5,6 +5,8 @@ import { LocalBusinessSchema } from 'app/components/google/local-business-schema
 import { FAQSchema } from 'app/components/faq-schema'
 import { TargetFAQ, targetFAQQuestions } from 'app/components/faq-target-questions'
 import { ContactButtons } from 'app/components/google/contact-buttons'
+import { AboutHero } from 'app/components/about/about-hero'
+import { BioSection } from 'app/components/about/bio-section'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -76,28 +78,11 @@ export default function AboutPage() {
       </nav>
       <article className="prose prose-lg max-w-none">
 
-        <h1 className="text-4xl font-bold mb-4">About Dr. Janet Duffy: Real Estate Services for Financial Planners</h1>
-        
-        <p className="text-xl text-gray-800 mb-8">
-          Expert Real Estate and Wealth Transition Planning in Las Vegas, Nevada
-        </p>
+        {/* Improved Hero Section */}
+        <AboutHero />
 
-        {/* Bio Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6">Professional Background and Expertise</h2>
-          <p className="mb-4 text-lg">
-            Dr. Janet Duffy is a trusted real estate and wealth transition planning expert 
-            dedicated to helping Certified Financial Planners and their clients in Las Vegas 
-            and throughout Nevada navigate the complexities of real estate decisions, estate 
-            planning, retirement planning, and wealth transfer strategies.
-          </p>
-          <p className="mb-4 text-lg">
-            With years of experience in both real estate and financial planning, Dr. Duffy 
-            specializes in providing real estate services that seamlessly integrate with 
-            financial planning practices. Her unique expertise combines deep real estate 
-            market knowledge with a comprehensive understanding of financial planning 
-            principles, tax strategies, and wealth transition objectives.
-          </p>
+        {/* Improved Bio Section */}
+        <BioSection />
           <p className="mb-4 text-lg">
             Dr. Duffy is particularly skilled in working with empty nesters, retirees, and 
             individuals planning transitions to 55+ communities, helping them make informed 
