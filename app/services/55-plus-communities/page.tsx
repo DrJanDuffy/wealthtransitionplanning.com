@@ -269,7 +269,7 @@ export default function FiftyFivePlusCommunitiesPage() {
               {targetFAQQuestions.communities.map((faq, index) => (
                 <div key={index} className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
                   <h3 className="text-xl font-semibold mb-3">{faq.question}</h3>
-                  <p className="text-neutral-700 dark:text-neutral-300">{faq.answer}</p>
+                  <p className="text-gray-900">{faq.answer}</p>
                 </div>
               ))}
             </div>

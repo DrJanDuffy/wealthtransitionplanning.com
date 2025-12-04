@@ -25,7 +25,7 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
           {tier.tagline}
         </span>
         <h3 className="text-3xl font-bold mt-2 mb-4">{tier.name}</h3>
-        <p className="text-lg mb-4 text-gray-900 dark:text-gray-100">{tier.description}</p>
+        <p className="text-lg mb-4 text-gray-900">{tier.description}</p>
         <p className="text-gray-900 italic mb-6">
           <strong>Best for:</strong> {tier.bestFor}
         </p>
@@ -37,7 +37,7 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
           {tier.whyChoose.slice(0, 3).map((item, index) => (
             <li key={index} className="flex items-start">
               <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-              <span className="text-gray-900 dark:text-gray-100">{item}</span>
+              <span className="text-gray-900">{item}</span>
             </li>
           ))}
         </ul>

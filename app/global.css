@@ -24,37 +24,7 @@ body {
 
 /* Ensure all text has good contrast */
 p, li, span, div {
-  color: #111827 !important;
-}
-
-/* Override prose default colors for maximum readability */
-.prose p,
-.prose li,
-.prose span,
-.prose div,
-.prose a:not([class*="text-"]),
-article.prose p,
-article.prose li,
-article.prose span,
-article.prose div {
-  color: #111827 !important;
-}
-
-/* Ensure prose headings are dark */
-.prose h1,
-.prose h2,
-.prose h3,
-.prose h4,
-.prose h5,
-.prose h6,
-article.prose h1,
-article.prose h2,
-article.prose h3,
-article.prose h4,
-article.prose h5,
-article.prose h6 {
-  color: #111827 !important;
-  font-weight: 700 !important;
+  color: #111827;
 }
 
 /* Headings should be darker and more readable */
