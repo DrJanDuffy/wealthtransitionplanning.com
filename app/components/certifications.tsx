@@ -45,7 +45,7 @@ export function Certifications() {
               </div>
             )}
             <h3 className="text-lg font-semibold mb-2">{cert.name}</h3>
-            <p className="text-sm text-gray-800">{cert.description}</p>
+            <p className="text-sm text-gray-900">{cert.description}</p>
           </div>
         ))}
       </div>

@@ -43,7 +43,7 @@ export default function ServicesPage() {
     <>
       <ProfessionalServiceSchema />
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-900" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>
@@ -65,7 +65,7 @@ export default function ServicesPage() {
         <section className="mb-16">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Choose Your Service Level</h2>
-            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-900 max-w-3xl mx-auto">
               All our real estate services are available at affordable, transparent fees that 
               fit your practice needs and client situations. Whether you need comprehensive 
               ongoing support or project-based assistance, we have a service level that works 

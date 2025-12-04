@@ -130,14 +130,14 @@ export default function PricingPage() {
           <p className="text-gray-900 mb-4 leading-relaxed">
             We believe in transparent, upfront pricing. During your free initial consultation, we'll:
           </p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
+          <ul className="list-disc pl-6 space-y-2 text-gray-900 mb-6">
             <li>Discuss your specific needs and goals</li>
             <li>Review our service tier options</li>
             <li>Provide clear pricing information</li>
             <li>Answer any questions about fees and services</li>
             <li>Help you choose the best service level for your situation</li>
           </ul>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-900 leading-relaxed">
             <strong>No hidden fees. No surprises.</strong> We're committed to providing value and transparency 
             in everything we do.
           </p>

@@ -82,7 +82,7 @@ export function ServiceOverviewCards() {
             </p>
             <div className="mb-6">
               <h4 className="text-lg font-semibold mb-3 text-gray-900">Key Services:</h4>
-              <ul className="list-disc pl-6 space-y-2 text-sm text-gray-800">
+              <ul className="list-disc pl-6 space-y-2 text-sm text-gray-900">
                 {service.services.map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}

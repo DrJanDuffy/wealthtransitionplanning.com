@@ -44,7 +44,7 @@ export function Navbar() {
               <span className="text-xl md:text-2xl font-bold text-gray-900 hover:text-[#2563eb] transition-colors">
                 {businessConfig.name}
               </span>
-              <span className="ml-2 text-xs md:text-sm text-gray-700 font-normal hidden sm:inline">
+              <span className="ml-2 text-xs md:text-sm text-gray-900 font-normal hidden sm:inline">
                 Real Estate Services for Financial Planners
               </span>
             </Link>
@@ -73,7 +73,7 @@ export function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>

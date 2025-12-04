@@ -44,7 +44,7 @@ export function TestimonialCards({ testimonials }: TestimonialCardsProps) {
           <div className="border-t border-gray-200 pt-4">
             <p className="font-bold text-gray-900 text-lg">{testimonial.name}</p>
             <p className="text-sm text-gray-900 font-medium">{testimonial.role}</p>
-            <p className="text-sm text-gray-700">{testimonial.location}</p>
+            <p className="text-sm text-gray-900">{testimonial.location}</p>
           </div>
         </div>
       ))}

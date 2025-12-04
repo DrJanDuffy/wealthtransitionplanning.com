@@ -50,7 +50,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
   return (
     <>
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-900" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>

@@ -38,7 +38,7 @@ export default function ContactPage() {
       <LocalBusinessSchema />
       
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-900" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>
@@ -208,7 +208,7 @@ export default function ContactPage() {
               Send Message
             </button>
           </form>
-          <p className="mt-4 text-sm text-gray-800">
+          <p className="mt-4 text-sm text-gray-900">
             * Required fields. We'll respond to your inquiry within 24-48 hours. For urgent 
             matters related to real estate transactions or financial planning coordination, 
             please call us directly.
@@ -276,7 +276,7 @@ export default function ContactPage() {
           <div className="mb-4">
             <GoogleMaps width="100%" height="450px" />
           </div>
-          <p className="text-sm text-gray-800 mb-4">
+          <p className="text-sm text-gray-900 mb-4">
             <a
               href={getGoogleMapsDirectionsUrl()}
               target="_blank"

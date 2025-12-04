@@ -31,7 +31,7 @@ export function ClientResources() {
             className="p-6 border border-neutral-200 rounded-lg bg-white"
           >
             <h3 className="text-lg font-semibold mb-2 text-gray-900">{resource.name}</h3>
-            <p className="text-sm text-gray-800 mb-2">
+            <p className="text-sm text-gray-900 mb-2">
               {resource.description}
             </p>
             {resource.url ? (
@@ -44,14 +44,14 @@ export function ClientResources() {
                 Access Portal →
               </a>
             ) : (
-              <p className="text-sm text-gray-800 italic">
+              <p className="text-sm text-gray-900 italic">
                 Access provided upon engagement
               </p>
             )}
           </div>
         ))}
       </div>
-      <p className="mt-6 text-sm text-gray-800">
+      <p className="mt-6 text-sm text-gray-900">
         * Client portal access provided upon engagement. Contact us to get started.
       </p>
     </section>

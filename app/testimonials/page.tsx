@@ -116,7 +116,7 @@ export default function TestimonialsPage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           Partner with Us
         </h2>
-        <p className="text-gray-700 mb-6 leading-relaxed">
+        <p className="text-gray-900 mb-6 leading-relaxed">
           Are you a CERTIFIED Financial Planner looking to enhance your services with expert real estate planning? 
           Learn how our partnership program can benefit your practice and your clients.
         </p>
@@ -133,7 +133,7 @@ export default function TestimonialsPage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           Ready to Get Started?
         </h2>
-        <p className="text-gray-700 mb-6">
+        <p className="text-gray-900 mb-6">
           Schedule a free consultation to discuss your wealth transition planning needs.
         </p>
         <FinancialCheckupCTA />

@@ -11,7 +11,7 @@ export function ServicesCTA() {
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
           Let's Collaborate
         </h2>
-        <p className="text-xl md:text-2xl mb-8 text-gray-800 max-w-2xl mx-auto leading-relaxed font-medium">
+        <p className="text-xl md:text-2xl mb-8 text-gray-900 max-w-2xl mx-auto leading-relaxed font-medium">
           We'll be alongside you – with wisdom, guidance and coaching – so you can realize 
           your financial potential and provide your clients with comprehensive real estate 
           services that complement your financial planning practice.

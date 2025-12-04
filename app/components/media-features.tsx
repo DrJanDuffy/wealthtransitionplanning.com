@@ -28,7 +28,7 @@ export function MediaFeatures() {
             key={index}
             className="flex items-center justify-center h-20 w-full opacity-60 hover:opacity-100 transition-opacity"
           >
-            <span className="text-gray-700 dark:text-gray-300 font-semibold text-sm">
+            <span className="text-gray-900 font-semibold text-sm">
               {outlet.name}
             </span>
             {/* Placeholder for logo - replace with actual logo images */}

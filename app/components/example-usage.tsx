@@ -48,19 +48,19 @@ export function ExampleHomepage() {
         <dl className="space-y-4 mt-4">
           <div>
             <dt className="font-semibold">What services do you offer?</dt>
-            <dd className="mt-2 text-gray-800">
+            <dd className="mt-2 text-gray-900">
               We offer comprehensive wealth transition planning services including estate planning, retirement planning, and financial security strategies.
             </dd>
           </div>
           <div>
             <dt className="font-semibold">Where are you located?</dt>
-            <dd className="mt-2 text-gray-800">
+            <dd className="mt-2 text-gray-900">
               We are located in Las Vegas, Nevada, serving clients throughout the region.
             </dd>
           </div>
           <div>
             <dt className="font-semibold">What are your business hours?</dt>
-            <dd className="mt-2 text-gray-800">
+            <dd className="mt-2 text-gray-900">
               We are open Monday through Friday from 9:00 AM to 5:00 PM. We are closed on weekends.
             </dd>
           </div>

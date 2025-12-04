@@ -28,7 +28,7 @@ export default function Footer() {
                 {businessConfig.phone}
               </a>
             </p>
-            <p className="text-xs text-gray-700">
+            <p className="text-xs text-gray-900">
               {businessConfig.address.city}, {businessConfig.address.state}
             </p>
           </div>
@@ -110,7 +110,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-700 hover:text-[#2563eb] transition-colors"
+                  className="text-gray-900 hover:text-[#2563eb] transition-colors"
                   aria-label="Facebook"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -123,7 +123,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.linkedIn}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-700 hover:text-[#2563eb] transition-colors"
+                  className="text-gray-900 hover:text-[#2563eb] transition-colors"
                   aria-label="LinkedIn"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -136,7 +136,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-700 hover:text-[#2563eb] transition-colors"
+                  className="text-gray-900 hover:text-[#2563eb] transition-colors"
                   aria-label="Twitter"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -149,7 +149,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-700 hover:text-[#2563eb] transition-colors"
+                  className="text-gray-900 hover:text-[#2563eb] transition-colors"
                   aria-label="YouTube"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -158,7 +158,7 @@ export default function Footer() {
                 </a>
               )}
             </div>
-            <p className="text-xs text-gray-700 mt-4">
+            <p className="text-xs text-gray-900 mt-4">
               Supporting CERTIFIED Financial Planners with expert real estate services in Las Vegas, Nevada.
             </p>
           </div>

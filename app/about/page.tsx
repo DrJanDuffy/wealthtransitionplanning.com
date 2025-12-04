@@ -69,7 +69,7 @@ export default function AboutPage() {
       <FAQSchema faqs={faqs} />
       
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-900" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>
@@ -152,7 +152,7 @@ export default function AboutPage() {
               </ul>
             </div>
           </div>
-          <p className="text-sm text-gray-800">
+          <p className="text-sm text-gray-900">
             * Specific credentials to be updated with actual certifications
           </p>
         </section>
@@ -326,7 +326,7 @@ export default function AboutPage() {
             <li>Estate Planning Council</li>
             <li>Las Vegas Financial Planning Association</li>
           </ul>
-          <p className="text-sm text-gray-800">
+          <p className="text-sm text-gray-900">
             * Specific associations to be updated
           </p>
         </section>
