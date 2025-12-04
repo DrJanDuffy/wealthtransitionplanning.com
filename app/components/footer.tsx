@@ -1,128 +1,208 @@
-import { businessConfig, getPhoneLink, getGoogleMapsDirectionsUrl } from 'app/config/business'
-
-function ArrowIcon() {
-  return (
-    <svg
-      width="12"
-      height="12"
-      viewBox="0 0 12 12"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
-        fill="currentColor"
-      />
-    </svg>
-  )
-}
+import Link from 'next/link'
+import { businessConfig, getPhoneLink } from 'app/config/business'
 
 export default function Footer() {
-  const formatHours = (day: string) => {
-    const hours = businessConfig.hours[day as keyof typeof businessConfig.hours]
-    if (hours === 'closed') return 'Closed'
-    if (typeof hours === 'object') {
-      return `${hours.open} - ${hours.close}`
-    }
-    return 'Closed'
-  }
+  const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="mb-16 mt-16 border-t border-neutral-200 dark:border-neutral-800 pt-8">
-      {/* Business Information */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-        <div>
-          <h3 className="font-semibold text-lg mb-4">{businessConfig.name}</h3>
-          <address className="not-italic text-neutral-600 dark:text-neutral-400 mb-4">
-            <p>{businessConfig.address.street}</p>
-            <p>
-              {businessConfig.address.city}, {businessConfig.address.state}{' '}
-              {businessConfig.address.zipCode}
+    <footer className="w-full bg-white border-t border-gray-200 mt-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-8">
+          {/* Contact Information */}
+          <div>
+            <h4 className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">Contact</h4>
+            <p className="text-sm text-gray-600 mb-3">
+              <a
+                href={`mailto:${businessConfig.email}`}
+                className="hover:text-[#2563eb] transition-colors"
+              >
+                {businessConfig.email}
+              </a>
             </p>
-          </address>
-          <p className="mb-2">
-            <a
-              href={getPhoneLink()}
-              className="text-blue-600 dark:text-blue-400 hover:underline"
-            >
-              {businessConfig.phone}
-            </a>
-          </p>
-          <p>
-            <a
-              href={`mailto:${businessConfig.email}`}
-              className="text-blue-600 dark:text-blue-400 hover:underline"
-            >
-              {businessConfig.email}
-            </a>
-          </p>
+            <p className="text-sm text-gray-600 mb-4">
+              <a
+                href={getPhoneLink()}
+                className="hover:text-[#2563eb] transition-colors"
+              >
+                {businessConfig.phone}
+              </a>
+            </p>
+            <p className="text-xs text-gray-500">
+              {businessConfig.address.city}, {businessConfig.address.state}
+            </p>
+          </div>
+
+          {/* Services & Resources */}
+          <div>
+            <h4 className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">Services & Resources</h4>
+            <div className="space-y-2">
+              <Link
+                href="/services"
+                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+              >
+                Our Services
+              </Link>
+              <Link
+                href="/cfp-partners"
+                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+              >
+                CFP Partnership Program
+              </Link>
+              <Link
+                href="/resources"
+                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+              >
+                Resources & Guides
+              </Link>
+              <Link
+                href="/blog"
+                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+              >
+                Blog
+              </Link>
+              <Link
+                href="/about"
+                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+              >
+                About Dr. Janet Duffy
+              </Link>
+            </div>
+          </div>
+
+          {/* For Financial Planners */}
+          <div>
+            <h4 className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">For Financial Planners</h4>
+            <div className="space-y-2">
+              <Link
+                href="/cfp-partners"
+                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+              >
+                Partnership Program
+              </Link>
+              <Link
+                href="/services"
+                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+              >
+                Real Estate Services
+              </Link>
+              <Link
+                href="/resources"
+                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+              >
+                Client Resources
+              </Link>
+              <Link
+                href="/contact"
+                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+              >
+                Schedule Consultation
+              </Link>
+            </div>
+          </div>
+
+          {/* Connect */}
+          <div>
+            <h4 className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">Connect With Us</h4>
+            <div className="flex space-x-3 mb-4">
+              {businessConfig.socialMedia.facebook && (
+                <a
+                  href={businessConfig.socialMedia.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-500 hover:text-[#2563eb] transition-colors"
+                  aria-label="Facebook"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                  </svg>
+                </a>
+              )}
+              {(businessConfig.socialMedia.linkedIn || businessConfig.socialMedia.linkedin) && (
+                <a
+                  href={businessConfig.socialMedia.linkedIn || businessConfig.socialMedia.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-500 hover:text-[#2563eb] transition-colors"
+                  aria-label="LinkedIn"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                  </svg>
+                </a>
+              )}
+              {businessConfig.socialMedia.twitter && (
+                <a
+                  href={businessConfig.socialMedia.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-500 hover:text-[#2563eb] transition-colors"
+                  aria-label="Twitter"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                  </svg>
+                </a>
+              )}
+              {businessConfig.socialMedia.youtube && (
+                <a
+                  href={businessConfig.socialMedia.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-500 hover:text-[#2563eb] transition-colors"
+                  aria-label="YouTube"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                  </svg>
+                </a>
+              )}
+            </div>
+            <p className="text-xs text-gray-500 mt-4">
+              Supporting CERTIFIED Financial Planners with expert real estate services in Las Vegas, Nevada.
+            </p>
+          </div>
         </div>
 
-        <div>
-          <h3 className="font-semibold text-lg mb-4">Business Hours</h3>
-          <dl className="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
-            <div className="flex justify-between">
-              <dt>Monday - Friday:</dt>
-              <dd>9:00 AM - 5:00 PM</dd>
-            </div>
-            <div className="flex justify-between">
-              <dt>Saturday:</dt>
-              <dd>Closed</dd>
-            </div>
-            <div className="flex justify-between">
-              <dt>Sunday:</dt>
-              <dd>Closed</dd>
-            </div>
-          </dl>
-        </div>
-      </div>
-
-      {/* Quick Links */}
-      <div className="mb-8">
-        <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-          {businessConfig.googleBusinessProfileUrl && (
-            <li>
-              <a
-                className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-                rel="noopener noreferrer"
-                target="_blank"
-                href={businessConfig.googleBusinessProfileUrl}
-              >
-                <ArrowIcon />
-                <p className="ml-2 h-7">Google Business</p>
-              </a>
-            </li>
-          )}
-          {businessConfig.googleReviewsUrl && (
-            <li>
-              <a
-                className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-                rel="noopener noreferrer"
-                target="_blank"
-                href={businessConfig.googleReviewsUrl}
-              >
-                <ArrowIcon />
-                <p className="ml-2 h-7">Reviews</p>
-              </a>
-            </li>
-          )}
-          <li>
+        {/* Disclaimers */}
+        <div className="border-t border-gray-200 pt-6 mt-6">
+          <p className="text-xs text-gray-600 mb-3 leading-relaxed">
+            Investment advisory services are offered through {businessConfig.name}, an investment advisor registered 
+            with the State of Nevada. {businessConfig.name} only offers investment advisory services where it is 
+            appropriately registered or exempt from registration and only after clients have entered into an investment 
+            advisory agreement confirming the terms of engagement and have been provided a copy of the firm's ADV Part 2A brochure document.
+          </p>
+          <p className="text-xs text-gray-600 mb-3 leading-relaxed">
+            Information presented on this site is for informational purposes only and does not intend to make an offer 
+            or solicitation for the sale or purchase of any product, property or security. Investments, including securities, 
+            real estate and other investments, involve risk and unless otherwise stated, are not guaranteed. Be sure to first 
+            consult with a qualified financial adviser and/or tax professional before implementing any strategy discussed here.
+          </p>
+          <p className="text-xs text-gray-600 mb-3 leading-relaxed">
+            The information being provided is strictly as a courtesy. When you link to any of the websites provided here, 
+            you are leaving this website. We make no representation as to the completeness or accuracy of the information 
+            provided at these websites.{' '}
+            <Link href="/resources" className="text-[#2563eb] hover:underline">
+              Read More
+            </Link>
+            {' '}|{' '}
+            <Link href="/resources" className="text-[#2563eb] hover:underline">
+              Privacy Policy
+            </Link>
+            {' '}|{' '}
             <a
-              className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-              rel="noopener noreferrer"
+              href="https://adviserinfo.sec.gov/"
               target="_blank"
-              href={getGoogleMapsDirectionsUrl()}
+              rel="noopener noreferrer"
+              className="text-[#2563eb] hover:underline"
             >
-              <ArrowIcon />
-              <p className="ml-2 h-7">Directions</p>
+              Form ADV
             </a>
-          </li>
-        </ul>
+          </p>
+          <p className="text-xs text-gray-600 leading-relaxed">
+            {currentYear} © {businessConfig.name} – {businessConfig.owner} All Rights Reserved.
+          </p>
+        </div>
       </div>
-
-      <p className="mt-8 text-sm text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} {businessConfig.name}. All rights reserved.
-      </p>
     </footer>
   )
 }

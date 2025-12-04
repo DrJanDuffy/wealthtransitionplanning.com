@@ -1,0 +1,49 @@
+import Link from 'next/link'
+
+/**
+ * Client Resources Section
+ * Based on Real Life Planning's client resources section
+ */
+export function ClientResources() {
+  const resources = [
+    {
+      name: 'Right Capital',
+      description: 'Financial planning and portfolio management platform',
+      url: '#',
+    },
+    {
+      name: 'Stratifi',
+      description: 'Investment analysis and reporting tools',
+      url: '#',
+    },
+  ]
+
+  return (
+    <section className="mb-16 p-8 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
+      <h2 className="text-2xl font-semibold mb-6">Client Resources</h2>
+      <p className="mb-6 text-neutral-600 dark:text-neutral-400">
+        Access your financial planning tools and resources:
+      </p>
+      <div className="grid md:grid-cols-2 gap-4">
+        {resources.map((resource, index) => (
+          <a
+            key={index}
+            href={resource.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg hover:border-blue-600 dark:hover:border-blue-400 transition-colors"
+          >
+            <h3 className="text-lg font-semibold mb-2">{resource.name}</h3>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">
+              {resource.description}
+            </p>
+          </a>
+        ))}
+      </div>
+      <p className="mt-6 text-sm text-neutral-600 dark:text-neutral-400">
+        * Client portal access provided upon engagement
+      </p>
+    </section>
+  )
+}
+

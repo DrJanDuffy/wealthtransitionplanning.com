@@ -1,8 +1,20 @@
 @import 'tailwindcss';
 
+/* Color scheme matching reallifeplanning.com */
+:root {
+  --primary-blue: #2563eb;
+  --primary-blue-hover: #1d4ed8;
+  --text-gray-900: #111827;
+  --text-gray-700: #374151;
+  --text-gray-600: #4b5563;
+  --text-gray-400: #9ca3af;
+  --bg-white: #ffffff;
+  --border-gray: #e5e7eb;
+}
+
 ::selection {
-  background-color: #47a3f3;
-  color: #fefefe;
+  background-color: #2563eb;
+  color: #ffffff;
 }
 
 :root {

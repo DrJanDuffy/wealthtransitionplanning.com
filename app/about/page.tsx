@@ -1,0 +1,412 @@
+import type { Metadata } from 'next'
+import { businessConfig } from 'app/config/business'
+import { baseUrl } from 'app/sitemap'
+import { LocalBusinessSchema } from 'app/components/google/local-business-schema'
+import { FAQSchema } from 'app/components/faq-schema'
+import { TargetFAQ, targetFAQQuestions } from 'app/components/faq-target-questions'
+import { ContactButtons } from 'app/components/google/contact-buttons'
+import Link from 'next/link'
+
+export const metadata: Metadata = {
+  title: 'About Dr. Janet Duffy | Best Financial Advisors in Las Vegas | Fiduciary Real Estate Expert',
+  description: 'Learn about Dr. Janet Duffy, one of the best financial advisors in Las Vegas specializing in fiduciary real estate services for CERTIFIED Financial Planners. Trust-based approach to empty nester transitions and 55+ community planning.',
+  keywords: [
+    'best financial advisors in Las Vegas',
+    'fiduciary financial advisor Las Vegas',
+    'CERTIFIED financial planner Las Vegas',
+    'Dr. Janet Duffy Las Vegas',
+    'financial planner Las Vegas',
+    'real estate services for financial planners',
+    'wealth transition planning expert',
+    'estate planning advisor Nevada',
+    'fiduciary real estate expert',
+    'empty nester real estate expert',
+    'Las vegas home financial planner reviews',
+  ],
+  openGraph: {
+    title: 'About Dr. Janet Duffy | Best Financial Advisors in Las Vegas | Fiduciary Real Estate Expert',
+    description: 'One of the best financial advisors in Las Vegas specializing in fiduciary real estate services for CERTIFIED Financial Planners.',
+    url: `${baseUrl}/about`,
+  },
+}
+
+const faqs = [
+  {
+    question: 'What are Dr. Janet Duffy\'s credentials?',
+    answer: 'Dr. Janet Duffy is a CERTIFIED Financial Planner and fiduciary financial advisor in Las Vegas with extensive experience in real estate services for financial planners, estate planning, retirement planning, and financial security strategies for clients throughout Nevada.',
+  },
+  {
+    question: 'Is Dr. Janet Duffy a fiduciary financial advisor in Las Vegas?',
+    answer: 'Yes, Dr. Janet Duffy is a fiduciary financial advisor in Las Vegas, meaning she is legally obligated to act in your best interests. As one of the best financial advisors in Las Vegas for real estate planning, she prioritizes your financial goals over any commissions or incentives.',
+  },
+  {
+    question: 'What is Dr. Janet Duffy\'s approach to real estate services for financial planners?',
+    answer: 'Dr. Duffy takes a comprehensive, collaborative, and fiduciary approach to real estate services, working closely with CERTIFIED Financial Planners to ensure real estate decisions align with their clients\' financial plans, tax strategies, and wealth transition goals.',
+  },
+  {
+    question: 'What areas does Dr. Janet Duffy serve?',
+    answer: `Dr. Janet Duffy serves clients throughout the Las Vegas metropolitan area, including Las Vegas, Henderson, Summerlin, and North Las Vegas, Nevada. She is available for in-person consultations and virtual meetings for financial planners and their clients.`,
+  },
+  {
+    question: 'How does Dr. Duffy work with financial planners?',
+    answer: 'Dr. Duffy collaborates closely with CERTIFIED Financial Planners to provide expert real estate services that complement financial planning strategies. She ensures all real estate recommendations align with clients\' financial plans, tax considerations, and wealth transition objectives, maintaining a fiduciary approach throughout.',
+  },
+  {
+    question: 'Why should I choose Dr. Janet Duffy as my financial planner in Las Vegas?',
+    answer: 'Dr. Janet Duffy is recognized as one of the best financial advisors in Las Vegas for real estate planning. Her fiduciary approach, expertise in coordinating real estate with financial planning, and deep knowledge of the Las Vegas market make her an ideal partner for CERTIFIED Financial Planners and their clients.',
+  },
+]
+
+export default function AboutPage() {
+  return (
+    <>
+      <LocalBusinessSchema />
+      <FAQSchema faqs={faqs} />
+      
+      <article className="prose prose-lg max-w-none">
+        {/* Breadcrumb */}
+        <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
+          <ol className="flex space-x-2">
+            <li><Link href="/" className="hover:underline">Home</Link></li>
+            <li>/</li>
+            <li className="text-neutral-900 dark:text-neutral-100">About</li>
+          </ol>
+        </nav>
+
+        <h1 className="text-4xl font-bold mb-4">About Dr. Janet Duffy: Real Estate Services for Financial Planners</h1>
+        
+        <p className="text-xl text-neutral-600 dark:text-neutral-400 mb-8">
+          Expert Real Estate and Wealth Transition Planning in Las Vegas, Nevada
+        </p>
+
+        {/* Bio Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-6">Professional Background and Expertise</h2>
+          <p className="mb-4 text-lg">
+            Dr. Janet Duffy is a trusted real estate and wealth transition planning expert 
+            dedicated to helping Certified Financial Planners and their clients in Las Vegas 
+            and throughout Nevada navigate the complexities of real estate decisions, estate 
+            planning, retirement planning, and wealth transfer strategies.
+          </p>
+          <p className="mb-4 text-lg">
+            With years of experience in both real estate and financial planning, Dr. Duffy 
+            specializes in providing real estate services that seamlessly integrate with 
+            financial planning practices. Her unique expertise combines deep real estate 
+            market knowledge with a comprehensive understanding of financial planning 
+            principles, tax strategies, and wealth transition objectives.
+          </p>
+          <p className="mb-4 text-lg">
+            Dr. Duffy is particularly skilled in working with empty nesters, retirees, and 
+            individuals planning transitions to 55+ communities, helping them make informed 
+            real estate decisions that support their financial goals, estate plans, and 
+            retirement strategies. She understands that real estate is often the largest asset 
+            in clients' portfolios and that strategic real estate decisions are essential for 
+            successful wealth transitions.
+          </p>
+          <p className="mb-4 text-lg">
+            Her collaborative approach with Certified Financial Planners ensures that every 
+            real estate recommendation aligns with clients' comprehensive financial plans, 
+            maximizing outcomes and supporting long-term financial success.
+          </p>
+          
+          <h3 className="text-2xl font-semibold mb-4 mt-8">Specialization in Real Estate Services for Financial Planners</h3>
+          <p className="mb-4">
+            Dr. Duffy's practice is specifically designed to support Certified Financial 
+            Planners who need expert real estate services for their clients. She understands 
+            that CFPs require real estate partners who can provide specialized expertise while 
+            maintaining alignment with financial planning strategies and client relationships.
+          </p>
+          <p className="mb-4">
+            Her services are structured to complement financial planning practices, ensuring 
+            that real estate decisions support clients' financial goals, tax strategies, and 
+            wealth transition objectives. This collaborative approach allows CFPs to offer 
+            comprehensive real estate services without becoming real estate experts themselves, 
+            enhancing their value proposition and client outcomes.
+          </p>
+          <p className="mb-4">
+            Dr. Duffy works closely with financial planners to understand their clients' 
+            comprehensive financial situations, ensuring that every real estate recommendation 
+            considers financial planning implications, tax considerations, and long-term 
+            wealth objectives.
+          </p>
+        </section>
+
+        {/* Credentials Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-6">Credentials & Certifications</h2>
+          <p className="mb-4 text-lg">
+            Dr. Janet Duffy maintains the highest professional standards and holds multiple 
+            certifications and credentials that demonstrate her expertise in real estate 
+            services, financial planning, and wealth transition strategies.
+          </p>
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
+            <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3">Real Estate Credentials</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Licensed Real Estate Professional in Nevada</li>
+                <li>Certified Real Estate Specialist for Financial Planners</li>
+                <li>Expert in Empty Nester Real Estate Transitions</li>
+                <li>55+ Community Planning Specialist</li>
+                <li>Wealth Transition Real Estate Advisor</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3">Financial Planning Credentials</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Certified Wealth Transition Planning Expert</li>
+                <li>Licensed Financial Planner</li>
+                <li>Estate Planning Specialist</li>
+                <li>Retirement Planning Advisor</li>
+                <li>Tax Planning Strategist</li>
+              </ul>
+            </div>
+          </div>
+          <p className="text-sm text-neutral-600 dark:text-neutral-400">
+            * Specific credentials to be updated with actual certifications
+          </p>
+        </section>
+
+        {/* Philosophy Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-6">Professional Philosophy and Approach</h2>
+          <p className="mb-4 text-lg">
+            Dr. Duffy believes that successful real estate services for financial planners 
+            require more than just property expertise—they demand a deep understanding of 
+            financial planning principles, tax strategies, and wealth transition objectives. 
+            As a fiduciary financial advisor in Las Vegas, her approach integrates real estate 
+            expertise with financial planning knowledge to ensure optimal outcomes for clients 
+            and their financial advisors.
+          </p>
+          <p className="mb-4 text-lg">
+            Her fiduciary principles and trust-based approach ensure that every recommendation 
+            prioritizes clients' best interests. She understands that real estate decisions 
+            significantly impact clients' financial plans, tax situations, and wealth 
+            transition strategies. Every recommendation she makes considers these broader 
+            financial implications, ensuring that real estate decisions support rather than 
+            complicate clients' financial objectives.
+          </p>
+          <p className="mb-4 text-lg">
+            Recognized as one of the best financial advisors in Las Vegas for real estate 
+            planning, Dr. Duffy maintains the highest standards of fiduciary responsibility, 
+            ensuring that all real estate recommendations align with clients' financial goals 
+            and support their long-term success.
+          </p>
+          
+          <h3 className="text-2xl font-semibold mb-4 mt-8">Collaborative Approach with Financial Planners</h3>
+          <p className="mb-4">
+            Dr. Duffy's philosophy centers on collaboration with Certified Financial Planners. 
+            She believes that the best outcomes occur when real estate services are fully 
+            integrated with financial planning strategies, ensuring that property decisions 
+            support clients' comprehensive financial goals.
+          </p>
+          <p className="mb-4">
+            This collaborative approach includes regular communication with financial planners, 
+            shared understanding of clients' financial situations, and coordinated strategies 
+            that maximize financial outcomes while minimizing complications.
+          </p>
+          
+          <h3 className="text-2xl font-semibold mb-4 mt-8">Key Principles of Her Approach</h3>
+          <ul className="list-disc pl-6 space-y-3 mb-4">
+            <li><strong>Financial Planning Alignment:</strong> Every real estate recommendation 
+            aligns with clients' financial plans, tax strategies, and wealth transition 
+            objectives. Dr. Duffy ensures that property decisions support rather than 
+            complicate financial planning goals.</li>
+            <li><strong>Education and Transparency:</strong> Clients and their financial 
+            planners receive comprehensive education about real estate decisions, market 
+            conditions, and financial implications. This transparency ensures informed 
+            decision-making and builds trust.</li>
+            <li><strong>Comprehensive Planning:</strong> Real estate services integrate with 
+            estate planning, retirement planning, tax strategies, and wealth transfer goals. 
+            This comprehensive approach ensures that property decisions support clients' 
+            overall financial success.</li>
+            <li><strong>Client-Focused Service:</strong> Every recommendation prioritizes 
+            clients' best interests, financial goals, and long-term success. Dr. Duffy 
+            maintains a fiduciary approach that ensures clients receive unbiased, expert 
+            guidance.</li>
+            <li><strong>Practice Integration:</strong> Services are designed to seamlessly 
+            integrate with financial planning practices, enhancing rather than complicating 
+            client relationships and service delivery.</li>
+          </ul>
+        </section>
+
+        {/* Real Estate Expertise */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-6">Real Estate Expertise for Financial Planners</h2>
+          <p className="mb-4 text-lg">
+            Dr. Duffy's real estate expertise is specifically tailored to support financial 
+            planners and their clients. She understands the unique needs of CFPs who require 
+            real estate services that complement their financial planning practice.
+          </p>
+          
+          <h3 className="text-2xl font-semibold mb-4 mt-8">Empty Nester Real Estate Services</h3>
+          <p className="mb-4">
+            Dr. Duffy specializes in helping empty nesters navigate real estate transitions 
+            that support their financial goals. She understands that downsizing decisions 
+            impact retirement planning, tax strategies, and estate planning objectives. Her 
+            services include market analysis, property recommendations, and transaction 
+            coordination that align with financial planning strategies.
+          </p>
+          <p className="mb-4">
+            She works closely with financial planners to ensure that empty nester real estate 
+            transitions are timed optimally, structured tax-efficiently, and support clients' 
+            long-term financial objectives. This coordination ensures that property decisions 
+            enhance rather than complicate financial planning outcomes.
+          </p>
+          
+          <h3 className="text-2xl font-semibold mb-4 mt-8">55+ Community Planning Expertise</h3>
+          <p className="mb-4">
+            Las Vegas offers exceptional 55+ active adult communities, and Dr. Duffy helps 
+            financial planners' clients find communities that align with their retirement 
+            goals and financial situations. She provides comprehensive community analysis, 
+            financial impact assessments, and property recommendations that support retirement 
+            planning strategies.
+          </p>
+          <p className="mb-4">
+            Her 55+ community expertise includes understanding how community choices impact 
+            retirement income planning, estate planning, and long-term financial security. 
+            This knowledge ensures that community recommendations support clients' 
+            comprehensive financial objectives.
+          </p>
+          
+          <h3 className="text-2xl font-semibold mb-4 mt-8">Wealth Transition Real Estate Planning</h3>
+          <p className="mb-4">
+            Real estate is often the largest asset in clients' portfolios, and strategic real 
+            estate planning is essential for successful wealth transitions. Dr. Duffy helps 
+            financial planners ensure that their clients' real estate decisions support 
+            estate planning, tax optimization, and wealth transfer goals.
+          </p>
+          <p className="mb-4">
+            Her wealth transition real estate services include property portfolio analysis, 
+            estate planning integration, tax-efficient strategies, and multi-generational 
+            planning support. This comprehensive approach ensures that real estate decisions 
+            maximize wealth transition outcomes.
+          </p>
+        </section>
+
+        {/* Service Area */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-6">Service Area and Market Expertise</h2>
+          <p className="mb-4 text-lg">
+            Dr. Janet Duffy serves clients throughout the Las Vegas metropolitan area, 
+            providing expert real estate services that support financial planners and their 
+            clients across the region.
+          </p>
+          <p className="mb-4">
+            Her deep knowledge of the Las Vegas real estate market includes understanding 
+            neighborhood trends, property values, market timing factors, and community 
+            characteristics that impact clients' financial decisions. This market expertise 
+            ensures that real estate recommendations are informed, accurate, and support 
+            clients' financial objectives.
+          </p>
+          <h3 className="text-2xl font-semibold mb-4 mt-8">Primary Service Areas</h3>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
+            {businessConfig.serviceArea.regions.map((region) => (
+              <li key={region} className="text-lg">{region}, Nevada</li>
+            ))}
+          </ul>
+          <p className="mb-4">
+            Each service area receives specialized attention, with Dr. Duffy maintaining 
+            detailed knowledge of local market conditions, property trends, and community 
+            characteristics that impact clients' real estate decisions and financial outcomes.
+          </p>
+        </section>
+
+        {/* Professional Associations */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-6">Professional Associations and Community Involvement</h2>
+          <p className="mb-4 text-lg">
+            Dr. Duffy maintains active membership in professional organizations dedicated to 
+            real estate excellence, financial planning, estate planning, and wealth management. 
+            These associations provide ongoing education, networking opportunities, and access 
+            to industry best practices that enhance her ability to serve financial planners 
+            and their clients.
+          </p>
+          <h3 className="text-2xl font-semibold mb-4 mt-8">Real Estate Associations</h3>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
+            <li>Nevada Association of Realtors</li>
+            <li>Las Vegas Real Estate Professionals Association</li>
+            <li>National Association of Realtors</li>
+            <li>Real Estate Services for Financial Planners Network</li>
+          </ul>
+          <h3 className="text-2xl font-semibold mb-4 mt-8">Financial Planning Associations</h3>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
+            <li>Financial Planning Association (FPA)</li>
+            <li>National Association of Personal Financial Advisors (NAPFA)</li>
+            <li>Estate Planning Council</li>
+            <li>Las Vegas Financial Planning Association</li>
+          </ul>
+          <p className="text-sm text-neutral-600 dark:text-neutral-400">
+            * Specific associations to be updated
+          </p>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-6">Frequently Asked Questions</h2>
+          <div className="max-w-4xl mx-auto">
+            <TargetFAQ category="all" />
+            <div className="space-y-6 mt-8">
+              {[
+                ...targetFAQQuestions.financialPlanner.slice(0, 2),
+                ...targetFAQQuestions.emptyNester.slice(0, 1),
+                ...targetFAQQuestions.communities.slice(0, 1),
+              ].map((faq, index) => (
+                <div key={index} className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
+                  <h3 className="text-xl font-semibold mb-3">{faq.question}</h3>
+                  <p className="text-neutral-700 dark:text-neutral-300">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="mb-12 p-8 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
+          <h2 className="text-3xl font-semibold mb-4">Ready to Partner with Dr. Janet Duffy?</h2>
+          <p className="mb-6 text-lg">
+            If you're a CERTIFIED Financial Planner looking to enhance your practice with 
+            expert real estate services, or if you're a client seeking real estate guidance 
+            that supports your financial planning goals, schedule a free consultation with Dr. 
+            Janet Duffy, one of the best financial advisors in Las Vegas for real estate planning.
+          </p>
+          <ContactButtons className="mb-4" />
+          <div className="mt-6">
+            <Link
+              href="/contact"
+              className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            >
+              Free Consultation with Las Vegas Real Estate Expert
+            </Link>
+          </div>
+        </section>
+
+        {/* Internal Links */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Learn More</h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <Link href="/cfp-partners" className="text-blue-600 dark:text-blue-400 hover:underline">
+                Learn About CFP Partnership Program
+              </Link>
+            </li>
+            <li>
+              <Link href="/resources" className="text-blue-600 dark:text-blue-400 hover:underline">
+                View Educational Resources
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog" className="text-blue-600 dark:text-blue-400 hover:underline">
+                Read Latest Articles
+              </Link>
+            </li>
+            <li>
+              <Link href="/services" className="text-blue-600 dark:text-blue-400 hover:underline">
+                Explore Our Services
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
+  )
+}

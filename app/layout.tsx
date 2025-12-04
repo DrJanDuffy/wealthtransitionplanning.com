@@ -27,6 +27,20 @@ export const metadata: Metadata = {
     siteName: businessConfig.name,
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: `${baseUrl}/og?title=${encodeURIComponent(businessConfig.name)}`,
+        width: 1200,
+        height: 630,
+        alt: businessConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: businessConfig.name,
+    description: businessConfig.description,
+    images: [`${baseUrl}/og?title=${encodeURIComponent(businessConfig.name)}`],
   },
   robots: {
     index: true,
@@ -67,15 +81,15 @@ export default function RootLayout({
       <head>
         <LocalBusinessSchema />
       </head>
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
-          <Navbar />
+      <body className="antialiased bg-white text-gray-900">
+        <Navbar />
+        <main className="min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {children}
-          <Footer />
-          <Analytics />
-          <SpeedInsights />
-          <GoogleAnalytics />
         </main>
+        <Footer />
+        <Analytics />
+        <SpeedInsights />
+        <GoogleAnalytics />
       </body>
     </html>
   )

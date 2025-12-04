@@ -1,7 +1,7 @@
 import { getBlogPosts } from 'app/blog/utils'
 import type { MetadataRoute } from 'next'
 
-export const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://wealthtransitionplanning.com'
+export const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.wealthtransitionplanning.com'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const blogs = getBlogPosts().map((post) => ({
@@ -49,6 +49,52 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/services`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/thank-you`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+  ]
+
+  // Service tier pages
+  const serviceTierPages: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/services/comprehensive`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/services/launch`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/services/aim`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/services/live`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/services/learn`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
   ]
 
   // Secondary pages (Phase 2 - add when created)
@@ -63,5 +109,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Individual case studies will be added dynamically
   ]
 
-  return [...priorityPages, ...secondaryPages, ...blogs]
+  return [...priorityPages, ...serviceTierPages, ...secondaryPages, ...blogs]
 }
