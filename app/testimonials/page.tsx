@@ -3,6 +3,7 @@ import { businessConfig } from 'app/config/business'
 import { baseUrl } from 'app/sitemap'
 import { ContactButtons } from 'app/components/google/contact-buttons'
 import { FinancialCheckupCTA } from 'app/components/services/financial-checkup-cta'
+import { TestimonialCards } from 'app/components/testimonials/testimonial-cards'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -80,7 +81,7 @@ export default function TestimonialsPage() {
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
           Client Testimonials & Reviews
         </h1>
-        <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-900 max-w-3xl mx-auto">
           See what clients and financial planning partners say about working with {businessConfig.name}
         </p>
       </div>
@@ -88,7 +89,7 @@ export default function TestimonialsPage() {
       {/* Google Reviews CTA */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-12 text-center">
         <h2 className="text-2xl font-bold text-gray-900 mb-3">Read More Reviews</h2>
-        <p className="text-gray-700 mb-4">
+        <p className="text-gray-900 mb-4">
           Visit our Google Business Profile to read additional reviews from clients and partners.
         </p>
         {businessConfig.googleReviewsUrl ? (
@@ -107,37 +108,7 @@ export default function TestimonialsPage() {
 
       {/* Testimonials Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-        {testimonials.map((testimonial, index) => (
-          <div
-            key={index}
-            className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
-          >
-            {/* Rating */}
-            <div className="flex items-center mb-4">
-              {[...Array(testimonial.rating)].map((_, i) => (
-                <svg
-                  key={i}
-                  className="w-5 h-5 text-yellow-400 fill-current"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                </svg>
-              ))}
-            </div>
-
-            {/* Content */}
-            <p className="text-gray-700 mb-6 leading-relaxed italic">
-              "{testimonial.content}"
-            </p>
-
-            {/* Author */}
-            <div className="border-t border-gray-200 pt-4">
-              <p className="font-semibold text-gray-900">{testimonial.name}</p>
-              <p className="text-sm text-gray-800">{testimonial.role}</p>
-              <p className="text-sm text-gray-700">{testimonial.location}</p>
-            </div>
-          </div>
-        ))}
+        <TestimonialCards testimonials={testimonials} />
       </div>
 
       {/* CFP Partners Section */}

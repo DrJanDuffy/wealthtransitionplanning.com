@@ -46,7 +46,7 @@ export default function WealthTransitionPage() {
         {/* Hero Section */}
         <section className="mb-16 text-center">
           <h1 className="text-5xl font-bold mb-6">Wealth Transition Real Estate Planning</h1>
-          <p className="text-2xl text-gray-800 mb-8 max-w-3xl mx-auto">
+          <p className="text-2xl text-gray-900 mb-8 max-w-3xl mx-auto">
             Strategic real estate planning for wealth transitions, estate transfers, and multi-generational 
             property planning. Coordinated with your financial planning and estate planning strategies.
           </p>

@@ -5,6 +5,8 @@ import { LocalBusinessSchema } from 'app/components/google/local-business-schema
 import { GoogleMaps } from 'app/components/google/google-maps'
 import { ContactButtons } from 'app/components/google/contact-buttons'
 import { TargetFAQ, targetFAQQuestions } from 'app/components/faq-target-questions'
+import { ContactHero } from 'app/components/contact/contact-hero'
+import { ContactInfoSection } from 'app/components/contact/contact-info-section'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -45,13 +47,8 @@ export default function ContactPage() {
       </nav>
       <article className="prose prose-lg max-w-none">
 
-        <h1 className="text-4xl font-bold mb-4">Contact Us: Real Estate Services for Financial Planners</h1>
-        
-        <p className="text-xl text-gray-800 mb-8">
-          Get in touch to schedule your free consultation, learn about our real estate services 
-          for financial planners, explore CFP partnership opportunities, or discuss how we can 
-          support your financial planning practice with expert real estate guidance.
-        </p>
+        {/* Improved Hero Section */}
+        <ContactHero />
 
         {/* Contact Buttons */}
         <div className="mb-12">
@@ -113,81 +110,8 @@ export default function ContactPage() {
           </div>
         </section>
 
-        {/* Contact Information */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6">Office Information and Contact Details</h2>
-          <p className="mb-6 text-lg">
-            Our office is conveniently located in Las Vegas, Nevada, serving financial planners 
-            and their clients throughout the Las Vegas metropolitan area. We're available to 
-            discuss your real estate service needs, explore partnership opportunities, or provide 
-            expert guidance on empty nester transitions, 55+ community planning, and wealth 
-            transition strategies.
-          </p>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Contact Details</h3>
-              <address className="not-italic mb-4">
-                <p className="font-semibold mb-2 text-lg">{businessConfig.name}</p>
-                <p className="mb-1">{businessConfig.address.street}</p>
-                <p className="mb-4">
-                  {businessConfig.address.city}, {businessConfig.address.state}{' '}
-                  {businessConfig.address.zipCode}
-                </p>
-                <p className="mb-2">
-                  <strong>Phone:</strong>{' '}
-                  <a
-                    href={getPhoneLink()}
-                    className="text-blue-600 dark:text-blue-400 hover:underline text-lg"
-                  >
-                    {businessConfig.phone}
-                  </a>
-                </p>
-                <p className="mb-2">
-                  <strong>Email:</strong>{' '}
-                  <a
-                    href={`mailto:${businessConfig.email}`}
-                    className="text-blue-600 dark:text-blue-400 hover:underline text-lg"
-                  >
-                    {businessConfig.email}
-                  </a>
-                </p>
-              </address>
-              <p className="text-sm text-gray-800">
-                We're available to answer your questions about real estate services for financial 
-                planners, CFP partnership opportunities, empty nester transitions, 55+ community 
-                planning, and wealth transition strategies. Contact us today to learn how we can 
-                support your practice or assist with your real estate needs.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
-              <p className="mb-4 text-lg">
-                Our office hours are designed to accommodate financial planners and their clients, 
-                with availability during standard business hours and flexibility for consultations 
-                that fit your schedule.
-              </p>
-              <dl className="space-y-2 mb-4">
-                <div className="flex justify-between p-2 bg-neutral-50 dark:bg-neutral-900 rounded">
-                  <dt className="font-medium">Monday - Friday:</dt>
-                  <dd>9:00 AM - 5:00 PM</dd>
-                </div>
-                <div className="flex justify-between p-2 bg-neutral-50 dark:bg-neutral-900 rounded">
-                  <dt className="font-medium">Saturday:</dt>
-                  <dd>Closed</dd>
-                </div>
-                <div className="flex justify-between p-2 bg-neutral-50 dark:bg-neutral-900 rounded">
-                  <dt className="font-medium">Sunday:</dt>
-                  <dd>Closed</dd>
-                </div>
-              </dl>
-              <p className="text-sm text-gray-800">
-                * Extended hours available by appointment for financial planners and their clients. 
-                Contact us to schedule consultations outside standard business hours.
-              </p>
-            </div>
-          </div>
-        </section>
+        {/* Improved Contact Information Section */}
+        <ContactInfoSection />
 
         {/* Contact Form */}
         <section className="mb-12">

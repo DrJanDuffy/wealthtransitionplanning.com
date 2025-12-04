@@ -47,7 +47,7 @@ export default function EmptyNesterServicesPage() {
         {/* Hero Section */}
         <section className="mb-16 text-center">
           <h1 className="text-5xl font-bold mb-6">Empty Nester Real Estate Services in Las Vegas</h1>
-          <p className="text-2xl text-gray-800 mb-8 max-w-3xl mx-auto">
+          <p className="text-2xl text-gray-900 mb-8 max-w-3xl mx-auto">
             Expert real estate guidance for empty nesters transitioning from family homes to properties 
             that better suit their current lifestyle and financial situation. Coordinated with your 
             financial planning goals.

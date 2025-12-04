@@ -4,6 +4,7 @@ import { baseUrl } from 'app/sitemap'
 import { FAQSchema } from 'app/components/faq-schema'
 import { TargetFAQ } from 'app/components/faq-target-questions'
 import { FinancialCheckupCTA } from 'app/components/services/financial-checkup-cta'
+import { FAQAccordion } from 'app/components/faq/faq-accordion'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -106,52 +107,21 @@ export default function FAQPage() {
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
           Frequently Asked Questions
         </h1>
-        <p className="text-xl text-gray-700">
+        <p className="text-xl text-gray-900">
           Find answers to common questions about our wealth transition planning services
         </p>
       </div>
 
-      {/* FAQ Sections */}
-      <div className="space-y-8 mb-12">
-        <section>
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">General Questions</h2>
-          <div className="space-y-6">
-            {targetFAQQuestions.map((faq, index) => (
-              <div key={index} className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  {faq.question}
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  {faq.answer}
-                </p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 mt-12">Service-Specific Questions</h2>
-          <div className="space-y-6">
-            {additionalFAQs.map((faq, index) => (
-              <div key={index} className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  {faq.question}
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  {faq.answer}
-                </p>
-              </div>
-            ))}
-          </div>
-        </section>
-      </div>
+      {/* Improved FAQ Sections with Accordion */}
+      <FAQAccordion faqs={targetFAQQuestions} title="General Questions" />
+      <FAQAccordion faqs={additionalFAQs} title="Service-Specific Questions" />
 
       {/* Contact CTA */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 text-center mb-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           Still Have Questions?
         </h2>
-        <p className="text-gray-700 mb-6">
+        <p className="text-gray-900 mb-6">
           We're here to help! Schedule a free consultation to discuss your specific situation and get personalized answers.
         </p>
         <FinancialCheckupCTA />

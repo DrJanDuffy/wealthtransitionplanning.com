@@ -57,7 +57,7 @@ export default function AreasServedPage() {
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
           Areas We Serve
         </h1>
-        <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-900 max-w-3xl mx-auto">
           {businessConfig.name} proudly serves clients throughout the {businessConfig.serviceArea.city} metropolitan area and surrounding communities
         </p>
       </div>
@@ -68,10 +68,10 @@ export default function AreasServedPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
             Primary Service Area
           </h2>
-          <p className="text-lg text-gray-700 mb-2">
+          <p className="text-lg text-gray-900 mb-2">
             <strong>{businessConfig.address.city}, {businessConfig.address.state}</strong>
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-900">
             {businessConfig.address.full}
           </p>
         </div>
@@ -87,12 +87,12 @@ export default function AreasServedPage() {
             <h3 className="text-2xl font-bold text-gray-900 mb-3">
               {area.name}
             </h3>
-            <p className="text-gray-700 mb-4 leading-relaxed">
+            <p className="text-gray-900 mb-4 leading-relaxed">
               {area.description}
             </p>
             <div>
               <h4 className="font-semibold text-gray-900 mb-2">Key Areas:</h4>
-              <ul className="list-disc pl-6 space-y-1 text-gray-700">
+              <ul className="list-disc pl-6 space-y-1 text-gray-900">
                 {area.highlights.map((highlight, highlightIndex) => (
                   <li key={highlightIndex}>{highlight}</li>
                 ))}
@@ -115,7 +115,7 @@ export default function AreasServedPage() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Empty Nester Services</h3>
-            <p className="text-gray-700">
+            <p className="text-gray-900">
               Help downsizing from family homes to more manageable properties
             </p>
           </div>
@@ -127,7 +127,7 @@ export default function AreasServedPage() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">55+ Community Planning</h3>
-            <p className="text-gray-700">
+            <p className="text-gray-900">
               Expert guidance for active adult community transitions
             </p>
           </div>
@@ -138,7 +138,7 @@ export default function AreasServedPage() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Wealth Transition</h3>
-            <p className="text-gray-700">
+            <p className="text-gray-900">
               Strategic real estate planning aligned with financial goals
             </p>
           </div>
@@ -150,7 +150,7 @@ export default function AreasServedPage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">
           Working with Financial Planners
         </h2>
-        <p className="text-gray-700 mb-6 text-center leading-relaxed">
+        <p className="text-gray-900 mb-6 text-center leading-relaxed">
           We work closely with CERTIFIED Financial Planners throughout our service area to provide integrated wealth transition planning. 
           If you're a CFP serving clients in the Las Vegas area, learn more about our partnership program.
         </p>
@@ -169,7 +169,7 @@ export default function AreasServedPage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           Ready to Get Started?
         </h2>
-        <p className="text-gray-700 mb-6">
+        <p className="text-gray-900 mb-6">
           Whether you're in Las Vegas, Henderson, Summerlin, or another area in our service region, 
           we're here to help with your wealth transition planning needs.
         </p>

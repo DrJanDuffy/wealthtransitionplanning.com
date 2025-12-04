@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { businessConfig } from 'app/config/business'
 import { baseUrl } from 'app/sitemap'
 import { FinancialCheckupCTA } from 'app/components/services/financial-checkup-cta'
+import { ProcessTimeline } from 'app/components/process/process-timeline'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -102,41 +103,14 @@ export default function ProcessPage() {
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
           Our Process
         </h1>
-        <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-900 max-w-3xl mx-auto">
           A comprehensive, client-centered approach to wealth transition planning and real estate services
         </p>
       </div>
 
-      {/* Process Steps */}
-      <div className="space-y-12 mb-16">
-        {processSteps.map((processStep, index) => (
-          <div
-            key={index}
-            className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8`}
-          >
-            {/* Step Number */}
-            <div className="flex-shrink-0">
-              <div className="w-24 h-24 rounded-full bg-[#2563eb] text-white flex items-center justify-center text-4xl font-bold">
-                {processStep.step}
-              </div>
-            </div>
-
-            {/* Content */}
-            <div className="flex-1">
-              <h2 className="text-2xl font-bold text-gray-900 mb-3">
-                {processStep.title}
-              </h2>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                {processStep.description}
-              </p>
-              <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                {processStep.details.map((detail, detailIndex) => (
-                  <li key={detailIndex}>{detail}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        ))}
+      {/* Improved Process Timeline */}
+      <div className="mb-16">
+        <ProcessTimeline steps={processSteps} />
       </div>
 
       {/* Key Principles */}
@@ -152,7 +126,7 @@ export default function ProcessPage() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Fiduciary Approach</h3>
-            <p className="text-gray-700">
+            <p className="text-gray-900">
               We always act in your best interest, providing transparent, unbiased advice.
             </p>
           </div>
@@ -163,7 +137,7 @@ export default function ProcessPage() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">CFP Coordination</h3>
-            <p className="text-gray-700">
+            <p className="text-gray-900">
               We work seamlessly with your financial planner to ensure integrated planning.
             </p>
           </div>
@@ -174,7 +148,7 @@ export default function ProcessPage() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Results-Driven</h3>
-            <p className="text-gray-700">
+            <p className="text-gray-900">
               We focus on achieving your goals with measurable outcomes and clear communication.
             </p>
           </div>
@@ -186,7 +160,7 @@ export default function ProcessPage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           Explore Our Services
         </h2>
-        <p className="text-gray-700 mb-6">
+        <p className="text-gray-900 mb-6">
           Learn more about our specific services for empty nesters, 55+ communities, and wealth transition planning.
         </p>
         <Link
@@ -202,7 +176,7 @@ export default function ProcessPage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           Ready to Begin?
         </h2>
-        <p className="text-gray-700 mb-6">
+        <p className="text-gray-900 mb-6">
           Schedule a free consultation to discuss your wealth transition planning needs and learn how our process can work for you.
         </p>
         <FinancialCheckupCTA />
