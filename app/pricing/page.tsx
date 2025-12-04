@@ -77,7 +77,7 @@ export default function PricingPage() {
                     <li key={featureIndex}>{feature}</li>
                   ))}
                   {tier.features && tier.features.length > 5 && (
-                    <li className="text-gray-500 italic">...and more</li>
+                    <li className="text-gray-700 italic">...and more</li>
                   )}
                 </ul>
               </div>

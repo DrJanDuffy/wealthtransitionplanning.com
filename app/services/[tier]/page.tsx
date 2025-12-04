@@ -50,7 +50,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
   return (
     <>
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>
@@ -67,12 +67,12 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
             {tier.tagline}
           </span>
           <h1 className="text-5xl font-bold mt-4 mb-6">{tier.name}: Real Estate Services for Financial Planners</h1>
-          <p className="text-2xl text-neutral-600 dark:text-neutral-400 max-w-3xl mx-auto">
+          <p className="text-2xl text-gray-800 max-w-3xl mx-auto">
             {tier.description} Our {tier.name} service level provides comprehensive real estate 
             services specifically designed to support Certified Financial Planners and their 
             clients in Las Vegas, Nevada.
           </p>
-          <p className="text-lg mt-4 italic text-neutral-600 dark:text-neutral-400">
+          <p className="text-lg mt-4 italic text-gray-800">
             <strong>Best for:</strong> {tier.bestFor}
           </p>
         </section>
@@ -332,7 +332,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
                   className="p-6 border-2 border-neutral-200 dark:border-neutral-800 rounded-lg hover:border-blue-600 dark:hover:border-blue-400 transition-colors"
                 >
                   <h3 className="text-xl font-semibold mb-2">{otherTier.name}</h3>
-                  <p className="text-neutral-600 dark:text-neutral-400 mb-4">
+                  <p className="text-gray-800 mb-4">
                     {otherTier.description}
                   </p>
                   <span className="text-blue-600 dark:text-blue-400 hover:underline">

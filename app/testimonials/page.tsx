@@ -133,8 +133,8 @@ export default function TestimonialsPage() {
             {/* Author */}
             <div className="border-t border-gray-200 pt-4">
               <p className="font-semibold text-gray-900">{testimonial.name}</p>
-              <p className="text-sm text-gray-600">{testimonial.role}</p>
-              <p className="text-sm text-gray-500">{testimonial.location}</p>
+              <p className="text-sm text-gray-800">{testimonial.role}</p>
+              <p className="text-sm text-gray-700">{testimonial.location}</p>
             </div>
           </div>
         ))}

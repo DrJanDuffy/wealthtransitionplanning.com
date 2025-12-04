@@ -67,7 +67,7 @@ export default function AboutPage() {
       <FAQSchema faqs={faqs} />
       
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>
@@ -78,7 +78,7 @@ export default function AboutPage() {
 
         <h1 className="text-4xl font-bold mb-4">About Dr. Janet Duffy: Real Estate Services for Financial Planners</h1>
         
-        <p className="text-xl text-neutral-600 dark:text-neutral-400 mb-8">
+        <p className="text-xl text-gray-800 mb-8">
           Expert Real Estate and Wealth Transition Planning in Las Vegas, Nevada
         </p>
 
@@ -164,7 +164,7 @@ export default function AboutPage() {
               </ul>
             </div>
           </div>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">
+          <p className="text-sm text-gray-800">
             * Specific credentials to be updated with actual certifications
           </p>
         </section>
@@ -338,7 +338,7 @@ export default function AboutPage() {
             <li>Estate Planning Council</li>
             <li>Las Vegas Financial Planning Association</li>
           </ul>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">
+          <p className="text-sm text-gray-800">
             * Specific associations to be updated
           </p>
         </section>

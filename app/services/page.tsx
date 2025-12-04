@@ -38,7 +38,7 @@ export default function ServicesPage() {
     <>
       <ProfessionalServiceSchema />
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>
@@ -50,7 +50,7 @@ export default function ServicesPage() {
         {/* Hero Section */}
         <section className="mb-16 text-center">
           <h1 className="text-5xl font-bold mb-6">Real Estate Services for Financial Planners</h1>
-          <p className="text-xl text-neutral-600 dark:text-neutral-400 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 mb-8 max-w-3xl mx-auto">
             First, we listen. Then we help you develop realistic real estate strategies that 
             complement your financial planning, whether that's supporting empty nester transitions, 
             facilitating 55+ community moves, or planning wealth transition real estate strategies 
@@ -152,7 +152,7 @@ export default function ServicesPage() {
         <section className="mb-16">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Choose Your Service Level</h2>
-            <p className="text-xl text-neutral-600 dark:text-neutral-400 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               All our real estate services are available at affordable, transparent fees that 
               fit your practice needs and client situations. Whether you need comprehensive 
               ongoing support or project-based assistance, we have a service level that works 
@@ -309,7 +309,7 @@ export default function ServicesPage() {
         {/* CTA Section */}
         <section className="mb-16 p-12 bg-blue-50 dark:bg-blue-900/20 rounded-2xl text-center">
           <h2 className="text-3xl font-bold mb-4">Let's Collaborate</h2>
-          <p className="text-xl mb-8 text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 text-gray-800 max-w-2xl mx-auto">
             We'll be alongside you – with wisdom, guidance and coaching – so you can realize 
             your financial potential and provide your clients with comprehensive real estate 
             services that complement your financial planning practice.

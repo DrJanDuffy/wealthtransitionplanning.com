@@ -12,7 +12,7 @@ export function GET(request: Request) {
             <h1 tw="text-6xl font-bold text-gray-900 text-center mb-4">
               {title}
             </h1>
-            <p tw="text-2xl text-gray-600 text-center mt-4">
+            <p tw="text-2xl text-gray-800 text-center mt-4">
               Supporting CERTIFIED Financial Planners in Las Vegas, Nevada
             </p>
             <div tw="flex items-center mt-8">

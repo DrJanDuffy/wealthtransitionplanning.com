@@ -34,7 +34,7 @@ export default function FiftyFivePlusCommunitiesPage() {
   return (
     <>
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>
@@ -47,7 +47,7 @@ export default function FiftyFivePlusCommunitiesPage() {
         {/* Hero Section */}
         <section className="mb-16 text-center">
           <h1 className="text-5xl font-bold mb-6">55+ Community Planning in Las Vegas</h1>
-          <p className="text-2xl text-neutral-600 dark:text-neutral-400 mb-8 max-w-3xl mx-auto">
+          <p className="text-2xl text-gray-800 mb-8 max-w-3xl mx-auto">
             Expert guidance for clients considering 55+ active adult communities in Las Vegas. 
             Comprehensive community analysis, financial impact assessment, and integration with 
             retirement planning strategies.

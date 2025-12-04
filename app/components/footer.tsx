@@ -110,7 +110,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-500 hover:text-[#2563eb] transition-colors"
+                  className="text-gray-700 hover:text-[#2563eb] transition-colors"
                   aria-label="Facebook"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -123,7 +123,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.linkedIn}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-500 hover:text-[#2563eb] transition-colors"
+                  className="text-gray-700 hover:text-[#2563eb] transition-colors"
                   aria-label="LinkedIn"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -136,7 +136,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-500 hover:text-[#2563eb] transition-colors"
+                  className="text-gray-700 hover:text-[#2563eb] transition-colors"
                   aria-label="Twitter"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -149,7 +149,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-500 hover:text-[#2563eb] transition-colors"
+                  className="text-gray-700 hover:text-[#2563eb] transition-colors"
                   aria-label="YouTube"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -196,7 +196,7 @@ export default function Footer() {
             </Link>
           </p>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-            <p className="text-xs text-gray-600 leading-relaxed">
+            <p className="text-xs text-gray-800 leading-relaxed">
               {currentYear} © {businessConfig.realtorTitle || businessConfig.owner} License# {businessConfig.licenseNumber} | {businessConfig.brokerage} All Rights Reserved.
             </p>
             

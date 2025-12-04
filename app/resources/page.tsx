@@ -31,7 +31,7 @@ export default function ResourcesPage() {
   return (
     <>
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>
@@ -42,7 +42,7 @@ export default function ResourcesPage() {
 
       <h1 className="text-4xl font-bold mb-4">Real Estate Resources for Financial Planners</h1>
       
-      <p className="text-xl text-neutral-600 dark:text-neutral-400 mb-8">
+      <p className="text-xl text-gray-800 mb-8">
         Educational resources to support financial planners and their clients in real estate 
         decision-making, empty nester transitions, 55+ community planning, and wealth transition 
         strategies in Las Vegas, Nevada.
@@ -132,7 +132,7 @@ export default function ResourcesPage() {
             <li><strong>Real Estate Tax Impact Calculator:</strong> Understand tax implications 
             of real estate transactions and how they affect overall tax planning strategies.</li>
           </ul>
-          <p className="mt-4 text-sm text-neutral-600 dark:text-neutral-400">
+          <p className="mt-4 text-sm text-gray-800">
             * Calculators coming soon - These tools will be available to help you and your 
             clients make informed real estate decisions that support financial planning goals.
           </p>
@@ -176,7 +176,7 @@ export default function ResourcesPage() {
           {/* Lead Magnet 1 */}
           <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">Complete Real Estate Planning Guide for Financial Planners</h3>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            <p className="text-sm text-gray-800 mb-4">
               30+ page comprehensive guide covering empty nester transitions, 55+ community 
               planning, wealth transition real estate strategies, and Las Vegas market insights. 
               This guide provides financial planners with expert real estate knowledge that 
@@ -198,7 +198,7 @@ export default function ResourcesPage() {
           {/* Lead Magnet 2 */}
           <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">Empty Nester Real Estate Checklist for Financial Planners</h3>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            <p className="text-sm text-gray-800 mb-4">
               Comprehensive step-by-step checklist for empty nesters considering downsizing, 
               including financial considerations, timing factors, tax implications, and decision 
               frameworks. This checklist helps financial planners guide clients through empty 
@@ -220,7 +220,7 @@ export default function ResourcesPage() {
           {/* Lead Magnet 3 */}
           <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">55+ Communities Las Vegas Guide for Financial Planners</h3>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            <p className="text-sm text-gray-800 mb-4">
               Comprehensive guide to active adult communities in Las Vegas, including community 
               profiles, financial impact assessments, amenity evaluations, and planning strategies. 
               This guide helps financial planners assist clients in 55+ community decisions.
@@ -241,7 +241,7 @@ export default function ResourcesPage() {
           {/* Lead Magnet 4 */}
           <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">Wealth Transition Real Estate Workbook</h3>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            <p className="text-sm text-gray-800 mb-4">
               Interactive workbook to help financial planners and their clients organize real 
               estate portfolio analysis, assess wealth transition opportunities, and prepare for 
               strategic real estate planning. This workbook supports estate planning integration 
@@ -263,7 +263,7 @@ export default function ResourcesPage() {
           {/* Lead Magnet 5 */}
           <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">CFP Partnership Real Estate Services Kit</h3>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            <p className="text-sm text-gray-800 mb-4">
               Comprehensive information kit for certified financial planners interested in 
               partnership opportunities for real estate services. This kit provides detailed 
               information about our partnership program, service offerings, and collaboration 
@@ -285,7 +285,7 @@ export default function ResourcesPage() {
           {/* Lead Magnet 6 */}
           <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">Real Estate Planning Timeline for Financial Planners</h3>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            <p className="text-sm text-gray-800 mb-4">
               Detailed timeline for real estate planning in the context of financial planning, 
               including key milestones, decision points, and action items for each stage. This 
               timeline helps financial planners coordinate real estate decisions with financial 
@@ -317,7 +317,7 @@ export default function ResourcesPage() {
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Empty Nester Real Estate Resources</h3>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            <p className="text-sm text-gray-800 mb-4">
               Comprehensive guides, checklists, and resources for empty nester real estate 
               transitions. These resources help financial planners guide clients through 
               downsizing decisions that support financial goals and retirement planning.
@@ -333,7 +333,7 @@ export default function ResourcesPage() {
           </div>
           <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">55+ Community Planning Resources</h3>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            <p className="text-sm text-gray-800 mb-4">
               Resources for retirement transitions and 55+ community planning strategies. These 
               materials help financial planners assist clients in finding communities that align 
               with retirement goals and financial situations.
@@ -349,7 +349,7 @@ export default function ResourcesPage() {
           </div>
           <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Wealth Transition Real Estate Resources</h3>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+            <p className="text-sm text-gray-800 mb-4">
               Guides for wealth transition real estate planning, estate integration, and 
               multi-generational property strategies. These resources support financial planners 
               in managing clients' real estate assets for optimal wealth transfer outcomes.

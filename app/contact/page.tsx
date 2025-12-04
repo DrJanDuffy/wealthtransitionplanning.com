@@ -36,7 +36,7 @@ export default function ContactPage() {
       <LocalBusinessSchema />
       
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>
@@ -47,7 +47,7 @@ export default function ContactPage() {
 
         <h1 className="text-4xl font-bold mb-4">Contact Us: Real Estate Services for Financial Planners</h1>
         
-        <p className="text-xl text-neutral-600 dark:text-neutral-400 mb-8">
+        <p className="text-xl text-gray-800 mb-8">
           Get in touch to schedule your free consultation, learn about our real estate services 
           for financial planners, explore CFP partnership opportunities, or discuss how we can 
           support your financial planning practice with expert real estate guidance.
@@ -152,7 +152,7 @@ export default function ContactPage() {
                   </a>
                 </p>
               </address>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400">
+              <p className="text-sm text-gray-800">
                 We're available to answer your questions about real estate services for financial 
                 planners, CFP partnership opportunities, empty nester transitions, 55+ community 
                 planning, and wealth transition strategies. Contact us today to learn how we can 
@@ -181,7 +181,7 @@ export default function ContactPage() {
                   <dd>Closed</dd>
                 </div>
               </dl>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400">
+              <p className="text-sm text-gray-800">
                 * Extended hours available by appointment for financial planners and their clients. 
                 Contact us to schedule consultations outside standard business hours.
               </p>
@@ -284,7 +284,7 @@ export default function ContactPage() {
               Send Message
             </button>
           </form>
-          <p className="mt-4 text-sm text-neutral-600 dark:text-neutral-400">
+          <p className="mt-4 text-sm text-gray-800">
             * Required fields. We'll respond to your inquiry within 24-48 hours. For urgent 
             matters related to real estate transactions or financial planning coordination, 
             please call us directly.
@@ -352,7 +352,7 @@ export default function ContactPage() {
           <div className="mb-4">
             <GoogleMaps width="100%" height="450px" />
           </div>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+          <p className="text-sm text-gray-800 mb-4">
             <a
               href={getGoogleMapsDirectionsUrl()}
               target="_blank"

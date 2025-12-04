@@ -65,7 +65,7 @@ export default function CFPPartnersPage() {
       <FAQSchema faqs={faqs} />
       
       {/* Breadcrumb - outside prose container */}
-      <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
+      <nav className="mb-8 text-sm text-gray-700" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
           <li className="flex items-center">/</li>
@@ -76,7 +76,7 @@ export default function CFPPartnersPage() {
 
         <h1 className="text-4xl font-bold mb-4">Partner with a Las Vegas Real Estate Expert</h1>
         
-        <p className="text-xl text-neutral-600 dark:text-neutral-400 mb-8">
+        <p className="text-xl text-gray-800 mb-8">
           Expand Your CERTIFIED Financial Planner Practice with Expert Real Estate Services in Las Vegas
         </p>
 
@@ -545,7 +545,7 @@ export default function CFPPartnersPage() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Case Study: Empty Nester Transition</h3>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+              <p className="text-sm text-gray-800 mb-4">
                 How a CFP partnership helped clients navigate downsizing and wealth transition 
                 with expert real estate guidance that aligned with their financial plans.
               </p>
@@ -558,7 +558,7 @@ export default function CFPPartnersPage() {
             </div>
             <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Case Study: CFP Partnership Success</h3>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+              <p className="text-sm text-gray-800 mb-4">
                 A successful collaboration that expanded service offerings, improved client 
                 satisfaction, and enhanced the financial planning practice's value proposition.
               </p>
@@ -571,7 +571,7 @@ export default function CFPPartnersPage() {
             </div>
             <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Case Study: 55+ Community Move</h3>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+              <p className="text-sm text-gray-800 mb-4">
                 Comprehensive real estate planning for clients transitioning to active adult 
                 communities, coordinated with retirement planning strategies.
               </p>
@@ -583,7 +583,7 @@ export default function CFPPartnersPage() {
               </Link>
             </div>
           </div>
-          <p className="mt-4 text-sm text-neutral-600 dark:text-neutral-400">
+          <p className="mt-4 text-sm text-gray-800">
             * Case studies will be available in Phase 2
           </p>
         </section>

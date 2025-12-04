@@ -44,7 +44,7 @@ export function ClientResources() {
                 Access Portal →
               </a>
             ) : (
-              <p className="text-sm text-gray-600 italic">
+              <p className="text-sm text-gray-800 italic">
                 Access provided upon engagement
               </p>
             )}
