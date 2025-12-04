@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Contact Information */}
           <div>
             <h4 className="text-xs font-semibold text-gray-900 dark:text-gray-100 uppercase tracking-wider mb-3">Contact</h4>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+            <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
               <a
                 href={`mailto:${businessConfig.email}`}
                 className="hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
@@ -20,7 +20,7 @@ export default function Footer() {
                 {businessConfig.email}
               </a>
             </p>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+            <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">
               <a
                 href={getPhoneLink()}
                 className="hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
@@ -28,7 +28,7 @@ export default function Footer() {
                 {businessConfig.phone}
               </a>
             </p>
-            <p className="text-xs text-gray-600 dark:text-gray-400">
+            <p className="text-xs text-gray-700 dark:text-gray-300">
               {businessConfig.address.city}, {businessConfig.address.state}
             </p>
           </div>
@@ -39,31 +39,31 @@ export default function Footer() {
             <div className="space-y-2">
               <Link
                 href="/services"
-                className="block text-sm text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
+                className="block text-sm text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
               >
                 Our Services
               </Link>
               <Link
                 href="/cfp-partners"
-                className="block text-sm text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
+                className="block text-sm text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
               >
                 CFP Partnership Program
               </Link>
               <Link
                 href="/resources"
-                className="block text-sm text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
+                className="block text-sm text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
               >
                 Resources & Guides
               </Link>
               <Link
                 href="/blog"
-                className="block text-sm text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
+                className="block text-sm text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
               >
                 Blog
               </Link>
               <Link
                 href="/about"
-                className="block text-sm text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
+                className="block text-sm text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
               >
                 About Dr. Janet Duffy
               </Link>
@@ -76,25 +76,25 @@ export default function Footer() {
             <div className="space-y-2">
               <Link
                 href="/cfp-partners"
-                className="block text-sm text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
+                className="block text-sm text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
               >
                 Partnership Program
               </Link>
               <Link
                 href="/services"
-                className="block text-sm text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
+                className="block text-sm text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
               >
                 Real Estate Services
               </Link>
               <Link
                 href="/resources"
-                className="block text-sm text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
+                className="block text-sm text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
               >
                 Client Resources
               </Link>
               <Link
                 href="/contact"
-                className="block text-sm text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
+                className="block text-sm text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors font-medium"
               >
                 Schedule Consultation
               </Link>
@@ -110,7 +110,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
+                  className="text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
                   aria-label="Facebook"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -123,7 +123,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.linkedIn}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
+                  className="text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
                   aria-label="LinkedIn"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -136,7 +136,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
+                  className="text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
                   aria-label="Twitter"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -149,7 +149,7 @@ export default function Footer() {
                   href={businessConfig.socialMedia.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-600 dark:text-gray-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
+                  className="text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
                   aria-label="YouTube"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -158,7 +158,7 @@ export default function Footer() {
                 </a>
               )}
             </div>
-            <p className="text-xs text-gray-600 dark:text-gray-400 mt-4">
+            <p className="text-xs text-gray-700 dark:text-gray-300 mt-4">
               Supporting CERTIFIED Financial Planners with expert real estate services in Las Vegas, Nevada.
             </p>
           </div>
@@ -166,20 +166,20 @@ export default function Footer() {
 
         {/* Disclaimers */}
         <div className="border-t border-gray-200 dark:border-gray-700 pt-6 mt-6">
-          <p className="text-xs text-gray-600 dark:text-gray-400 mb-3 leading-relaxed">
+          <p className="text-xs text-gray-700 dark:text-gray-300 mb-3 leading-relaxed">
             Real estate services are provided by {businessConfig.name}, a licensed real estate professional in the State of Nevada. 
             All real estate transactions are subject to applicable state and federal laws, regulations, and licensing requirements. 
             {businessConfig.name} is committed to providing professional real estate services that comply with all fair housing laws 
             and real estate regulations.
           </p>
-          <p className="text-xs text-gray-600 dark:text-gray-400 mb-3 leading-relaxed">
+          <p className="text-xs text-gray-700 dark:text-gray-300 mb-3 leading-relaxed">
             Information presented on this site is for informational purposes only and does not constitute real estate, legal, 
             financial, or tax advice. Real estate transactions involve risk, and property values, market conditions, and 
             investment outcomes are not guaranteed. All property information is subject to verification and may change without notice. 
             Be sure to consult with qualified professionals including real estate agents, attorneys, financial advisors, and tax 
             professionals before making any real estate decisions.
           </p>
-          <p className="text-xs text-gray-600 dark:text-gray-400 mb-3 leading-relaxed">
+          <p className="text-xs text-gray-700 dark:text-gray-300 mb-3 leading-relaxed">
             The information being provided is strictly as a courtesy. When you link to any of the websites provided here, 
             you are leaving this website. We make no representation as to the completeness or accuracy of the information 
             provided at these websites.{' '}
@@ -196,7 +196,7 @@ export default function Footer() {
             </Link>
           </p>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-            <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed">
+            <p className="text-xs text-gray-700 dark:text-gray-300 leading-relaxed">
               {currentYear} © {businessConfig.realtorTitle || businessConfig.owner} License# {businessConfig.licenseNumber} | {businessConfig.brokerage} All Rights Reserved.
             </p>
             
