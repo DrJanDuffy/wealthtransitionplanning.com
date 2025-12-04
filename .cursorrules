@@ -1,0 +1,49 @@
+# Cursor AI Rules for Wealth Transition Planning Website
+
+## Project Overview
+This is a Next.js 13+ website for Wealth Transition Planning - a luxury real estate service for financial planners in Las Vegas, Nevada.
+
+## Tech Stack
+- Next.js 13+ (App Router)
+- TypeScript
+- Tailwind CSS 4.0
+- React
+
+## Design Principles
+- **Luxury Home Design**: Premium, elegant aesthetic for high-end real estate services
+- **WCAG AA+ Accessibility**: Minimum 4.5:1 contrast ratio for all text
+- **Professional Typography**: Clean, readable fonts with proper hierarchy
+
+## Color & Contrast Standards
+- Primary text: `text-gray-900` (#111827) on light backgrounds
+- Secondary text: `text-gray-700` (#374151) minimum for body text
+- Dark mode: `text-gray-100` (#f3f4f6) on dark backgrounds
+- Links: `text-blue-600` with `hover:text-blue-700`
+- Buttons: White text on `bg-blue-600` backgrounds
+
+## Code Conventions
+- Use `text-gray-900` for all primary text content
+- Use `text-gray-800` or darker for text on colored backgrounds (blue-50, neutral-50)
+- Always include dark mode variants: `dark:text-gray-100`, `dark:bg-gray-900`
+- Prefer semantic HTML elements
+- Use Tailwind CSS utility classes
+
+## File Structure
+- `/app` - Next.js App Router pages and layouts
+- `/app/components` - Reusable React components
+- `/app/config` - Configuration files (business info, services)
+- `/app/global.css` - Global styles and contrast rules
+
+## Key Components
+- `ServiceTierCard` - Service pricing cards
+- `FinancialCheckupCTA` - Call-to-action sections
+- `TestimonialCards` - Client testimonials
+- `FAQAccordion` - Expandable FAQ sections
+- `ProcessTimeline` - Step-by-step process display
+
+## Best Practices
+1. Always ensure text has sufficient contrast against backgrounds
+2. Test all changes in both light and dark modes
+3. Keep accessibility as a priority
+4. Maintain consistent styling across all pages
+5. Use the established color palette from global.css
