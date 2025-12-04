@@ -115,16 +115,50 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ]
 
-  // Secondary pages (Phase 2 - add when created)
+  // Secondary pages
   const secondaryPages: MetadataRoute.Sitemap = [
-    // Case studies will be added when pages are created
-    // {
-    //   url: `${baseUrl}/case-studies`,
-    //   lastModified: new Date().toISOString().split('T')[0],
-    //   changeFrequency: 'monthly',
-    //   priority: 0.7,
-    // },
-    // Individual case studies will be added dynamically
+    {
+      url: `${baseUrl}/testimonials`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/process`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/faq`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/areas-served`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/pricing`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/privacy`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/terms`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
   ]
 
   return [...priorityPages, ...serviceTierPages, ...secondaryPages, ...blogs]

@@ -185,8 +185,12 @@ export default function Footer() {
               Read More
             </Link>
             {' '}|{' '}
-            <Link href="/resources" className="text-[#2563eb] hover:underline">
+            <Link href="/privacy" className="text-[#2563eb] hover:underline">
               Privacy Policy
+            </Link>
+            {' '}|{' '}
+            <Link href="/terms" className="text-[#2563eb] hover:underline">
+              Terms of Service
             </Link>
             {' '}|{' '}
             <a
