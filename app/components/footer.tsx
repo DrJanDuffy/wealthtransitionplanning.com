@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { businessConfig, getPhoneLink } from 'app/config/business'
 
 export default function Footer() {
@@ -194,9 +195,26 @@ export default function Footer() {
               Terms of Service
             </Link>
           </p>
-          <p className="text-xs text-gray-600 leading-relaxed">
-            {currentYear} © {businessConfig.name} – {businessConfig.owner} All Rights Reserved.
-          </p>
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <p className="text-xs text-gray-600 leading-relaxed">
+              {currentYear} © {businessConfig.name} – {businessConfig.owner}
+              {businessConfig.licenseNumber && `, License #${businessConfig.licenseNumber}`}
+              {' '}All Rights Reserved.
+            </p>
+            
+            {/* BHHS Logo */}
+            {businessConfig.bhhsLogoUrl && (
+              <div className="flex items-center">
+                <Image
+                  src={businessConfig.bhhsLogoUrl}
+                  alt="Berkshire Hathaway HomeServices"
+                  width={120}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                />
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </footer>
