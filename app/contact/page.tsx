@@ -58,7 +58,7 @@ export default function ContactPage() {
         {/* Why Contact Us */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Why Contact Us for Real Estate Services</h2>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             If you're a Certified Financial Planner looking to enhance your practice with expert 
             real estate services, or if you're a client seeking real estate guidance that 
             complements your financial planning, we're here to help. Our real estate services are 
@@ -66,7 +66,7 @@ export default function ContactPage() {
             every property decision aligns with financial planning goals, tax strategies, and 
             wealth transition objectives.
           </p>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             Whether you need support with empty nester real estate transitions, 55+ community 
             planning, wealth transition strategies, or comprehensive real estate services for your 
             financial planning practice, we provide expert guidance that complements your 
@@ -75,7 +75,7 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
               <h3 className="text-xl font-semibold mb-3">For Certified Financial Planners</h3>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 If you're a CFP looking to offer comprehensive real estate services to your 
                 clients, we can help. Our partnership program provides expert real estate 
                 guidance that seamlessly integrates with your financial planning practice, 
@@ -92,7 +92,7 @@ export default function ContactPage() {
             </div>
             <div className="p-6 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
               <h3 className="text-xl font-semibold mb-3">For Financial Planning Clients</h3>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 If you're working with a financial planner and need expert real estate guidance, 
                 we can help. Our services ensure that your real estate decisions support your 
                 financial plans, tax strategies, and wealth transition goals, coordinated with 
@@ -116,7 +116,7 @@ export default function ContactPage() {
         {/* Contact Form */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Send Us a Message</h2>
-          <p className="mb-6 text-lg">
+          <p className="mb-6 text-lg text-gray-900">
             Use the form below to contact us about real estate services for financial planners, 
             CFP partnership opportunities, empty nester transitions, 55+ community planning, or 
             any questions about how we can support your financial planning practice with expert 

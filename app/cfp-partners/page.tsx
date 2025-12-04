@@ -82,7 +82,7 @@ export default function CFPPartnersPage() {
         {/* Overview Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Partner with a Real Estate Expert Who Understands Financial Planning</h2>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             As a Certified Financial Planner, you understand that real estate decisions are 
             integral to your clients' overall financial picture. Whether your clients are 
             empty nesters looking to downsize, retirees considering 55+ communities, or 
@@ -91,14 +91,14 @@ export default function CFPPartnersPage() {
             practical—when you can partner with someone who specializes in real estate services 
             for financial planners.
           </p>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             The CFP Partnership Program allows you to offer your clients comprehensive real estate 
             services without investing in additional certifications or building internal real estate 
             expertise. Partner with Dr. Janet Duffy to provide your clients with expert real estate 
             guidance on empty nester transitions, 55+ community planning, and wealth transition 
             strategies—all while maintaining your role as their primary financial advisor.
           </p>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             Our partnership is specifically designed for financial planners who want to enhance 
             their service offerings with expert real estate services that complement financial 
             planning strategies. We understand the unique needs of CFPs and ensure that all real 
@@ -112,7 +112,7 @@ export default function CFPPartnersPage() {
           <h2 className="text-3xl font-semibold mb-6">Why Financial Planners Partner With Us</h2>
           
           <div className="max-w-4xl mx-auto mb-8">
-            <p className="text-lg mb-6">
+            <p className="text-lg mb-6 text-gray-900">
               When you partner with <strong>{businessConfig.name}</strong>, you're not just 
               adding real estate services to your practice—you're gaining a trusted collaborator 
               who understands the financial planning landscape and how real estate decisions impact 
@@ -123,13 +123,13 @@ export default function CFPPartnersPage() {
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">Seamless Integration with Your Practice</h3>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 We understand that real estate services must complement, not complicate, your 
                 financial planning process. Our services are designed to integrate seamlessly 
                 with your existing practice, providing your clients with expert real estate 
                 guidance while maintaining your role as their primary financial advisor.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 We communicate regularly with you, ensuring that all real estate recommendations 
                 align with your financial planning strategies, tax considerations, and client goals. 
                 You remain in control of the relationship while we provide specialized real estate 
@@ -146,14 +146,14 @@ export default function CFPPartnersPage() {
 
             <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">Expert Real Estate Knowledge</h3>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 Our team specializes in the Las Vegas real estate market, with deep expertise in 
                 empty nester transitions, 55+ communities, and wealth transition properties. We 
                 understand the unique characteristics of the Las Vegas market, including 
                 neighborhood trends, property values, and market timing factors that impact your 
                 clients' financial decisions.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 This specialized knowledge allows us to provide your clients with accurate market 
                 analysis, informed property recommendations, and strategic timing advice that 
                 supports their financial goals and your planning recommendations.
@@ -169,13 +169,13 @@ export default function CFPPartnersPage() {
 
             <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">Financial Planning Alignment</h3>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 Every real estate recommendation we make considers your clients' financial plans, 
                 tax situations, estate planning goals, and retirement strategies. We don't just 
                 help clients buy or sell properties—we ensure their real estate decisions support 
                 their broader financial objectives.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 This alignment is crucial for your clients' success and your practice's reputation. 
                 When real estate decisions complement financial planning strategies, clients achieve 
                 better outcomes, and your practice demonstrates comprehensive value that sets you 
@@ -192,13 +192,13 @@ export default function CFPPartnersPage() {
 
             <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">Enhanced Client Value</h3>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 By partnering with us, you can offer your clients comprehensive real estate 
                 services without the need to become a real estate expert yourself. This enhances 
                 your value proposition, improves client retention, and allows you to serve your 
                 clients' complete financial needs.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 Your clients benefit from expert real estate guidance that's coordinated with 
                 their financial plans, while you maintain your focus on financial planning 
                 excellence. This collaborative approach delivers superior outcomes and strengthens 
@@ -237,7 +237,7 @@ export default function CFPPartnersPage() {
         {/* Real Estate Services for CFPs */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Real Estate Services Designed for Financial Planners</h2>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             Our real estate services are specifically designed to support financial planners and 
             their clients. We understand that real estate decisions must align with financial 
             planning strategies, tax considerations, and wealth transition objectives. Every 
@@ -247,21 +247,21 @@ export default function CFPPartnersPage() {
           <div className="space-y-8">
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">Empty Nester Real Estate Services</h3>
-              <p className="mb-4 text-lg">
+              <p className="mb-4 text-lg text-gray-900">
                 Empty nesters face unique real estate challenges that require specialized expertise. 
                 When your clients' children have moved out, they often need to transition from 
                 large family homes to properties that better suit their current lifestyle and 
                 financial situation. This transition involves complex considerations that impact 
                 their financial plans, tax situations, and retirement strategies.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 Our empty nester real estate services help your clients navigate this transition 
                 successfully. We provide comprehensive market analysis to determine optimal timing 
                 for selling their current property, identify suitable downsizing options that align 
                 with their lifestyle goals, and coordinate the transaction to minimize tax 
                 implications and maximize financial outcomes.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 We work closely with you to understand your clients' financial plans, retirement 
                 goals, and estate planning objectives. This collaboration ensures that every real 
                 estate recommendation supports their broader financial strategy and helps them 
@@ -289,20 +289,20 @@ export default function CFPPartnersPage() {
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">55+ Community Planning Services</h3>
-              <p className="mb-4 text-lg">
+              <p className="mb-4 text-lg text-gray-900">
                 Las Vegas offers exceptional 55+ active adult communities that provide retirees 
                 with vibrant lifestyles, excellent amenities, and maintenance-free living. However, 
                 choosing the right 55+ community requires careful consideration of financial 
                 implications, lifestyle factors, and long-term planning objectives.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 Our 55+ community planning services help your clients find communities that align 
                 with their retirement goals, financial situation, and lifestyle preferences. We 
                 provide comprehensive community analysis, including financial impact assessments, 
                 amenity evaluations, and long-term value considerations that support your retirement 
                 planning recommendations.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 We understand that 55+ community decisions impact your clients' retirement income 
                 planning, estate planning, and overall financial security. Our services integrate 
                 with your financial planning to ensure community choices support long-term financial 
@@ -330,21 +330,21 @@ export default function CFPPartnersPage() {
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">Wealth Transition Real Estate Planning</h3>
-              <p className="mb-4 text-lg">
+              <p className="mb-4 text-lg text-gray-900">
                 Real estate is often the largest and most complex asset in your clients' portfolios, 
                 and strategic real estate planning is essential for successful wealth transitions. 
                 Whether your clients are planning estate transfers, optimizing tax strategies, or 
                 managing multi-generational properties, real estate decisions significantly impact 
                 their financial outcomes.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 Our wealth transition real estate planning services help your clients make strategic 
                 real estate decisions that support their estate planning, tax optimization, and 
                 wealth transfer goals. We work closely with you to understand your clients' 
                 comprehensive financial situation and ensure real estate strategies align with their 
                 broader wealth transition objectives.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 This integrated approach ensures that real estate decisions complement your financial 
                 planning recommendations, maximize tax efficiency, and support successful wealth 
                 transitions for your clients and their families.
@@ -393,7 +393,7 @@ export default function CFPPartnersPage() {
         {/* Case Studies Preview */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Partnership Success Stories</h2>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             See how CFP partnerships have helped financial planners expand their services and 
             better serve their clients with expert real estate guidance:
           </p>
@@ -446,7 +446,7 @@ export default function CFPPartnersPage() {
         {/* Resources for CFPs */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Resources for CFP Partners</h2>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             As a CFP partner, you'll have access to specialized real estate resources designed to 
             support your practice and your clients. These resources enhance your ability to serve 
             clients comprehensively while maintaining your focus on financial planning excellence.
@@ -520,7 +520,7 @@ export default function CFPPartnersPage() {
         {/* CTA Section */}
         <section className="mb-12 p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
           <h2 className="text-3xl font-semibold mb-4">Become a CFP Partner</h2>
-          <p className="mb-6 text-lg">
+          <p className="mb-6 text-lg text-gray-900">
             Ready to expand your service offerings and provide your clients with expert real 
             estate services that complement your financial planning? Let's discuss how a 
             partnership can benefit your practice, enhance your value proposition, and improve 
