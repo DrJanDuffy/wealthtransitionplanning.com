@@ -117,9 +117,9 @@ export default function Footer() {
                   </svg>
                 </a>
               )}
-              {(businessConfig.socialMedia.linkedIn || businessConfig.socialMedia.linkedin) && (
+              {businessConfig.socialMedia.linkedIn && (
                 <a
-                  href={businessConfig.socialMedia.linkedIn || businessConfig.socialMedia.linkedin}
+                  href={businessConfig.socialMedia.linkedIn}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-[#2563eb] transition-colors"
