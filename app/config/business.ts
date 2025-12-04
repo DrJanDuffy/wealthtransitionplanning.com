@@ -66,7 +66,7 @@ export const businessConfig = {
   
   // Real Estate License & Brokerage
   licenseNumber: '', // UPDATE: Real estate license number (e.g., "S.123456" for Nevada)
-  bhhsLogoUrl: '/images/bhhs-logo.png', // UPDATE: Path to BHHS logo image (or leave as placeholder)
+  bhhsLogoUrl: '/images/bhhs-logo.png', // UPDATE: Path to BHHS logo image in public/images/ directory
   
   // SEO
   description: 'Professional wealth transition planning services in Las Vegas, Nevada. Expert guidance for estate planning, retirement planning, and financial security.',
