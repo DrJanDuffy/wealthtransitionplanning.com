@@ -163,50 +163,50 @@ export default function AboutPage() {
         {/* Real Estate Expertise */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Real Estate Expertise for Financial Planners</h2>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             Dr. Duffy's real estate expertise is specifically tailored to support financial 
             planners and their clients. She understands the unique needs of CFPs who require 
             real estate services that complement their financial planning practice.
           </p>
           
-          <h3 className="text-2xl font-semibold mb-4 mt-8">Empty Nester Real Estate Services</h3>
-          <p className="mb-4">
+          <h3 className="text-2xl font-semibold mb-4 mt-8 text-gray-900">Empty Nester Real Estate Services</h3>
+          <p className="mb-4 text-gray-900">
             Dr. Duffy specializes in helping empty nesters navigate real estate transitions 
             that support their financial goals. She understands that downsizing decisions 
             impact retirement planning, tax strategies, and estate planning objectives. Her 
             services include market analysis, property recommendations, and transaction 
             coordination that align with financial planning strategies.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-gray-900">
             She works closely with financial planners to ensure that empty nester real estate 
             transitions are timed optimally, structured tax-efficiently, and support clients' 
             long-term financial objectives. This coordination ensures that property decisions 
             enhance rather than complicate financial planning outcomes.
           </p>
           
-          <h3 className="text-2xl font-semibold mb-4 mt-8">55+ Community Planning Expertise</h3>
-          <p className="mb-4">
+          <h3 className="text-2xl font-semibold mb-4 mt-8 text-gray-900">55+ Community Planning Expertise</h3>
+          <p className="mb-4 text-gray-900">
             Las Vegas offers exceptional 55+ active adult communities, and Dr. Duffy helps 
             financial planners' clients find communities that align with their retirement 
             goals and financial situations. She provides comprehensive community analysis, 
             financial impact assessments, and property recommendations that support retirement 
             planning strategies.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-gray-900">
             Her 55+ community expertise includes understanding how community choices impact 
             retirement income planning, estate planning, and long-term financial security. 
             This knowledge ensures that community recommendations support clients' 
             comprehensive financial objectives.
           </p>
           
-          <h3 className="text-2xl font-semibold mb-4 mt-8">Wealth Transition Real Estate Planning</h3>
-          <p className="mb-4">
+          <h3 className="text-2xl font-semibold mb-4 mt-8 text-gray-900">Wealth Transition Real Estate Planning</h3>
+          <p className="mb-4 text-gray-900">
             Real estate is often the largest asset in clients' portfolios, and strategic real 
             estate planning is essential for successful wealth transitions. Dr. Duffy helps 
             financial planners ensure that their clients' real estate decisions support 
             estate planning, tax optimization, and wealth transfer goals.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-gray-900">
             Her wealth transition real estate services include property portfolio analysis, 
             estate planning integration, tax-efficient strategies, and multi-generational 
             planning support. This comprehensive approach ensures that real estate decisions 

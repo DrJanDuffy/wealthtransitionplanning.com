@@ -51,20 +51,20 @@ export default function ResourcesPage() {
       {/* Introduction */}
       <section className="mb-12">
         <h2 className="text-3xl font-semibold mb-6">Comprehensive Real Estate Resources for Financial Planning Success</h2>
-        <p className="mb-4 text-lg">
+        <p className="mb-4 text-lg text-gray-900">
           As a Certified Financial Planner, you understand that real estate decisions are 
           integral to your clients' overall financial picture. Whether your clients are empty 
           nesters looking to downsize, retirees considering 55+ communities, or families planning 
           wealth transitions, real estate plays a crucial role in their financial success.
         </p>
-        <p className="mb-4 text-lg">
+        <p className="mb-4 text-lg text-gray-900">
           Our comprehensive resource library provides you and your clients with expert guidance, 
           educational materials, and practical tools to support real estate decision-making that 
           aligns with financial planning goals. These resources are specifically designed to 
           complement your financial planning practice and enhance your ability to serve clients 
           comprehensively.
         </p>
-        <p className="mb-4 text-lg">
+        <p className="mb-4 text-lg text-gray-900">
           From free educational content to premium guides and checklists, our resources cover 
           empty nester real estate transitions, 55+ community planning, wealth transition 
           strategies, and Las Vegas market insights that support your financial planning 
@@ -113,13 +113,13 @@ export default function ResourcesPage() {
       {/* CTA Section */}
       <section className="mb-12 p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
         <h2 className="text-3xl font-semibold mb-4">Need Personalized Real Estate Guidance?</h2>
-        <p className="mb-6 text-lg">
+        <p className="mb-6 text-lg text-gray-900">
           While these resources provide valuable information, every client situation is unique. 
           Schedule a consultation to discuss how our real estate services can support your 
           financial planning practice and help your clients achieve their real estate and 
           financial goals.
         </p>
-        <p className="mb-6">
+        <p className="mb-6 text-gray-900">
           Our real estate services are specifically designed to complement financial planning, 
           ensuring that every property recommendation aligns with your clients' financial plans, 
           tax strategies, and wealth transition objectives. Let's discuss how we can support 
