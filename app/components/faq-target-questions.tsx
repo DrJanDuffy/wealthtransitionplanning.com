@@ -58,7 +58,7 @@ interface TargetFAQProps {
 }
 
 export function TargetFAQ({ category }: TargetFAQProps) {
-  let questions = []
+  let questions: Array<{ question: string; answer: string }> = []
   
   if (category === 'all') {
     questions = [
