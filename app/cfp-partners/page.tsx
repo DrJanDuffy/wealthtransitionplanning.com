@@ -105,6 +105,114 @@ export default function CFPPartnersPage() {
           </p>
         </section>
 
+        {/* Why Financial Planners Partner With Us */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-6">Why Financial Planners Partner With Us</h2>
+          
+          <div className="max-w-4xl mx-auto mb-8">
+            <p className="text-lg mb-6">
+              When you partner with <strong>{businessConfig.name}</strong>, you're not just 
+              adding real estate services to your practice—you're gaining a trusted collaborator 
+              who understands the financial planning landscape and how real estate decisions impact 
+              your clients' overall financial health.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
+              <h3 className="text-2xl font-semibold mb-4">Seamless Integration with Your Practice</h3>
+              <p className="mb-4">
+                We understand that real estate services must complement, not complicate, your 
+                financial planning process. Our services are designed to integrate seamlessly 
+                with your existing practice, providing your clients with expert real estate 
+                guidance while maintaining your role as their primary financial advisor.
+              </p>
+              <p className="mb-4">
+                We communicate regularly with you, ensuring that all real estate recommendations 
+                align with your financial planning strategies, tax considerations, and client goals. 
+                You remain in control of the relationship while we provide specialized real estate 
+                expertise that enhances your service offerings.
+              </p>
+              <h4 className="text-lg font-semibold mb-2">Key Integration Benefits:</h4>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Regular communication and collaboration on client cases</li>
+                <li>Real estate recommendations that align with financial plans</li>
+                <li>Coordinated timing for optimal financial outcomes</li>
+                <li>Shared client portal for seamless information exchange</li>
+              </ul>
+            </div>
+
+            <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
+              <h3 className="text-2xl font-semibold mb-4">Expert Real Estate Knowledge</h3>
+              <p className="mb-4">
+                Our team specializes in the Las Vegas real estate market, with deep expertise in 
+                empty nester transitions, 55+ communities, and wealth transition properties. We 
+                understand the unique characteristics of the Las Vegas market, including 
+                neighborhood trends, property values, and market timing factors that impact your 
+                clients' financial decisions.
+              </p>
+              <p className="mb-4">
+                This specialized knowledge allows us to provide your clients with accurate market 
+                analysis, informed property recommendations, and strategic timing advice that 
+                supports their financial goals and your planning recommendations.
+              </p>
+              <h4 className="text-lg font-semibold mb-2">Our Real Estate Expertise Includes:</h4>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Las Vegas market analysis and trends</li>
+                <li>Empty nester property transitions</li>
+                <li>55+ community market knowledge</li>
+                <li>Wealth transition property strategies</li>
+              </ul>
+            </div>
+
+            <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
+              <h3 className="text-2xl font-semibold mb-4">Financial Planning Alignment</h3>
+              <p className="mb-4">
+                Every real estate recommendation we make considers your clients' financial plans, 
+                tax situations, estate planning goals, and retirement strategies. We don't just 
+                help clients buy or sell properties—we ensure their real estate decisions support 
+                their broader financial objectives.
+              </p>
+              <p className="mb-4">
+                This alignment is crucial for your clients' success and your practice's reputation. 
+                When real estate decisions complement financial planning strategies, clients achieve 
+                better outcomes, and your practice demonstrates comprehensive value that sets you 
+                apart from competitors.
+              </p>
+              <h4 className="text-lg font-semibold mb-2">Financial Planning Considerations:</h4>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Tax implications of real estate transactions</li>
+                <li>Impact on retirement income planning</li>
+                <li>Estate planning integration</li>
+                <li>Wealth transfer optimization</li>
+              </ul>
+            </div>
+
+            <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
+              <h3 className="text-2xl font-semibold mb-4">Enhanced Client Value</h3>
+              <p className="mb-4">
+                By partnering with us, you can offer your clients comprehensive real estate 
+                services without the need to become a real estate expert yourself. This enhances 
+                your value proposition, improves client retention, and allows you to serve your 
+                clients' complete financial needs.
+              </p>
+              <p className="mb-4">
+                Your clients benefit from expert real estate guidance that's coordinated with 
+                their financial plans, while you maintain your focus on financial planning 
+                excellence. This collaborative approach delivers superior outcomes and strengthens 
+                client relationships.
+              </p>
+              <h4 className="text-lg font-semibold mb-2">Value-Added Services:</h4>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Comprehensive real estate market analysis</li>
+                <li>Property recommendations aligned with financial goals</li>
+                <li>Transaction coordination and support</li>
+                <li>Ongoing real estate portfolio management</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         {/* Benefits Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Benefits for Certified Financial Planners</h2>

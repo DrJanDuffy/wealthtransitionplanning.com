@@ -340,6 +340,32 @@ export default function AboutPage() {
           </p>
         </section>
 
+        {/* Who Are Our Clients */}
+        <section className="mb-12 p-12 bg-neutral-50 dark:bg-neutral-900 rounded-2xl">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-semibold mb-4">Who Are Our Clients?</h2>
+          </div>
+          <div className="max-w-4xl mx-auto mb-8">
+            <p className="text-lg mb-6">
+              We work with Certified Financial Planners and their clients who need expert real 
+              estate services to support their financial planning goals. Our clients include:
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <ul className="list-disc pl-6 space-y-3">
+              <li><strong>Certified Financial Planners</strong> looking to offer comprehensive 
+              real estate services to their clients</li>
+              <li><strong>CFP clients</strong> who are empty nesters planning real estate transitions</li>
+              <li><strong>Retirees</strong> considering 55+ communities in Las Vegas</li>
+            </ul>
+            <ul className="list-disc pl-6 space-y-3">
+              <li><strong>Wealth transition clients</strong> needing real estate planning support</li>
+              <li><strong>Estate planning clients</strong> with real estate assets to manage</li>
+              <li><strong>Financial planning practices</strong> seeking real estate partnership services</li>
+            </ul>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Frequently Asked Questions</h2>
