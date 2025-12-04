@@ -166,16 +166,17 @@ export default function Footer() {
         {/* Disclaimers */}
         <div className="border-t border-gray-200 pt-6 mt-6">
           <p className="text-xs text-gray-800 mb-3 leading-relaxed">
-            Investment advisory services are offered through {businessConfig.name}, an investment advisor registered 
-            with the State of Nevada. {businessConfig.name} only offers investment advisory services where it is 
-            appropriately registered or exempt from registration and only after clients have entered into an investment 
-            advisory agreement confirming the terms of engagement and have been provided a copy of the firm's ADV Part 2A brochure document.
+            Real estate services are provided by {businessConfig.name}, a licensed real estate professional in the State of Nevada. 
+            All real estate transactions are subject to applicable state and federal laws, regulations, and licensing requirements. 
+            {businessConfig.name} is committed to providing professional real estate services that comply with all fair housing laws 
+            and real estate regulations.
           </p>
           <p className="text-xs text-gray-800 mb-3 leading-relaxed">
-            Information presented on this site is for informational purposes only and does not intend to make an offer 
-            or solicitation for the sale or purchase of any product, property or security. Investments, including securities, 
-            real estate and other investments, involve risk and unless otherwise stated, are not guaranteed. Be sure to first 
-            consult with a qualified financial adviser and/or tax professional before implementing any strategy discussed here.
+            Information presented on this site is for informational purposes only and does not constitute real estate, legal, 
+            financial, or tax advice. Real estate transactions involve risk, and property values, market conditions, and 
+            investment outcomes are not guaranteed. All property information is subject to verification and may change without notice. 
+            Be sure to consult with qualified professionals including real estate agents, attorneys, financial advisors, and tax 
+            professionals before making any real estate decisions.
           </p>
           <p className="text-xs text-gray-800 mb-3 leading-relaxed">
             The information being provided is strictly as a courtesy. When you link to any of the websites provided here, 
@@ -192,15 +193,6 @@ export default function Footer() {
             <Link href="/terms" className="text-[#2563eb] hover:underline">
               Terms of Service
             </Link>
-            {' '}|{' '}
-            <a
-              href="https://adviserinfo.sec.gov/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#2563eb] hover:underline"
-            >
-              Form ADV
-            </a>
           </p>
           <p className="text-xs text-gray-600 leading-relaxed">
             {currentYear} © {businessConfig.name} – {businessConfig.owner} All Rights Reserved.

@@ -47,19 +47,25 @@ export default function TermsPage() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Investment Advisory Services</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Real Estate Services</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Investment advisory services are offered through {businessConfig.name}, an investment advisor registered with the State of Nevada. {businessConfig.name} only offers investment advisory services where it is appropriately registered or exempt from registration and only after clients have entered into an investment advisory agreement confirming the terms of engagement and have been provided a copy of the firm's ADV Part 2A brochure document.
+            Real estate services are provided by {businessConfig.name}, a licensed real estate professional in the State of Nevada. 
+            All real estate services are provided in accordance with applicable state and federal laws, regulations, and licensing 
+            requirements. {businessConfig.name} is committed to providing professional real estate services that comply with all 
+            fair housing laws and real estate regulations.
           </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">No Investment Advice</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">No Professional Advice</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            The information presented on this website is for informational purposes only and does not intend to make an offer or solicitation for the sale or purchase of any product, property, or security. Investments, including securities, real estate, and other investments, involve risk and unless otherwise stated, are not guaranteed.
+            The information presented on this website is for informational purposes only and does not constitute real estate, 
+            legal, financial, or tax advice. Real estate transactions involve risk, and property values, market conditions, and 
+            investment outcomes are not guaranteed. All property information is subject to verification and may change without notice.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Be sure to first consult with a qualified financial adviser and/or tax professional before implementing any strategy discussed on this website.
+            Be sure to consult with qualified professionals including real estate agents, attorneys, financial advisors, and tax 
+            professionals before making any real estate decisions or implementing any strategy discussed on this website.
           </p>
         </section>
 
