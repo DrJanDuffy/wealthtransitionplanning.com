@@ -44,7 +44,7 @@ export function Navbar() {
               <span className="text-xl md:text-2xl font-bold text-gray-900 hover:text-[#2563eb] transition-colors">
                 {businessConfig.name}
               </span>
-              <span className="ml-2 text-xs md:text-sm text-gray-500 font-normal hidden sm:inline">
+              <span className="ml-2 text-xs md:text-sm text-gray-700 font-normal hidden sm:inline">
                 Real Estate Services for Financial Planners
               </span>
             </Link>
@@ -56,7 +56,7 @@ export function Navbar() {
               <Link
                 key={item.path}
                 href={item.path}
-                className="px-3 py-2 text-sm font-normal text-gray-700 hover:text-gray-900 transition-colors whitespace-nowrap relative"
+                className="px-3 py-2 text-sm font-medium text-gray-900 hover:text-[#2563eb] transition-colors whitespace-nowrap relative"
               >
                 {item.name}
               </Link>
@@ -110,7 +110,7 @@ export function Navbar() {
                 <Link
                   key={item.path}
                   href={item.path}
-                  className="block px-3 py-2 text-base font-normal text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded"
+                  className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-[#2563eb] hover:bg-gray-50 rounded"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

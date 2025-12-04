@@ -25,8 +25,8 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
           {tier.tagline}
         </span>
         <h3 className="text-3xl font-bold mt-2 mb-4">{tier.name}</h3>
-        <p className="text-lg mb-4">{tier.description}</p>
-        <p className="text-neutral-600 dark:text-neutral-400 italic mb-6">
+        <p className="text-lg mb-4 text-gray-900 dark:text-gray-100">{tier.description}</p>
+        <p className="text-gray-800 dark:text-gray-200 italic mb-6">
           <strong>Best for:</strong> {tier.bestFor}
         </p>
       </div>
@@ -37,7 +37,7 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
           {tier.whyChoose.slice(0, 3).map((item, index) => (
             <li key={index} className="flex items-start">
               <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-              <span className="text-neutral-700 dark:text-neutral-300">{item}</span>
+              <span className="text-gray-900 dark:text-gray-100">{item}</span>
             </li>
           ))}
         </ul>
@@ -45,7 +45,7 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
 
       <div className="mb-6">
         <h4 className="font-semibold text-lg mb-3">What to Expect</h4>
-        <ul className="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
+        <ul className="space-y-2 text-sm text-gray-800 dark:text-gray-200">
           {tier.whatToExpect.slice(0, 3).map((item, index) => (
             <li key={index} className="flex items-start">
               <span className="mr-2">•</span>
@@ -85,7 +85,7 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
       {tier.freeGuide && (
         <div className="mt-6 p-4 bg-yellow-50 dark:bg-yellow-900/20 rounded border border-yellow-200 dark:border-yellow-800">
           <p className="text-sm font-semibold mb-1">FREE GUIDE</p>
-          <p className="text-sm text-neutral-700 dark:text-neutral-300">{tier.freeGuide}</p>
+          <p className="text-sm text-gray-900 dark:text-gray-100">{tier.freeGuide}</p>
           <Link
             href="/resources"
             className="text-sm text-blue-600 dark:text-blue-400 hover:underline mt-2 inline-block"

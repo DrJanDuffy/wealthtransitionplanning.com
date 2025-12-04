@@ -11,7 +11,7 @@ export function PhilosophySection() {
         <h2 className="text-4xl font-bold mb-4">
           Our Financial Planning Philosophy For Wealth Transition
         </h2>
-        <p className="text-xl text-neutral-600 dark:text-neutral-400 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto font-medium">
           We believe in comprehensive, personalized wealth transition planning that integrates 
           all aspects of your financial life to help you achieve your legacy goals.
         </p>
@@ -35,7 +35,7 @@ export function PhilosophySection() {
             </svg>
           </div>
           <h3 className="text-xl font-semibold mb-3">Fee-Only Fiduciary</h3>
-          <p className="text-neutral-600 dark:text-neutral-400">
+          <p className="text-gray-900 dark:text-gray-100">
             As Fee-Only financial planners, we work for you. Our fiduciary obligation is to work 
             solely in your best interests with no commissions or sales pitch.
           </p>
@@ -58,7 +58,7 @@ export function PhilosophySection() {
             </svg>
           </div>
           <h3 className="text-xl font-semibold mb-3">Comprehensive Planning</h3>
-          <p className="text-neutral-600 dark:text-neutral-400">
+          <p className="text-gray-900 dark:text-gray-100">
             We'll make sure all the pieces of your financial life fit together - estate planning, 
             retirement, real estate, and wealth transfer strategies.
           </p>
@@ -81,7 +81,7 @@ export function PhilosophySection() {
             </svg>
           </div>
           <h3 className="text-xl font-semibold mb-3">We Walk Our Talk</h3>
-          <p className="text-neutral-600 dark:text-neutral-400">
+          <p className="text-gray-900 dark:text-gray-100">
             We're wealth transition planning experts, financial planners, and estate planning 
             specialists. Because we understand both wealth management and estate planning, 
             we can help you put it all together.

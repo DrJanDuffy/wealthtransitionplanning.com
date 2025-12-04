@@ -10,7 +10,7 @@ export function FinancialCheckupCTA() {
       <h2 className="text-4xl md:text-5xl font-bold mb-6">
         Take Our Wealth Transition Planning Check Up
       </h2>
-      <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
+      <p className="text-xl mb-8 text-white max-w-2xl mx-auto font-medium">
         Get a comprehensive assessment of your wealth transition planning needs and discover 
         opportunities to optimize your estate planning, retirement strategy, and wealth transfer goals.
       </p>

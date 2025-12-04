@@ -16,7 +16,7 @@ export function MediaFeatures() {
     <section className="mb-16 py-12 bg-neutral-50 dark:bg-neutral-900">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold mb-2">Planning Expertise Featured In</h2>
-        <p className="text-neutral-600 dark:text-neutral-400">
+        <p className="text-gray-900 dark:text-gray-100">
           Dr. Janet Duffy's expertise has been recognized by leading financial publications
         </p>
       </div>
@@ -26,7 +26,7 @@ export function MediaFeatures() {
             key={index}
             className="flex items-center justify-center h-20 w-full opacity-60 hover:opacity-100 transition-opacity"
           >
-            <span className="text-neutral-400 dark:text-neutral-500 font-semibold text-sm">
+            <span className="text-gray-700 dark:text-gray-300 font-semibold text-sm">
               {outlet.name}
             </span>
             {/* Placeholder for logo - replace with actual logo images */}

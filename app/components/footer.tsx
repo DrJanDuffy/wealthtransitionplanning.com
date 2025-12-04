@@ -11,23 +11,23 @@ export default function Footer() {
           {/* Contact Information */}
           <div>
             <h4 className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">Contact</h4>
-            <p className="text-sm text-gray-600 mb-3">
+            <p className="text-sm text-gray-900 mb-3">
               <a
                 href={`mailto:${businessConfig.email}`}
-                className="hover:text-[#2563eb] transition-colors"
+                className="hover:text-[#2563eb] transition-colors font-medium"
               >
                 {businessConfig.email}
               </a>
             </p>
-            <p className="text-sm text-gray-600 mb-4">
+            <p className="text-sm text-gray-900 mb-4">
               <a
                 href={getPhoneLink()}
-                className="hover:text-[#2563eb] transition-colors"
+                className="hover:text-[#2563eb] transition-colors font-medium"
               >
                 {businessConfig.phone}
               </a>
             </p>
-            <p className="text-xs text-gray-500">
+            <p className="text-xs text-gray-700">
               {businessConfig.address.city}, {businessConfig.address.state}
             </p>
           </div>
@@ -38,31 +38,31 @@ export default function Footer() {
             <div className="space-y-2">
               <Link
                 href="/services"
-                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+                className="block text-sm text-gray-900 hover:text-[#2563eb] transition-colors font-medium"
               >
                 Our Services
               </Link>
               <Link
                 href="/cfp-partners"
-                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+                className="block text-sm text-gray-900 hover:text-[#2563eb] transition-colors font-medium"
               >
                 CFP Partnership Program
               </Link>
               <Link
                 href="/resources"
-                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+                className="block text-sm text-gray-900 hover:text-[#2563eb] transition-colors font-medium"
               >
                 Resources & Guides
               </Link>
               <Link
                 href="/blog"
-                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+                className="block text-sm text-gray-900 hover:text-[#2563eb] transition-colors font-medium"
               >
                 Blog
               </Link>
               <Link
                 href="/about"
-                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+                className="block text-sm text-gray-900 hover:text-[#2563eb] transition-colors font-medium"
               >
                 About Dr. Janet Duffy
               </Link>
@@ -75,25 +75,25 @@ export default function Footer() {
             <div className="space-y-2">
               <Link
                 href="/cfp-partners"
-                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+                className="block text-sm text-gray-900 hover:text-[#2563eb] transition-colors font-medium"
               >
                 Partnership Program
               </Link>
               <Link
                 href="/services"
-                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+                className="block text-sm text-gray-900 hover:text-[#2563eb] transition-colors font-medium"
               >
                 Real Estate Services
               </Link>
               <Link
                 href="/resources"
-                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+                className="block text-sm text-gray-900 hover:text-[#2563eb] transition-colors font-medium"
               >
                 Client Resources
               </Link>
               <Link
                 href="/contact"
-                className="block text-sm text-gray-600 hover:text-[#2563eb] transition-colors"
+                className="block text-sm text-gray-900 hover:text-[#2563eb] transition-colors font-medium"
               >
                 Schedule Consultation
               </Link>
@@ -157,7 +157,7 @@ export default function Footer() {
                 </a>
               )}
             </div>
-            <p className="text-xs text-gray-500 mt-4">
+            <p className="text-xs text-gray-700 mt-4">
               Supporting CERTIFIED Financial Planners with expert real estate services in Las Vegas, Nevada.
             </p>
           </div>
@@ -165,19 +165,19 @@ export default function Footer() {
 
         {/* Disclaimers */}
         <div className="border-t border-gray-200 pt-6 mt-6">
-          <p className="text-xs text-gray-600 mb-3 leading-relaxed">
+          <p className="text-xs text-gray-800 mb-3 leading-relaxed">
             Investment advisory services are offered through {businessConfig.name}, an investment advisor registered 
             with the State of Nevada. {businessConfig.name} only offers investment advisory services where it is 
             appropriately registered or exempt from registration and only after clients have entered into an investment 
             advisory agreement confirming the terms of engagement and have been provided a copy of the firm's ADV Part 2A brochure document.
           </p>
-          <p className="text-xs text-gray-600 mb-3 leading-relaxed">
+          <p className="text-xs text-gray-800 mb-3 leading-relaxed">
             Information presented on this site is for informational purposes only and does not intend to make an offer 
             or solicitation for the sale or purchase of any product, property or security. Investments, including securities, 
             real estate and other investments, involve risk and unless otherwise stated, are not guaranteed. Be sure to first 
             consult with a qualified financial adviser and/or tax professional before implementing any strategy discussed here.
           </p>
-          <p className="text-xs text-gray-600 mb-3 leading-relaxed">
+          <p className="text-xs text-gray-800 mb-3 leading-relaxed">
             The information being provided is strictly as a courtesy. When you link to any of the websites provided here, 
             you are leaving this website. We make no representation as to the completeness or accuracy of the information 
             provided at these websites.{' '}
