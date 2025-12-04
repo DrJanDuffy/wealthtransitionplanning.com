@@ -78,10 +78,10 @@ export default function TestimonialsPage() {
     <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           Client Testimonials & Reviews
         </h1>
-        <p className="text-xl text-gray-900 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto">
           See what clients and financial planning partners say about working with {businessConfig.name}
         </p>
       </div>

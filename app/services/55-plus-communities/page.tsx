@@ -216,7 +216,7 @@ export default function FiftyFivePlusCommunitiesPage() {
         {/* Financial Planning Integration */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold mb-8">Financial Planning Integration</h2>
-          <p className="text-lg mb-6">
+          <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
             Our 55+ community planning services are specifically designed to integrate seamlessly 
             with financial planning practices. We understand that 55+ community decisions impact 
             retirement income, tax strategies, estate planning, and overall financial security, 

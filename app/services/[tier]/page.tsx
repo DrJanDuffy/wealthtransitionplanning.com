@@ -67,12 +67,12 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
             {tier.tagline}
           </span>
           <h1 className="text-5xl font-bold mt-4 mb-6">{tier.name}: Real Estate Services for Financial Planners</h1>
-          <p className="text-2xl text-gray-900 max-w-3xl mx-auto">
+          <p className="text-2xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto">
             {tier.description} Our {tier.name} service level provides comprehensive real estate 
             services specifically designed to support Certified Financial Planners and their 
             clients in Las Vegas, Nevada.
           </p>
-          <p className="text-lg mt-4 italic text-gray-900">
+          <p className="text-lg mt-4 italic text-gray-900 dark:text-gray-100">
             <strong>Best for:</strong> {tier.bestFor}
           </p>
         </section>
@@ -80,20 +80,20 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
         {/* Service Overview */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Comprehensive Real Estate Services for Financial Planning</h2>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">
             Our {tier.name} service level provides comprehensive real estate services that are 
             specifically designed to support financial planners and their clients. We understand 
             that real estate decisions significantly impact financial plans, tax strategies, and 
             wealth transition objectives, and our services ensure that every property recommendation 
             aligns with your financial planning recommendations.
           </p>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">
             Whether you're a Certified Financial Planner looking to offer real estate services to 
             your clients, or you're working with a financial planner and need expert real estate 
             guidance, our {tier.name} service level provides the comprehensive support you need to 
             achieve optimal outcomes.
           </p>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">
             Our real estate services include empty nester transitions, 55+ community planning, 
             wealth transition strategies, and comprehensive property analysis—all coordinated with 
             financial planning goals to ensure that real estate decisions support rather than 
@@ -104,7 +104,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
         {/* Why Choose Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Why Choose {tier.name} Real Estate Services?</h2>
-          <p className="mb-6 text-lg">
+          <p className="mb-6 text-lg text-gray-900 dark:text-gray-100">
             Our {tier.name} service level provides comprehensive real estate services that are 
             specifically designed to support financial planners and their clients. Every service 
             we offer is structured to complement financial planning strategies and ensure optimal 
@@ -125,7 +125,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
         {/* Real Estate Services Detail */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Real Estate Services Included in {tier.name}</h2>
-          <p className="mb-6 text-lg">
+          <p className="mb-6 text-lg text-gray-900 dark:text-gray-100">
             Our {tier.name} service level includes comprehensive real estate services designed 
             to support financial planners and their clients. These services ensure that real estate 
             decisions align with financial planning goals, tax strategies, and wealth transition 
@@ -134,16 +134,16 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
           
           <div className="space-y-8">
             <div className="p-6 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4">Empty Nester Real Estate Services</h3>
-              <p className="mb-4">
+              <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Empty Nester Real Estate Services</h3>
+              <p className="mb-4 text-gray-800 dark:text-gray-200">
                 Comprehensive support for empty nester real estate transitions in Las Vegas, 
                 including market analysis, property recommendations, downsizing strategies, and 
                 coordination with financial planning goals. We help your clients navigate the 
                 transition from family homes to properties that better suit their current lifestyle 
                 and financial situation.
               </p>
-              <h4 className="text-lg font-semibold mb-2">Services Include:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Services Include:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>Market timing analysis for optimal sale prices</li>
                 <li>Property valuation and market assessment</li>
                 <li>Downsizing property recommendations</li>
@@ -154,15 +154,15 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
             </div>
 
             <div className="p-6 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4">55+ Community Planning Services</h3>
-              <p className="mb-4">
+              <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">55+ Community Planning Services</h3>
+              <p className="mb-4 text-gray-800 dark:text-gray-200">
                 Expert guidance for clients considering 55+ active adult communities in Las Vegas, 
                 including community analysis, financial impact assessments, and integration with 
                 retirement planning strategies. We help your clients find communities that align 
                 with their retirement goals and financial situation.
               </p>
-              <h4 className="text-lg font-semibold mb-2">Services Include:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Services Include:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>55+ community market analysis in Las Vegas</li>
                 <li>Financial impact assessment for retirement planning</li>
                 <li>Community amenities and lifestyle evaluation</li>
@@ -173,15 +173,15 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
             </div>
 
             <div className="p-6 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4">Wealth Transition Real Estate Planning</h3>
-              <p className="mb-4">
+              <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Wealth Transition Real Estate Planning</h3>
+              <p className="mb-4 text-gray-800 dark:text-gray-200">
                 Strategic real estate planning for wealth transitions, including property portfolio 
                 analysis, estate planning integration, tax-efficient strategies, and 
                 multi-generational planning support. We ensure that real estate decisions support 
                 your clients' wealth transfer goals and financial objectives.
               </p>
-              <h4 className="text-lg font-semibold mb-2">Services Include:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Services Include:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>Real estate portfolio analysis for wealth transfer</li>
                 <li>Estate planning integration and coordination</li>
                 <li>Tax-efficient property transition strategies</li>
@@ -196,7 +196,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
         {/* Features Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">What's Included in {tier.name}</h2>
-          <p className="mb-6 text-lg">
+          <p className="mb-6 text-lg text-gray-900 dark:text-gray-100">
             Our {tier.name} service level includes comprehensive real estate services and support 
             designed to meet the needs of financial planners and their clients. Every feature is 
             structured to complement financial planning strategies and ensure optimal outcomes.
@@ -205,7 +205,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
             {tier.features.map((feature, index) => (
               <li key={index} className="flex items-start p-4 border border-neutral-200 dark:border-neutral-800 rounded-lg">
                 <span className="text-blue-600 dark:text-blue-400 mr-3 font-bold">✓</span>
-                <span className="text-lg">{feature}</span>
+                <span className="text-lg text-gray-900 dark:text-gray-100">{feature}</span>
               </li>
             ))}
           </ul>
@@ -214,7 +214,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
         {/* What to Expect */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">What to Expect with {tier.name}</h2>
-          <p className="mb-6 text-lg">
+          <p className="mb-6 text-lg text-gray-900 dark:text-gray-100">
             When you choose our {tier.name} service level, you can expect comprehensive real estate 
             services that are specifically designed to support financial planners and their clients. 
             Our process ensures that every real estate recommendation aligns with financial planning 
@@ -237,7 +237,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
         {/* Financial Planning Integration */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Financial Planning Integration</h2>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">
             Our {tier.name} service level is specifically designed to integrate seamlessly with 
             financial planning practices. We understand that real estate decisions must align 
             with financial plans, tax strategies, and wealth transition objectives, and our 
@@ -245,15 +245,15 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">For Certified Financial Planners</h3>
-              <p className="mb-4">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">For Certified Financial Planners</h3>
+              <p className="mb-4 text-gray-900 dark:text-gray-100">
                 Our {tier.name} service level provides comprehensive real estate services that 
                 seamlessly integrate with your financial planning practice. We work closely with 
                 you to ensure that all real estate recommendations align with your financial 
                 planning strategies, tax considerations, and client goals.
               </p>
-              <h4 className="text-lg font-semibold mb-2">Integration Benefits:</h4>
-              <ul className="list-disc pl-6 space-y-1 text-sm">
+              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Integration Benefits:</h4>
+              <ul className="list-disc pl-6 space-y-1 text-sm text-gray-900 dark:text-gray-100">
                 <li>Regular communication and collaboration</li>
                 <li>Real estate recommendations aligned with financial plans</li>
                 <li>Coordinated timing for optimal outcomes</li>
@@ -262,15 +262,15 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
               </ul>
             </div>
             <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">For Financial Planning Clients</h3>
-              <p className="mb-4">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">For Financial Planning Clients</h3>
+              <p className="mb-4 text-gray-900 dark:text-gray-100">
                 If you're working with a financial planner, our {tier.name} service level ensures 
                 that all real estate recommendations are coordinated with your financial planner's 
                 recommendations. This coordination ensures that property decisions support your 
                 financial goals and maximize outcomes.
               </p>
-              <h4 className="text-lg font-semibold mb-2">Client Benefits:</h4>
-              <ul className="list-disc pl-6 space-y-1 text-sm">
+              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Client Benefits:</h4>
+              <ul className="list-disc pl-6 space-y-1 text-sm text-gray-900 dark:text-gray-100">
                 <li>Real estate guidance aligned with financial plans</li>
                 <li>Coordination with your financial planner</li>
                 <li>Expert Las Vegas market knowledge</li>
@@ -283,14 +283,14 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
 
         {/* Fees Section */}
         <section className="mb-12 p-8 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
-          <h2 className="text-3xl font-semibold mb-4">Transparent Fees and Pricing</h2>
-          <p className="mb-4 text-lg">{tier.fees}</p>
-          <p className="mb-4">
+          <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Transparent Fees and Pricing</h2>
+          <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">{tier.fees}</p>
+          <p className="mb-4 text-gray-900 dark:text-gray-100">
             All fees are transparent and discussed upfront. No hidden costs, no commissions. 
             Our {tier.name} service level provides comprehensive real estate services at a 
             transparent fee that fits your practice needs and client situations.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-gray-900 dark:text-gray-100">
             We understand that financial planners need predictable, transparent pricing that 
             allows them to provide comprehensive real estate services to their clients without 
             unexpected costs or complications. Our fee structure is designed to support your 

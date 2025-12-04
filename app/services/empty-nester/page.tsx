@@ -199,8 +199,8 @@ export default function EmptyNesterServicesPage() {
                 throughout the process, ensuring that transaction details align with your financial 
                 planning recommendations and client goals.
               </p>
-              <h4 className="text-xl font-semibold mb-3">Transaction Services Include:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Transaction Services Include:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>Listing preparation and coordination</li>
                 <li>Buyer negotiation and communication</li>
                 <li>Inspection and repair coordination</li>
@@ -215,7 +215,7 @@ export default function EmptyNesterServicesPage() {
         {/* Financial Planning Integration */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold mb-8">Financial Planning Integration</h2>
-          <p className="text-lg mb-6">
+          <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
             Our empty nester real estate services are specifically designed to integrate seamlessly 
             with financial planning practices. We understand that empty nester transitions impact 
             retirement planning, tax strategies, estate planning, and overall financial security, 
@@ -240,15 +240,15 @@ export default function EmptyNesterServicesPage() {
               </ul>
             </div>
             <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4">For Empty Nester Clients</h3>
-              <p className="mb-4">
+              <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">For Empty Nester Clients</h3>
+              <p className="mb-4 text-gray-900 dark:text-gray-100">
                 If you're an empty nester working with a financial planner, our services ensure 
                 that all real estate recommendations are coordinated with your financial planner's 
                 recommendations. This coordination ensures that your property transition supports 
                 your financial goals and maximizes outcomes.
               </p>
-              <h4 className="text-lg font-semibold mb-2">Client Benefits:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Client Benefits:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-gray-900 dark:text-gray-100">
                 <li>Real estate guidance aligned with financial plans</li>
                 <li>Coordination with your financial planner</li>
                 <li>Expert Las Vegas market knowledge</li>

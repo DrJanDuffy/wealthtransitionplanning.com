@@ -210,7 +210,7 @@ export default function WealthTransitionPage() {
         {/* Financial Planning Integration */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold mb-8">Financial Planning Integration</h2>
-          <p className="text-lg mb-6">
+          <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
             Our wealth transition real estate planning services are specifically designed to integrate 
             seamlessly with financial planning and estate planning practices. We understand that wealth 
             transitions impact retirement planning, tax strategies, estate planning, and overall 
