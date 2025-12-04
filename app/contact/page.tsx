@@ -228,7 +228,7 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
               <h3 className="text-xl font-semibold mb-3">Initial Consultation Process</h3>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 Our initial consultation is designed to understand your specific needs, whether 
                 you're a financial planner exploring partnership opportunities or a client 
                 seeking real estate guidance. We'll discuss your situation, goals, and how our 
@@ -246,7 +246,7 @@ export default function ContactPage() {
 
             <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
               <h3 className="text-xl font-semibold mb-3">Response Time and Communication</h3>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-900">
                 We understand that real estate decisions often have timing considerations that 
                 impact financial planning strategies. We respond to all inquiries within 24-48 
                 hours and prioritize urgent matters related to active transactions or time-sensitive 
