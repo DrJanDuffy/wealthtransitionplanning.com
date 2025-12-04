@@ -196,6 +196,17 @@ li {
   @apply list-decimal pl-6;
 }
 
+/* Breadcrumb navigation - remove list numbering even inside prose */
+nav[aria-label="Breadcrumb"] ol,
+nav[aria-label="Breadcrumb"] ol.list-none {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+nav[aria-label="Breadcrumb"] ol li {
+  list-style: none !important;
+}
+
 .prose > :first-child {
   /* Override removing top margin, causing layout shift */
   margin-top: 1.25em !important;
