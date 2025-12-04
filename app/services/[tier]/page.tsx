@@ -67,12 +67,12 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
             {tier.tagline}
           </span>
           <h1 className="text-5xl font-bold mt-4 mb-6">{tier.name}: Real Estate Services for Financial Planners</h1>
-          <p className="text-2xl text-gray-800 max-w-3xl mx-auto">
+          <p className="text-2xl text-gray-900 max-w-3xl mx-auto">
             {tier.description} Our {tier.name} service level provides comprehensive real estate 
             services specifically designed to support Certified Financial Planners and their 
             clients in Las Vegas, Nevada.
           </p>
-          <p className="text-lg mt-4 italic text-gray-800">
+          <p className="text-lg mt-4 italic text-gray-900">
             <strong>Best for:</strong> {tier.bestFor}
           </p>
         </section>
@@ -332,7 +332,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
                   className="p-6 border-2 border-neutral-200 dark:border-neutral-800 rounded-lg hover:border-blue-600 dark:hover:border-blue-400 transition-colors"
                 >
                   <h3 className="text-xl font-semibold mb-2">{otherTier.name}</h3>
-                  <p className="text-gray-800 mb-4">
+                  <p className="text-gray-900 mb-4">
                     {otherTier.description}
                   </p>
                   <span className="text-blue-600 dark:text-blue-400 hover:underline">
