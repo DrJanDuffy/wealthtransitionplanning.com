@@ -259,8 +259,87 @@ table {
   background-clip: text;
 }
 
+/* Improve text readability on dark backgrounds */
+.bg-blue-600,
+.bg-blue-700,
+.bg-blue-800,
+[class*="from-blue-600"],
+[class*="to-blue-800"] {
+  color: #ffffff !important;
+}
+
+.bg-blue-600 h1,
+.bg-blue-600 h2,
+.bg-blue-600 h3,
+.bg-blue-600 h4,
+.bg-blue-600 h5,
+.bg-blue-600 h6,
+.bg-blue-600 p,
+.bg-blue-600 span,
+.bg-blue-600 div,
+.bg-blue-700 h1,
+.bg-blue-700 h2,
+.bg-blue-700 h3,
+.bg-blue-700 h4,
+.bg-blue-700 h5,
+.bg-blue-700 h6,
+.bg-blue-700 p,
+.bg-blue-700 span,
+.bg-blue-700 div,
+.bg-blue-800 h1,
+.bg-blue-800 h2,
+.bg-blue-800 h3,
+.bg-blue-800 h4,
+.bg-blue-800 h5,
+.bg-blue-800 h6,
+.bg-blue-800 p,
+.bg-blue-800 span,
+.bg-blue-800 div,
+[class*="from-blue-600"] h1,
+[class*="from-blue-600"] h2,
+[class*="from-blue-600"] h3,
+[class*="from-blue-600"] h4,
+[class*="from-blue-600"] p,
+[class*="to-blue-800"] h1,
+[class*="to-blue-800"] h2,
+[class*="to-blue-800"] h3,
+[class*="to-blue-800"] h4,
+[class*="to-blue-800"] p {
+  color: #ffffff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+
+/* Ensure white text is bright on dark backgrounds */
+[class*="bg-blue-"] [class*="text-white"],
+[class*="from-blue-"] [class*="text-white"],
+[class*="to-blue-"] [class*="text-white"] {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode improvements */
 @media (prefers-color-scheme: dark) {
   .hero-gradient {
     background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #000000 100%);
+  }
+  
+  /* Ensure text is readable in dark mode */
+  .dark\:bg-neutral-900,
+  .dark\:bg-neutral-800 {
+    color: #f9fafb !important;
+  }
+  
+  .dark\:bg-neutral-900 h1,
+  .dark\:bg-neutral-900 h2,
+  .dark\:bg-neutral-900 h3,
+  .dark\:bg-neutral-900 p,
+  .dark\:bg-neutral-800 h1,
+  .dark\:bg-neutral-800 h2,
+  .dark\:bg-neutral-800 h3,
+  .dark\:bg-neutral-800 p {
+    color: #f9fafb !important;
   }
 }

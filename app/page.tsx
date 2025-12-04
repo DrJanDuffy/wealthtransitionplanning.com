@@ -170,26 +170,26 @@ export default function HomePage() {
       </section>
 
       {/* Why Partner With Us - Brief Preview */}
-      <section className="mb-20 p-12 bg-neutral-50 dark:bg-neutral-900 rounded-2xl">
+      <section className="mb-20 p-12 bg-neutral-50 rounded-2xl">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Why Financial Planners Partner With Us</h2>
-          <p className="text-xl mb-8 text-gray-900 dark:text-gray-100 font-medium">
+          <h2 className="text-4xl font-bold mb-6 text-gray-900">Why Financial Planners Partner With Us</h2>
+          <p className="text-xl mb-8 text-gray-900 font-medium">
             When you partner with <strong className="font-bold">{businessConfig.name}</strong>, you're not just 
             adding real estate services to your practice—you're gaining a trusted collaborator 
             who understands the financial planning landscape and how real estate decisions impact 
             your clients' overall financial health.
           </p>
           <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <div className="p-6 bg-white dark:bg-neutral-800 rounded-lg section-shadow">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Seamless Integration</h3>
-              <p className="text-gray-900 dark:text-gray-100">
+            <div className="p-6 bg-white rounded-lg section-shadow">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Seamless Integration</h3>
+              <p className="text-gray-900">
                 Our services integrate seamlessly with your existing practice, providing your clients 
                 with expert real estate guidance while maintaining your role as their primary financial advisor.
               </p>
             </div>
-            <div className="p-6 bg-white dark:bg-neutral-800 rounded-lg section-shadow">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Financial Planning Alignment</h3>
-              <p className="text-gray-900 dark:text-gray-100">
+            <div className="p-6 bg-white rounded-lg section-shadow">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Financial Planning Alignment</h3>
+              <p className="text-gray-900">
                 Every real estate recommendation considers your clients' financial plans, tax situations, 
                 estate planning goals, and retirement strategies.
               </p>
@@ -279,9 +279,9 @@ export default function HomePage() {
           <TargetFAQ category="financialPlanner" />
           <div className="space-y-6 mt-8">
             {targetFAQQuestions.financialPlanner.slice(0, 3).map((faq, index) => (
-              <div key={index} className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg section-shadow">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">{faq.question}</h3>
-                <p className="text-gray-900 dark:text-gray-100">{faq.answer}</p>
+              <div key={index} className="p-6 bg-neutral-50 rounded-lg section-shadow">
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">{faq.question}</h3>
+                <p className="text-gray-900">{faq.answer}</p>
               </div>
             ))}
           </div>
@@ -297,9 +297,9 @@ export default function HomePage() {
       </section>
 
       {/* Final CTA */}
-      <section className="mb-20 p-12 bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 rounded-2xl text-center">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-white">Ready to Enhance Your Financial Planning Practice?</h2>
-        <p className="mb-6 text-lg text-gray-900 dark:text-gray-100 max-w-2xl mx-auto font-medium">
+      <section className="mb-20 p-12 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl text-center">
+        <h2 className="text-3xl font-semibold mb-4 text-gray-900">Ready to Enhance Your Financial Planning Practice?</h2>
+        <p className="mb-6 text-lg text-gray-900 max-w-2xl mx-auto font-medium">
           Schedule a free consultation with a Las Vegas real estate expert to learn how our 
           real estate services can support your CERTIFIED Financial Planner practice and help 
           your clients achieve their wealth transition goals.

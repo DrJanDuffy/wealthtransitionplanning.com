@@ -19,9 +19,9 @@ export function ClientResources() {
   ]
 
   return (
-    <section className="mb-16 p-8 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
-      <h2 className="text-2xl font-semibold mb-6">Client Resources</h2>
-      <p className="mb-6 text-neutral-600 dark:text-neutral-400">
+    <section className="mb-16 p-8 bg-neutral-50 rounded-lg">
+      <h2 className="text-2xl font-semibold mb-6 text-gray-900">Client Resources</h2>
+      <p className="mb-6 text-gray-900">
         Access your financial planning tools and resources:
       </p>
       <div className="grid md:grid-cols-2 gap-4">
@@ -31,16 +31,16 @@ export function ClientResources() {
             href={resource.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg hover:border-blue-600 dark:hover:border-blue-400 transition-colors"
+            className="p-6 border border-neutral-200 rounded-lg hover:border-blue-600 transition-colors bg-white"
           >
-            <h3 className="text-lg font-semibold mb-2">{resource.name}</h3>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">
+            <h3 className="text-lg font-semibold mb-2 text-gray-900">{resource.name}</h3>
+            <p className="text-sm text-gray-800">
               {resource.description}
             </p>
           </a>
         ))}
       </div>
-      <p className="mt-6 text-sm text-neutral-600 dark:text-neutral-400">
+      <p className="mt-6 text-sm text-gray-800">
         * Client portal access provided upon engagement
       </p>
     </section>

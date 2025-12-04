@@ -16,8 +16,8 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
     <div
       className={`p-8 rounded-lg border-2 ${
         featured
-          ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/20'
-          : 'border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900'
+          ? 'border-blue-600 bg-blue-50'
+          : 'border-neutral-200 bg-white'
       }`}
     >
       <div className="mb-4">

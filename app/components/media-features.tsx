@@ -13,7 +13,7 @@ export function MediaFeatures() {
   ]
 
   return (
-    <section className="mb-16 py-12 bg-neutral-50 dark:bg-neutral-900">
+    <section className="mb-16 py-12 bg-neutral-50">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold mb-2">Planning Expertise Featured In</h2>
         <p className="text-gray-900 dark:text-gray-100">

@@ -6,11 +6,11 @@ import Link from 'next/link'
  */
 export function FinancialCheckupCTA() {
   return (
-    <section className="mb-16 p-12 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-2xl text-center">
-      <h2 className="text-4xl md:text-5xl font-bold mb-6">
+    <section className="mb-16 p-12 bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl text-center shadow-xl">
+      <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>
         Take Our Wealth Transition Planning Check Up
       </h2>
-      <p className="text-xl mb-8 text-white max-w-2xl mx-auto font-medium">
+      <p className="text-xl mb-8 text-white max-w-2xl mx-auto font-semibold" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>
         Get a comprehensive assessment of your wealth transition planning needs and discover 
         opportunities to optimize your estate planning, retirement strategy, and wealth transfer goals.
       </p>
@@ -23,7 +23,7 @@ export function FinancialCheckupCTA() {
         </Link>
         <Link
           href="/resources"
-          className="px-8 py-4 border-2 border-white text-white rounded-lg hover:bg-white/10 transition-colors font-semibold text-lg"
+          className="px-8 py-4 border-2 border-white text-white rounded-lg hover:bg-white/20 transition-colors font-semibold text-lg" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}
         >
           Download Free Guide
         </Link>
