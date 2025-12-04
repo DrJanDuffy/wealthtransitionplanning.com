@@ -197,8 +197,7 @@ export default function Footer() {
           </p>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <p className="text-xs text-gray-600 leading-relaxed">
-              {currentYear} © {businessConfig.realtorTitle || businessConfig.owner} License #{businessConfig.licenseNumber} | {businessConfig.brokerage}
-              {' '}All Rights Reserved.
+              {currentYear} © {businessConfig.realtorTitle || businessConfig.owner} License# {businessConfig.licenseNumber} | {businessConfig.brokerage} All Rights Reserved.
             </p>
             
             {/* BHHS Logo */}
