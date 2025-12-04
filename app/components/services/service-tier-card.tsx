@@ -18,7 +18,7 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
         featured
           ? 'border-blue-600 bg-blue-50'
           : 'border-neutral-200 bg-white'
-      }`}
+      } text-gray-900`}
     >
       <div className="mb-4">
         <span className="text-sm font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wide">
@@ -55,8 +55,8 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
         </ul>
       </div>
 
-      <div className="mb-6 p-4 bg-neutral-50 dark:bg-neutral-800 rounded">
-        <p className="text-sm">
+      <div className="mb-6 p-4 bg-neutral-50 rounded">
+        <p className="text-sm text-gray-900">
           <strong>Fees:</strong> {tier.fees}
         </p>
       </div>
@@ -83,9 +83,9 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
       </div>
 
       {tier.freeGuide && (
-        <div className="mt-6 p-4 bg-yellow-50 dark:bg-yellow-900/20 rounded border border-yellow-200 dark:border-yellow-800">
-          <p className="text-sm font-semibold mb-1">FREE GUIDE</p>
-          <p className="text-sm text-gray-900 dark:text-gray-100">{tier.freeGuide}</p>
+        <div className="mt-6 p-4 bg-yellow-50 rounded border border-yellow-200">
+          <p className="text-sm font-semibold mb-1 text-gray-900">FREE GUIDE</p>
+          <p className="text-sm text-gray-900">{tier.freeGuide}</p>
           <Link
             href="/resources"
             className="text-sm text-blue-600 dark:text-blue-400 hover:underline mt-2 inline-block"
