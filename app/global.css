@@ -69,6 +69,11 @@ html {
   font-size: 16px;
 }
 
+/* Optimize font loading with font-display: swap */
+@font-face {
+  font-display: swap;
+}
+
 /* Improved readability for all text elements */
 * {
   -webkit-font-smoothing: antialiased;
