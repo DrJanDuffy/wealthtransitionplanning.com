@@ -57,20 +57,20 @@ export default function FiftyFivePlusCommunitiesPage() {
         {/* Overview */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold mb-8">Comprehensive 55+ Community Planning Services</h2>
-          <p className="text-lg mb-6">
+          <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
             Las Vegas offers exceptional 55+ active adult communities that provide retirees with 
             vibrant lifestyles, excellent amenities, and maintenance-free living. However, choosing 
             the right 55+ community requires careful consideration of financial implications, 
             lifestyle factors, and long-term planning objectives.
           </p>
-          <p className="text-lg mb-6">
+          <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
             Our 55+ community planning services help your clients find communities that align 
             with their retirement goals, financial situation, and lifestyle preferences. We 
             provide comprehensive community analysis, including financial impact assessments, 
             amenity evaluations, and long-term value considerations that support your retirement 
             planning recommendations.
           </p>
-          <p className="text-lg mb-6">
+          <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
             We understand that 55+ community decisions impact your clients' retirement income 
             planning, estate planning, and overall financial security. Our services integrate 
             with your financial planning to ensure community choices support long-term financial 
@@ -84,22 +84,22 @@ export default function FiftyFivePlusCommunitiesPage() {
           
           <div className="space-y-8">
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4">Community Market Analysis</h3>
-              <p className="text-lg mb-4">
+              <h3 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Community Market Analysis</h3>
+              <p className="text-lg mb-4 text-gray-800 dark:text-gray-200">
                 Comprehensive analysis of Las Vegas 55+ communities, including pricing trends, 
                 availability, and value propositions that support your clients' financial goals. 
                 Our market analysis considers community pricing, resale values, and long-term 
                 investment potential.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-800 dark:text-gray-200">
                 This analysis helps your clients understand the 55+ community market in Las Vegas, 
                 identify communities that offer the best value for their financial situation, and 
                 make informed decisions that support their retirement planning goals. We coordinate 
                 this analysis with your financial planning to ensure community choices align with 
                 retirement income strategies and long-term financial security.
               </p>
-              <h4 className="text-xl font-semibold mb-3">Market Analysis Includes:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Market Analysis Includes:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>Las Vegas 55+ community inventory analysis</li>
                 <li>Pricing trends and value assessments</li>
                 <li>Community availability and waitlist information</li>
@@ -110,22 +110,22 @@ export default function FiftyFivePlusCommunitiesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4">Financial Impact Assessment</h3>
+              <h3 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Financial Impact Assessment</h3>
               <p className="text-lg mb-4">
                 Detailed analysis of how 55+ community choices impact retirement income, estate 
                 planning, and long-term financial security. Our financial impact assessment 
                 considers purchase prices, monthly fees, ongoing costs, and how these expenses 
                 affect retirement income planning.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-800 dark:text-gray-200">
                 This assessment helps your clients understand the financial implications of 55+ 
                 community living, how community choices affect their retirement income, and what 
                 to expect in terms of ongoing costs. We coordinate this assessment with your 
                 financial planning to ensure community choices support retirement income strategies, 
                 tax planning, and estate planning objectives.
               </p>
-              <h4 className="text-xl font-semibold mb-3">Financial Assessment Includes:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Financial Assessment Includes:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>Purchase price and financing analysis</li>
                 <li>Monthly fee and cost projections</li>
                 <li>Retirement income impact assessment</li>
@@ -136,22 +136,22 @@ export default function FiftyFivePlusCommunitiesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4">Lifestyle and Amenity Evaluation</h3>
+              <h3 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Lifestyle and Amenity Evaluation</h3>
               <p className="text-lg mb-4">
                 Assessment of community amenities, lifestyle offerings, and long-term value to ensure 
                 your clients find communities that match their preferences and support their 
                 retirement goals. Our evaluation considers recreational facilities, social activities, 
                 healthcare access, and maintenance services.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-800 dark:text-gray-200">
                 This evaluation helps your clients understand what to expect from 55+ community 
                 living, identify communities that match their lifestyle preferences, and make 
                 informed decisions that support their retirement happiness and financial goals. 
                 We coordinate this evaluation with your financial planning to ensure community 
                 choices align with lifestyle goals and retirement planning strategies.
               </p>
-              <h4 className="text-xl font-semibold mb-3">Lifestyle Evaluation Includes:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Lifestyle Evaluation Includes:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>Recreational facilities and amenities</li>
                 <li>Social activities and community culture</li>
                 <li>Healthcare access and services</li>
@@ -162,21 +162,21 @@ export default function FiftyFivePlusCommunitiesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4">Retirement Planning Integration</h3>
+              <h3 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Retirement Planning Integration</h3>
               <p className="text-lg mb-4">
                 Coordination with your retirement planning strategies to ensure community choices 
                 support income planning, tax strategies, and estate planning objectives. Our 
                 integration ensures that 55+ community decisions complement your comprehensive 
                 retirement planning recommendations.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-800 dark:text-gray-200">
                 This integration ensures that your clients' 55+ community choices support their 
                 retirement income strategies, tax planning goals, and estate planning objectives. 
                 We work closely with you to understand retirement planning recommendations and 
                 ensure that community decisions align with comprehensive financial goals.
               </p>
-              <h4 className="text-xl font-semibold mb-3">Planning Integration Includes:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Planning Integration Includes:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>Retirement income strategy coordination</li>
                 <li>Tax planning integration</li>
                 <li>Estate planning alignment</li>
@@ -187,21 +187,21 @@ export default function FiftyFivePlusCommunitiesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4">Transaction Support</h3>
+              <h3 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Transaction Support</h3>
               <p className="text-lg mb-4">
                 Expert guidance through the 55+ community purchase process, ensuring smooth 
                 transactions that align with your clients' financial plans and timelines. Our 
                 transaction support includes purchase negotiations, contract review, and closing 
                 coordination.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-800 dark:text-gray-200">
                 This support ensures that your clients' 55+ community purchases proceed smoothly, 
                 contracts are structured optimally, and all parties are coordinated effectively. 
                 We keep you informed throughout the process, ensuring that transaction details align 
                 with your financial planning recommendations and client goals.
               </p>
-              <h4 className="text-xl font-semibold mb-3">Transaction Services Include:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Transaction Services Include:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>Purchase negotiation and coordination</li>
                 <li>Contract review and structuring</li>
                 <li>Financing coordination</li>
@@ -225,14 +225,14 @@ export default function FiftyFivePlusCommunitiesPage() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">For Certified Financial Planners</h3>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-800 dark:text-gray-200">
                 We work closely with you to understand your clients' retirement goals, income 
                 strategies, and estate planning objectives. This collaboration ensures that every 
                 55+ community recommendation supports their broader financial strategy and helps 
                 them achieve their long-term retirement goals.
               </p>
               <h4 className="text-lg font-semibold mb-2">Integration Benefits:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>Regular communication on client cases</li>
                 <li>Community recommendations aligned with retirement plans</li>
                 <li>Financial impact coordination</li>
@@ -242,14 +242,14 @@ export default function FiftyFivePlusCommunitiesPage() {
             </div>
             <div className="p-8 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">For 55+ Community Clients</h3>
-              <p className="mb-4">
+              <p className="mb-4 text-gray-800 dark:text-gray-200">
                 If you're considering a 55+ community and working with a financial planner, our 
                 services ensure that all community recommendations are coordinated with your 
                 financial planner's recommendations. This coordination ensures that your community 
                 choice supports your retirement goals and maximizes outcomes.
               </p>
               <h4 className="text-lg font-semibold mb-2">Client Benefits:</h4>
-              <ul className="list-disc pl-6 space-y-2">
+              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
                 <li>Community guidance aligned with retirement plans</li>
                 <li>Coordination with your financial planner</li>
                 <li>Expert Las Vegas 55+ community knowledge</li>
