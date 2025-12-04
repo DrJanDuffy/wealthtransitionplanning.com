@@ -107,7 +107,7 @@ export default function HomePage() {
               <li>Coordination with estate planning goals</li>
             </ul>
             <Link 
-              href="/services" 
+              href="/services/empty-nester" 
               className="inline-block mt-4 text-blue-600 dark:text-blue-400 hover:underline font-medium"
             >
               Learn More →
@@ -129,7 +129,7 @@ export default function HomePage() {
               <li>Integration with retirement income strategies</li>
             </ul>
             <Link 
-              href="/services" 
+              href="/services/55-plus-communities" 
               className="inline-block mt-4 text-blue-600 dark:text-blue-400 hover:underline font-medium"
             >
               Learn More →
@@ -151,7 +151,7 @@ export default function HomePage() {
               <li>Multi-generational property planning</li>
             </ul>
             <Link 
-              href="/services" 
+              href="/services/wealth-transition" 
               className="inline-block mt-4 text-blue-600 dark:text-blue-400 hover:underline font-medium"
             >
               Learn More →
