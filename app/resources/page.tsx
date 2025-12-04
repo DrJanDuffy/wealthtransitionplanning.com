@@ -424,5 +424,6 @@ export default function ResourcesPage() {
         </ul>
       </section>
     </article>
+    </>
   )
 }
