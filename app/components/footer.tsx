@@ -166,20 +166,20 @@ export default function Footer() {
 
         {/* Disclaimers */}
         <div className="border-t border-gray-200 pt-6 mt-6">
-          <p className="text-xs text-gray-800 mb-3 leading-relaxed">
+          <p className="text-xs text-gray-900 mb-3 leading-relaxed">
             Real estate services are provided by {businessConfig.name}, a licensed real estate professional in the State of Nevada. 
             All real estate transactions are subject to applicable state and federal laws, regulations, and licensing requirements. 
             {businessConfig.name} is committed to providing professional real estate services that comply with all fair housing laws 
             and real estate regulations.
           </p>
-          <p className="text-xs text-gray-800 mb-3 leading-relaxed">
+          <p className="text-xs text-gray-900 mb-3 leading-relaxed">
             Information presented on this site is for informational purposes only and does not constitute real estate, legal, 
             financial, or tax advice. Real estate transactions involve risk, and property values, market conditions, and 
             investment outcomes are not guaranteed. All property information is subject to verification and may change without notice. 
             Be sure to consult with qualified professionals including real estate agents, attorneys, financial advisors, and tax 
             professionals before making any real estate decisions.
           </p>
-          <p className="text-xs text-gray-800 mb-3 leading-relaxed">
+          <p className="text-xs text-gray-900 mb-3 leading-relaxed">
             The information being provided is strictly as a courtesy. When you link to any of the websites provided here, 
             you are leaving this website. We make no representation as to the completeness or accuracy of the information 
             provided at these websites.{' '}
@@ -196,7 +196,7 @@ export default function Footer() {
             </Link>
           </p>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-            <p className="text-xs text-gray-800 leading-relaxed">
+            <p className="text-xs text-gray-900 leading-relaxed">
               {currentYear} © {businessConfig.realtorTitle || businessConfig.owner} License# {businessConfig.licenseNumber} | {businessConfig.brokerage} All Rights Reserved.
             </p>
             
