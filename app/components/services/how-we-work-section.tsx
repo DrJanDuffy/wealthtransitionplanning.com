@@ -9,7 +9,7 @@ export function HowWeWorkSection() {
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
           How We Work With Financial Planners
         </h2>
-        <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-gray-900 max-w-4xl mx-auto leading-relaxed">
           Our real estate services are designed to seamlessly integrate with your financial 
           planning practice. We understand that you need real estate partners who can provide 
           specialized expertise while maintaining alignment with your financial planning 
@@ -27,13 +27,13 @@ export function HowWeWorkSection() {
             </div>
             <h3 className="text-2xl font-bold text-gray-900">Seamless Integration</h3>
           </div>
-          <p className="mb-4 text-gray-700 leading-relaxed">
+          <p className="mb-4 text-gray-900 leading-relaxed">
             We understand that real estate services must complement, not complicate, your 
             financial planning process. Our services are designed to integrate seamlessly 
             with your existing practice, providing your clients with expert real estate 
             guidance while maintaining your role as their primary financial advisor.
           </p>
-          <p className="mb-6 text-gray-700 leading-relaxed">
+          <p className="mb-6 text-gray-900 leading-relaxed">
             We communicate regularly with you, ensuring that all real estate recommendations 
             align with your financial planning strategies, tax considerations, and client 
             goals. You remain in control of the relationship while we provide specialized 
@@ -41,7 +41,7 @@ export function HowWeWorkSection() {
           </p>
           <div>
             <h4 className="text-lg font-semibold mb-3 text-gray-900">Integration Benefits:</h4>
-            <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <ul className="list-disc pl-6 space-y-2 text-gray-900">
               <li>Regular communication and collaboration on client cases</li>
               <li>Real estate recommendations that align with financial plans</li>
               <li>Coordinated timing for optimal financial outcomes</li>
@@ -60,13 +60,13 @@ export function HowWeWorkSection() {
             </div>
             <h3 className="text-2xl font-bold text-gray-900">Financial Planning Alignment</h3>
           </div>
-          <p className="mb-4 text-gray-700 leading-relaxed">
+          <p className="mb-4 text-gray-900 leading-relaxed">
             Every real estate recommendation we make considers your clients' financial plans, 
             tax situations, estate planning goals, and retirement strategies. We don't just 
             help clients buy or sell properties—we ensure their real estate decisions support 
             their broader financial objectives.
           </p>
-          <p className="mb-6 text-gray-700 leading-relaxed">
+          <p className="mb-6 text-gray-900 leading-relaxed">
             This alignment is crucial for your clients' success and your practice's reputation. 
             When real estate decisions complement financial planning strategies, clients achieve 
             better outcomes, and your practice demonstrates comprehensive value that sets you 
@@ -74,7 +74,7 @@ export function HowWeWorkSection() {
           </p>
           <div>
             <h4 className="text-lg font-semibold mb-3 text-gray-900">Alignment Considerations:</h4>
-            <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <ul className="list-disc pl-6 space-y-2 text-gray-900">
               <li>Tax implications of real estate transactions</li>
               <li>Impact on retirement income planning</li>
               <li>Estate planning integration</li>

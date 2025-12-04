@@ -58,7 +58,7 @@ export function ServiceOverviewCards() {
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
           Real Estate Services That Support Financial Planning
         </h2>
-        <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-gray-900 max-w-4xl mx-auto leading-relaxed">
           Our real estate services are specifically designed to complement financial planning 
           practices. We understand that real estate decisions significantly impact your clients' 
           financial plans, tax situations, and wealth transition strategies. Every service we 
