@@ -30,20 +30,20 @@ export default function PricingPage() {
     <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           Pricing & Service Tiers
         </h1>
-        <p className="text-xl text-gray-900 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto">
           Transparent, tiered service options designed to meet your specific wealth transition planning needs
         </p>
       </div>
 
       {/* Pricing Philosophy */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4 text-center">
           Our Pricing Philosophy
         </h2>
-        <p className="text-gray-900 mb-4 leading-relaxed text-center max-w-3xl mx-auto">
+        <p className="text-gray-800 dark:text-gray-200 mb-4 leading-relaxed text-center max-w-3xl mx-auto">
           We believe in transparent, value-based pricing. Our service tiers are designed to provide options 
           that align with your specific needs and budget. All pricing is discussed during your free initial consultation, 
           and we'll work with you to determine the best service level for your situation.
@@ -55,7 +55,7 @@ export default function PricingPage() {
 
       {/* Service Tiers */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+        <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8 text-center">
           Service Tiers
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -64,20 +64,20 @@ export default function PricingPage() {
               key={index}
               className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">
                 {tier.name}
               </h3>
-              <p className="text-gray-900 mb-4 leading-relaxed">
+              <p className="text-gray-900 dark:text-gray-100 mb-4 leading-relaxed">
                 {tier.description}
               </p>
               <div className="mb-4">
-                <h4 className="font-semibold text-gray-900 mb-2">Includes:</h4>
-                <ul className="list-disc pl-6 space-y-1 text-gray-900 text-sm">
+                <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Includes:</h4>
+                <ul className="list-disc pl-6 space-y-1 text-gray-900 dark:text-gray-100 text-sm">
                   {tier.features?.slice(0, 5).map((feature, featureIndex) => (
                     <li key={featureIndex}>{feature}</li>
                   ))}
                   {tier.features && tier.features.length > 5 && (
-                    <li className="text-gray-900 italic">...and more</li>
+                    <li className="text-gray-900 dark:text-gray-100 italic">...and more</li>
                   )}
                 </ul>
               </div>
@@ -93,8 +93,8 @@ export default function PricingPage() {
       </div>
 
       {/* What's Included */}
-      <div className="bg-gray-50 rounded-lg p-8 mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+      <div className="bg-gray-50 dark:bg-gray-900 rounded-lg p-8 mb-12">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">
           What's Typically Included
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

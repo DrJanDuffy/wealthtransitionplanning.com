@@ -280,8 +280,8 @@ export default function EmptyNesterServicesPage() {
 
         {/* CTA Section */}
         <section className="mb-16 p-12 bg-blue-50 dark:bg-blue-900/20 rounded-2xl text-center">
-          <h2 className="text-3xl font-semibold mb-4">Ready to Help Your Empty Nester Clients?</h2>
-          <p className="mb-6 text-lg max-w-2xl mx-auto">
+          <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Ready to Help Your Empty Nester Clients?</h2>
+          <p className="mb-6 text-lg max-w-2xl mx-auto text-gray-800 dark:text-gray-200">
             Contact us today to learn how our empty nester real estate services can support your 
             financial planning practice and help your clients achieve successful property transitions.
           </p>
@@ -294,7 +294,7 @@ export default function EmptyNesterServicesPage() {
             </Link>
             <Link
               href="/services"
-              className="inline-block px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/40 transition-colors font-semibold text-lg"
+              className="inline-block px-8 py-4 border-2 border-blue-600 text-blue-700 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/40 transition-colors font-semibold text-lg"
             >
               View All Services
             </Link>

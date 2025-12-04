@@ -345,8 +345,8 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
 
         {/* CTA Section */}
         <section className="mb-12 p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg text-center">
-          <h2 className="text-3xl font-semibold mb-4">Ready to Get Started with {tier.name}?</h2>
-          <p className="mb-6 text-lg">
+          <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Ready to Get Started with {tier.name}?</h2>
+          <p className="mb-6 text-lg text-gray-800 dark:text-gray-200">
             Contact us today to learn more about our {tier.name} service level and how our 
             comprehensive real estate services can support your financial planning practice or 
             assist with your real estate goals.
@@ -360,7 +360,7 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
             </Link>
             <Link
               href="/cfp-partners"
-              className="inline-block px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/40 transition-colors font-semibold text-lg"
+              className="inline-block px-8 py-4 border-2 border-blue-600 text-blue-700 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/40 transition-colors font-semibold text-lg"
             >
               Learn About CFP Partnerships
             </Link>

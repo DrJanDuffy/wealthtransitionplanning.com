@@ -65,13 +65,13 @@ export default function AreasServedPage() {
       {/* Primary Service Area */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 mb-12">
         <div className="text-center">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
             Primary Service Area
           </h2>
-          <p className="text-lg text-gray-900 mb-2">
+          <p className="text-lg text-gray-800 dark:text-gray-200 mb-2">
             <strong>{businessConfig.address.city}, {businessConfig.address.state}</strong>
           </p>
-          <p className="text-gray-900">
+          <p className="text-gray-800 dark:text-gray-200">
             {businessConfig.address.full}
           </p>
         </div>
@@ -84,15 +84,15 @@ export default function AreasServedPage() {
             key={index}
             className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-3">
               {area.name}
             </h3>
-            <p className="text-gray-900 mb-4 leading-relaxed">
+            <p className="text-gray-900 dark:text-gray-100 mb-4 leading-relaxed">
               {area.description}
             </p>
             <div>
-              <h4 className="font-semibold text-gray-900 mb-2">Key Areas:</h4>
-              <ul className="list-disc pl-6 space-y-1 text-gray-900">
+              <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Key Areas:</h4>
+              <ul className="list-disc pl-6 space-y-1 text-gray-900 dark:text-gray-100">
                 {area.highlights.map((highlight, highlightIndex) => (
                   <li key={highlightIndex}>{highlight}</li>
                 ))}
