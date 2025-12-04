@@ -99,8 +99,8 @@ export default function PricingPage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Core Services</h3>
-            <ul className="list-disc pl-6 space-y-2 text-gray-900">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-3">Core Services</h3>
+            <ul className="list-disc pl-6 space-y-2 text-gray-900 dark:text-gray-100">
               <li>Initial consultation and assessment</li>
               <li>Customized transition strategy</li>
               <li>Property evaluation and recommendations</li>
@@ -109,8 +109,8 @@ export default function PricingPage() {
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Additional Support</h3>
-            <ul className="list-disc pl-6 space-y-2 text-gray-900">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-3">Additional Support</h3>
+            <ul className="list-disc pl-6 space-y-2 text-gray-900 dark:text-gray-100">
               <li>Ongoing communication and updates</li>
               <li>Transaction management and coordination</li>
               <li>Post-transition follow-up</li>
@@ -123,21 +123,21 @@ export default function PricingPage() {
 
       {/* Pricing Transparency */}
       <div className="bg-white border border-gray-200 rounded-lg p-8 mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4 text-center">
           Transparent Pricing
         </h2>
         <div className="max-w-3xl mx-auto">
-          <p className="text-gray-900 mb-4 leading-relaxed">
+          <p className="text-gray-900 dark:text-gray-100 mb-4 leading-relaxed">
             We believe in transparent, upfront pricing. During your free initial consultation, we'll:
           </p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-900 mb-6">
+          <ul className="list-disc pl-6 space-y-2 text-gray-900 dark:text-gray-100 mb-6">
             <li>Discuss your specific needs and goals</li>
             <li>Review our service tier options</li>
             <li>Provide clear pricing information</li>
             <li>Answer any questions about fees and services</li>
             <li>Help you choose the best service level for your situation</li>
           </ul>
-          <p className="text-gray-900 leading-relaxed">
+          <p className="text-gray-900 dark:text-gray-100 leading-relaxed">
             <strong>No hidden fees. No surprises.</strong> We're committed to providing value and transparency 
             in everything we do.
           </p>
@@ -146,10 +146,10 @@ export default function PricingPage() {
 
       {/* CFP Partnership Note */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4 text-center">
           For Financial Planners
         </h2>
-        <p className="text-gray-900 mb-6 text-center leading-relaxed">
+        <p className="text-gray-800 dark:text-gray-200 mb-6 text-center leading-relaxed">
           Our CFP Partnership Program offers special pricing and service arrangements for CERTIFIED Financial Planners. 
           Learn how partnering with us can benefit your practice and your clients.
         </p>
@@ -165,10 +165,10 @@ export default function PricingPage() {
 
       {/* CTA Section */}
       <div className="text-center">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           Ready to Discuss Your Options?
         </h2>
-        <p className="text-gray-900 mb-6">
+        <p className="text-gray-900 dark:text-gray-100 mb-6">
           Schedule a free consultation to learn more about our service tiers and pricing options.
         </p>
         <FinancialCheckupCTA />
