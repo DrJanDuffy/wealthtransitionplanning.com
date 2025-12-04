@@ -6,7 +6,12 @@ import { ServiceTierCard } from 'app/components/services/service-tier-card'
 import { FinancialCheckupCTA } from 'app/components/services/financial-checkup-cta'
 import { PhilosophySection } from 'app/components/philosophy-section'
 import { Certifications } from 'app/components/certifications'
-import { ProfessionalServiceSchema } from 'app/components/google/professional-service-schema'
+import {
+  ProfessionalServiceSchema,
+  ServiceCatalogSchema,
+  BreadcrumbSchema,
+  SpeakableSchema,
+} from 'app/components/google'
 import { ServicesHero } from 'app/components/services/services-hero'
 import { ServiceOverviewCards } from 'app/components/services/service-overview-cards'
 import { HowWeWorkSection } from 'app/components/services/how-we-work-section'
@@ -39,9 +44,23 @@ export const metadata: Metadata = {
 }
 
 export default function ServicesPage() {
+  // 2025: Breadcrumb items for schema
+  const breadcrumbItems = [
+    { name: 'Home', url: '/' },
+    { name: 'Services', url: '/services' },
+  ]
+
   return (
     <>
+      {/* 2025: Enhanced Schema Markup */}
       <ProfessionalServiceSchema />
+      <ServiceCatalogSchema />
+      <BreadcrumbSchema items={breadcrumbItems} />
+      <SpeakableSchema
+        pageUrl="/services"
+        cssSelectors={['h1', '.services-summary', '.service-card h3']}
+      />
+
       {/* Breadcrumb - outside prose container */}
       <nav className="mb-8 text-sm text-gray-900" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">

@@ -8,9 +8,18 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
 import { businessConfig } from './config/business'
-import { LocalBusinessSchema } from './components/google/local-business-schema'
-import { GoogleAnalytics } from './components/google/google-analytics'
+import {
+  LocalBusinessSchema,
+  OrganizationSchema,
+  WebSiteSchema,
+  PersonSchema,
+  GoogleAnalytics,
+} from './components/google'
 
+/**
+ * 2025 Enhanced Metadata Configuration
+ * Optimized for Google Search, AI understanding, and semantic SEO
+ */
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
@@ -18,8 +27,32 @@ export const metadata: Metadata = {
     template: `%s | ${businessConfig.name}`,
   },
   description: businessConfig.description,
-  keywords: businessConfig.keywords,
-  authors: [{ name: businessConfig.owner }],
+  // 2025: Enhanced keywords for semantic understanding
+  keywords: [
+    ...businessConfig.keywords,
+    'wealth transition specialist',
+    'estate planning expert',
+    'retirement planning Las Vegas',
+    '55+ community real estate',
+    'empty nester housing',
+    'fiduciary financial advisor',
+    'Dr. Jan Duffy REALTOR',
+  ],
+  authors: [{ name: businessConfig.owner, url: `${baseUrl}/about` }],
+  // 2025: Creator and publisher for E-E-A-T
+  creator: businessConfig.owner,
+  publisher: businessConfig.name,
+  // 2025: Format detection
+  formatDetection: {
+    email: true,
+    address: true,
+    telephone: true,
+  },
+  // 2025: Category for better classification
+  category: 'Financial Services',
+  // 2025: Classification for content type
+  classification: 'Business',
+  // 2025: Enhanced OpenGraph for social and AI
   openGraph: {
     title: businessConfig.name,
     description: businessConfig.description,
@@ -27,34 +60,72 @@ export const metadata: Metadata = {
     siteName: businessConfig.name,
     locale: 'en_US',
     type: 'website',
+    countryName: 'United States',
     images: [
       {
         url: `${baseUrl}/og?title=${encodeURIComponent(businessConfig.name)}`,
         width: 1200,
         height: 630,
-        alt: businessConfig.name,
+        alt: `${businessConfig.name} - Wealth Transition Planning in Las Vegas`,
+        type: 'image/png',
       },
     ],
   },
+  // 2025: Enhanced Twitter Card
   twitter: {
     card: 'summary_large_image',
     title: businessConfig.name,
     description: businessConfig.description,
     images: [`${baseUrl}/og?title=${encodeURIComponent(businessConfig.name)}`],
+    creator: '@wealthtransition',
+    site: '@wealthtransition',
   },
+  // 2025: Enhanced robots for AI crawlers
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
+      noimageindex: false,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
   },
+  // 2025: Alternate languages (for future internationalization)
+  alternates: {
+    canonical: baseUrl,
+    languages: {
+      'en-US': baseUrl,
+    },
+  },
+  // 2025: App links for mobile deep linking
+  appLinks: {
+    web: {
+      url: baseUrl,
+      should_fallback: true,
+    },
+  },
+  // 2025: Other metadata for enhanced understanding
+  other: {
+    'geo.region': 'US-NV',
+    'geo.placename': 'Las Vegas',
+    'geo.position': '36.1699;-115.1398',
+    'ICBM': '36.1699, -115.1398',
+    'og:locality': 'Las Vegas',
+    'og:region': 'NV',
+    'og:country-name': 'United States',
+    'business:contact_data:street_address': businessConfig.address.street,
+    'business:contact_data:locality': businessConfig.address.city,
+    'business:contact_data:region': businessConfig.address.state,
+    'business:contact_data:postal_code': businessConfig.address.zipCode,
+    'business:contact_data:country_name': businessConfig.address.country,
+    'business:contact_data:email': businessConfig.email,
+    'business:contact_data:phone_number': businessConfig.phone,
+  },
   // Google Search Console verification
-  // Add your verification code to environment variable: NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
   verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
     ? {
         google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
@@ -79,8 +150,13 @@ export default function RootLayout({
       )}
     >
       <head>
+        {/* 2025 Enhanced Schema Markup for Google Search */}
         <LocalBusinessSchema />
-        {/* Preconnect to external domains for faster loading */}
+        <OrganizationSchema />
+        <WebSiteSchema />
+        <PersonSchema />
+
+        {/* Preconnect to external domains for faster loading (Core Web Vitals) */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" />
@@ -88,6 +164,21 @@ export default function RootLayout({
         {/* Preconnect to Google Maps */}
         <link rel="preconnect" href="https://maps.googleapis.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://maps.googleapis.com" />
+
+        {/* 2025: Preconnect to fonts for LCP optimization */}
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+
+        {/* 2025: Theme color for mobile browsers */}
+        <meta name="theme-color" content="#2563eb" />
+        <meta name="theme-color" content="#1e3a8a" media="(prefers-color-scheme: dark)" />
+
+        {/* 2025: Apple mobile web app meta tags */}
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Wealth Transition" />
+
+        {/* 2025: Format detection for mobile */}
+        <meta name="format-detection" content="telephone=no" />
       </head>
       <body className="antialiased bg-white text-gray-900" style={{ color: '#111827', fontSize: '16px', lineHeight: '1.7' }}>
         <Navbar />
