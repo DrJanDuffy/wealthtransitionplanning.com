@@ -54,12 +54,12 @@ export default function HomePage() {
   return (
     <>
       {/* Main Hero Section with Enhanced Styling */}
-      <section className="mb-20 text-center hero-gradient py-16 px-4 rounded-2xl">
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 dark:text-white">
+      <section className="mb-20 text-center bg-white py-16 px-4 rounded-2xl shadow-lg border border-gray-200">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900" style={{ lineHeight: '1.2' }}>
           Real Estate Services That Support Financial Planners and Their Clients in Las Vegas
         </h1>
-        <p className="text-2xl text-gray-900 dark:text-gray-100 mb-8 max-w-3xl mx-auto leading-relaxed font-medium">
-          <strong className="text-gray-900 dark:text-white font-bold">{businessConfig.name}</strong> provides comprehensive real estate services 
+        <p className="text-2xl text-gray-900 mb-8 max-w-3xl mx-auto leading-relaxed font-semibold">
+          <strong className="text-gray-900 font-bold">{businessConfig.name}</strong> provides comprehensive real estate services 
           specifically designed to support CERTIFIED Financial Planners (CFPs) and fiduciary 
           financial advisors in Las Vegas, Nevada. We specialize in empty nester real estate 
           transitions, 55+ community planning, and wealth transition strategies that complement 

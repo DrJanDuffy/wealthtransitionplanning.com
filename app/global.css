@@ -227,8 +227,19 @@ table {
 
 /* Homepage Enhancements */
 .hero-gradient {
-  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #f1f5f9 100%);
+  background: #ffffff !important;
   border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure text in hero section is dark and readable */
+.hero-gradient h1,
+.hero-gradient h2,
+.hero-gradient h3,
+.hero-gradient p,
+.hero-gradient span,
+.hero-gradient div {
+  color: #111827 !important;
 }
 
 .section-shadow {
@@ -321,25 +332,14 @@ table {
 }
 
 /* Dark mode improvements */
-@media (prefers-color-scheme: dark) {
-  .hero-gradient {
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #000000 100%);
-  }
-  
-  /* Ensure text is readable in dark mode */
-  .dark\:bg-neutral-900,
-  .dark\:bg-neutral-800 {
-    color: #f9fafb !important;
-  }
-  
-  .dark\:bg-neutral-900 h1,
-  .dark\:bg-neutral-900 h2,
-  .dark\:bg-neutral-900 h3,
-  .dark\:bg-neutral-900 p,
-  .dark\:bg-neutral-800 h1,
-  .dark\:bg-neutral-800 h2,
-  .dark\:bg-neutral-800 h3,
-  .dark\:bg-neutral-800 p {
-    color: #f9fafb !important;
-  }
+/* Force white background for hero sections */
+section.hero-gradient,
+.hero-gradient {
+  background: #ffffff !important;
+  color: #111827 !important;
+}
+
+section.hero-gradient *,
+.hero-gradient * {
+  color: #111827 !important;
 }
