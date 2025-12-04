@@ -83,7 +83,10 @@ export default function AboutPage() {
 
         {/* Improved Bio Section */}
         <BioSection />
-          <p className="mb-4 text-lg">
+
+        {/* Additional Bio Content */}
+        <section className="mb-12">
+          <p className="mb-4 text-lg text-gray-900">
             Dr. Duffy is particularly skilled in working with empty nesters, retirees, and 
             individuals planning transitions to 55+ communities, helping them make informed 
             real estate decisions that support their financial goals, estate plans, and 
@@ -91,27 +94,27 @@ export default function AboutPage() {
             in clients' portfolios and that strategic real estate decisions are essential for 
             successful wealth transitions.
           </p>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             Her collaborative approach with Certified Financial Planners ensures that every 
             real estate recommendation aligns with clients' comprehensive financial plans, 
             maximizing outcomes and supporting long-term financial success.
           </p>
           
-          <h3 className="text-2xl font-semibold mb-4 mt-8">Specialization in Real Estate Services for Financial Planners</h3>
-          <p className="mb-4">
+          <h3 className="text-2xl font-semibold mb-4 mt-8 text-gray-900">Specialization in Real Estate Services for Financial Planners</h3>
+          <p className="mb-4 text-gray-900">
             Dr. Duffy's practice is specifically designed to support Certified Financial 
             Planners who need expert real estate services for their clients. She understands 
             that CFPs require real estate partners who can provide specialized expertise while 
             maintaining alignment with financial planning strategies and client relationships.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-gray-900">
             Her services are structured to complement financial planning practices, ensuring 
             that real estate decisions support clients' financial goals, tax strategies, and 
             wealth transition objectives. This collaborative approach allows CFPs to offer 
             comprehensive real estate services without becoming real estate experts themselves, 
             enhancing their value proposition and client outcomes.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-gray-900">
             Dr. Duffy works closely with financial planners to understand their clients' 
             comprehensive financial situations, ensuring that every real estate recommendation 
             considers financial planning implications, tax considerations, and long-term 
