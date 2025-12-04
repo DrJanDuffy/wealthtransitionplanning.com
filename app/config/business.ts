@@ -8,7 +8,8 @@ export const businessConfig = {
   // Business Information - MUST match Google Business Profile exactly
   name: 'Wealth Transition Planning',
   legalName: 'Wealth Transition Planning', // Full legal business name if different
-  owner: 'Dr. Janet Duffy',
+  owner: 'Dr. Jan Duffy',
+  realtorTitle: 'Dr. Jan Duffy REALTOR®',
   
   // Contact Information - MUST match GBP exactly
   address: {
@@ -65,8 +66,9 @@ export const businessConfig = {
   },
   
   // Real Estate License & Brokerage
-  licenseNumber: '', // UPDATE: Real estate license number (e.g., "S.123456" for Nevada)
-  bhhsLogoUrl: '/images/bhhs-logo.png', // UPDATE: Path to BHHS logo image in public/images/ directory
+  licenseNumber: 'S.0197614.LLC', // Real estate license number
+  brokerage: 'Berkshire Hathaway HomeServices',
+  bhhsLogoUrl: '/images/bhhs-logo.png', // Path to BHHS logo image in public/images/ directory
   
   // SEO
   description: 'Professional wealth transition planning services in Las Vegas, Nevada. Expert guidance for estate planning, retirement planning, and financial security.',
