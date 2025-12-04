@@ -217,7 +217,7 @@ export default function AboutPage() {
         {/* Service Area */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Service Area and Market Expertise</h2>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-900">
             Dr. Janet Duffy serves clients throughout the Las Vegas metropolitan area, 
             providing expert real estate services that support financial planners and their 
             clients across the region.
