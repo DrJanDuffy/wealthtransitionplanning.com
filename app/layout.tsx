@@ -7,19 +7,24 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
+import { businessConfig } from './config/business'
+import { LocalBusinessSchema } from './components/google/local-business-schema'
+import { GoogleAnalytics } from './components/google/google-analytics'
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: `${businessConfig.name} | ${businessConfig.serviceArea.city}, ${businessConfig.serviceArea.state}`,
+    template: `%s | ${businessConfig.name}`,
   },
-  description: 'This is my portfolio.',
+  description: businessConfig.description,
+  keywords: businessConfig.keywords,
+  authors: [{ name: businessConfig.owner }],
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: businessConfig.name,
+    description: businessConfig.description,
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: businessConfig.name,
     locale: 'en_US',
     type: 'website',
   },
@@ -34,6 +39,13 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  // Google Search Console verification
+  // Add your verification code to environment variable: NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? {
+        google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+      }
+    : undefined,
 }
 
 const cx = (...classes) => classes.filter(Boolean).join(' ')
@@ -52,6 +64,9 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
+      <head>
+        <LocalBusinessSchema />
+      </head>
       <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
@@ -59,6 +74,7 @@ export default function RootLayout({
           <Footer />
           <Analytics />
           <SpeedInsights />
+          <GoogleAnalytics />
         </main>
       </body>
     </html>
