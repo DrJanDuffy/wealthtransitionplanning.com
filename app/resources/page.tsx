@@ -29,8 +29,8 @@ export const metadata: Metadata = {
 
 export default function ResourcesPage() {
   return (
-    <article className="prose prose-lg max-w-none">
-      {/* Breadcrumb */}
+    <>
+      {/* Breadcrumb - outside prose container */}
       <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
         <ol className="flex space-x-2 list-none">
           <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
@@ -38,6 +38,7 @@ export default function ResourcesPage() {
           <li className="flex items-center text-neutral-900 dark:text-neutral-100">Resources</li>
         </ol>
       </nav>
+      <article className="prose prose-lg max-w-none">
 
       <h1 className="text-4xl font-bold mb-4">Real Estate Resources for Financial Planners</h1>
       

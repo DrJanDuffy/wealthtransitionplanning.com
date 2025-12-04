@@ -37,15 +37,15 @@ export default function ServicesPage() {
   return (
     <>
       <ProfessionalServiceSchema />
+      {/* Breadcrumb - outside prose container */}
+      <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
+        <ol className="flex space-x-2 list-none">
+          <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
+          <li className="flex items-center">/</li>
+          <li className="flex items-center text-neutral-900 dark:text-neutral-100">Services</li>
+        </ol>
+      </nav>
       <article className="prose prose-lg max-w-none">
-        {/* Breadcrumb */}
-        <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
-          <ol className="flex space-x-2 list-none">
-            <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
-            <li className="flex items-center">/</li>
-            <li className="flex items-center text-neutral-900 dark:text-neutral-100">Services</li>
-          </ol>
-        </nav>
 
         {/* Hero Section */}
         <section className="mb-16 text-center">

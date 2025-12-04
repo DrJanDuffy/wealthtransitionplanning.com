@@ -32,14 +32,13 @@ export const metadata: Metadata = {
 export default function WealthTransitionPage() {
   return (
     <>
-      <article className="prose prose-lg max-w-none">
-        {/* Breadcrumb */}
-        <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
-          <ol className="flex space-x-2 list-none">
-            <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
-            <li className="flex items-center">/</li>
-            <li className="flex items-center"><Link href="/services" className="hover:underline">Services</Link></li>
-            <li className="flex items-center">/</li>
+      {/* Breadcrumb - outside prose container */}
+      <nav className="mb-8 text-sm text-neutral-600 dark:text-neutral-400" aria-label="Breadcrumb">
+        <ol className="flex space-x-2 list-none">
+          <li className="flex items-center"><Link href="/" className="hover:underline">Home</Link></li>
+          <li className="flex items-center">/</li>
+          <li className="flex items-center"><Link href="/services" className="hover:underline">Services</Link></li>
+          <li className="flex items-center">/</li>
             <li className="text-neutral-900 dark:text-neutral-100">Wealth Transition</li>
           </ol>
         </nav>
