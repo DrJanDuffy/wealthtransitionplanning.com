@@ -197,14 +197,33 @@ li {
 }
 
 /* Breadcrumb navigation - remove list numbering even inside prose */
-nav[aria-label="Breadcrumb"] ol,
-nav[aria-label="Breadcrumb"] ol.list-none {
+/* Must be more specific than .prose ol to override */
+.prose nav[aria-label="Breadcrumb"] ol,
+.prose nav[aria-label="Breadcrumb"] ol.list-none,
+article.prose nav[aria-label="Breadcrumb"] ol,
+nav[aria-label="Breadcrumb"] ol {
   list-style: none !important;
   padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 
+.prose nav[aria-label="Breadcrumb"] ol li,
+article.prose nav[aria-label="Breadcrumb"] ol li,
 nav[aria-label="Breadcrumb"] ol li {
   list-style: none !important;
+  list-style-type: none !important;
+  counter-increment: none !important;
+}
+
+/* Remove any pseudo-element counters */
+.prose nav[aria-label="Breadcrumb"] ol li::before,
+.prose nav[aria-label="Breadcrumb"] ol li::marker,
+article.prose nav[aria-label="Breadcrumb"] ol li::before,
+article.prose nav[aria-label="Breadcrumb"] ol li::marker,
+nav[aria-label="Breadcrumb"] ol li::before,
+nav[aria-label="Breadcrumb"] ol li::marker {
+  content: none !important;
+  display: none !important;
 }
 
 .prose > :first-child {
