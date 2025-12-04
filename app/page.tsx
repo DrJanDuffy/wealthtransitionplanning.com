@@ -58,8 +58,8 @@ export default function HomePage() {
         <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 dark:text-white">
           Real Estate Services That Support Financial Planners and Their Clients in Las Vegas
         </h1>
-        <p className="text-2xl text-neutral-700 dark:text-neutral-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-          <strong className="text-gray-900 dark:text-white">{businessConfig.name}</strong> provides comprehensive real estate services 
+        <p className="text-2xl text-gray-900 dark:text-gray-100 mb-8 max-w-3xl mx-auto leading-relaxed font-medium">
+          <strong className="text-gray-900 dark:text-white font-bold">{businessConfig.name}</strong> provides comprehensive real estate services 
           specifically designed to support CERTIFIED Financial Planners (CFPs) and fiduciary 
           financial advisors in Las Vegas, Nevada. We specialize in empty nester real estate 
           transitions, 55+ community planning, and wealth transition strategies that complement 
@@ -75,7 +75,7 @@ export default function HomePage() {
         <h2 className="text-4xl font-bold mb-8 text-center text-gray-900 dark:text-white">How We Support Financial Planners and Their Clients</h2>
         
         <div className="max-w-4xl mx-auto mb-12">
-          <p className="text-lg mb-6 text-neutral-700 dark:text-neutral-300">
+          <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
             As a Certified Financial Planner, you understand that real estate decisions are 
             integral to your clients' overall financial picture. Whether your clients are 
             empty nesters looking to downsize, retirees considering 55+ communities, or 
@@ -83,8 +83,8 @@ export default function HomePage() {
             financial success. That's where we come in.
           </p>
           
-          <p className="text-lg mb-6 text-neutral-700 dark:text-neutral-300">
-            <strong>{businessConfig.name}</strong> offers specialized real estate services 
+          <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
+            <strong className="font-bold">{businessConfig.name}</strong> offers specialized real estate services 
             that seamlessly integrate with your financial planning practice. We work alongside 
             CFPs to provide expert real estate guidance, ensuring your clients make informed 
             decisions that align with their financial goals, estate plans, and retirement strategies.
@@ -94,13 +94,13 @@ export default function HomePage() {
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl card-hover border border-blue-100 dark:border-blue-800">
             <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Empty Nester Real Estate Services</h3>
-            <p className="mb-4 text-neutral-700 dark:text-neutral-300">
+            <p className="mb-4 text-gray-900 dark:text-gray-100">
               Help your clients navigate the transition from family homes to more suitable 
               properties. We specialize in empty nester real estate in Las Vegas, understanding 
               the financial implications, tax considerations, and lifestyle factors that impact 
               your clients' decisions.
             </p>
-            <ul className="list-disc pl-6 space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
+            <ul className="list-disc pl-6 space-y-2 text-sm text-gray-800 dark:text-gray-200">
               <li>Market timing analysis for optimal sale prices</li>
               <li>Downsizing property recommendations</li>
               <li>Tax-efficient real estate transition strategies</li>
@@ -116,13 +116,13 @@ export default function HomePage() {
 
           <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl card-hover border border-blue-100 dark:border-blue-800">
             <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">55+ Community Planning</h3>
-            <p className="mb-4 text-neutral-700 dark:text-neutral-300">
+            <p className="mb-4 text-gray-900 dark:text-gray-100">
               Las Vegas offers exceptional 55+ active adult communities, and we help your 
               clients find the perfect fit for their retirement lifestyle and financial situation. 
               We understand the unique considerations of 55+ community living and how it impacts 
               your clients' financial plans.
             </p>
-            <ul className="list-disc pl-6 space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
+            <ul className="list-disc pl-6 space-y-2 text-sm text-gray-800 dark:text-gray-200">
               <li>55+ community market analysis in Las Vegas</li>
               <li>Financial impact assessment for retirement planning</li>
               <li>Community amenities and lifestyle evaluation</li>
@@ -138,13 +138,13 @@ export default function HomePage() {
 
           <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl card-hover border border-blue-100 dark:border-blue-800">
             <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Wealth Transition Real Estate</h3>
-            <p className="mb-4 text-neutral-700 dark:text-neutral-300">
+            <p className="mb-4 text-gray-900 dark:text-gray-100">
               Real estate is often the largest asset in your clients' portfolios, and strategic 
               real estate decisions are essential for successful wealth transitions. We work 
               with you to ensure your clients' real estate decisions support their estate 
               planning, tax strategies, and wealth transfer goals.
             </p>
-            <ul className="list-disc pl-6 space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
+            <ul className="list-disc pl-6 space-y-2 text-sm text-gray-800 dark:text-gray-200">
               <li>Real estate portfolio analysis for wealth transfer</li>
               <li>Estate planning integration</li>
               <li>Tax-efficient property transition strategies</li>
@@ -173,8 +173,8 @@ export default function HomePage() {
       <section className="mb-20 p-12 bg-neutral-50 dark:bg-neutral-900 rounded-2xl">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Why Financial Planners Partner With Us</h2>
-          <p className="text-xl mb-8 text-neutral-700 dark:text-neutral-300">
-            When you partner with <strong>{businessConfig.name}</strong>, you're not just 
+          <p className="text-xl mb-8 text-gray-900 dark:text-gray-100 font-medium">
+            When you partner with <strong className="font-bold">{businessConfig.name}</strong>, you're not just 
             adding real estate services to your practice—you're gaining a trusted collaborator 
             who understands the financial planning landscape and how real estate decisions impact 
             your clients' overall financial health.
@@ -182,14 +182,14 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="p-6 bg-white dark:bg-neutral-800 rounded-lg section-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Seamless Integration</h3>
-              <p className="text-neutral-700 dark:text-neutral-300">
+              <p className="text-gray-900 dark:text-gray-100">
                 Our services integrate seamlessly with your existing practice, providing your clients 
                 with expert real estate guidance while maintaining your role as their primary financial advisor.
               </p>
             </div>
             <div className="p-6 bg-white dark:bg-neutral-800 rounded-lg section-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Financial Planning Alignment</h3>
-              <p className="text-neutral-700 dark:text-neutral-300">
+              <p className="text-gray-900 dark:text-gray-100">
                 Every real estate recommendation considers your clients' financial plans, tax situations, 
                 estate planning goals, and retirement strategies.
               </p>
@@ -211,7 +211,7 @@ export default function HomePage() {
       <section className="mb-20">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 text-gray-900 dark:text-white">OUR SOLUTIONS</h2>
-          <p className="text-xl text-neutral-600 dark:text-neutral-400 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto font-medium">
             First, we listen. Then we help you develop a realistic financial plan to get where 
             you want to go, whether that's planning your wealth transition, becoming a first-time 
             estate planner, or including comprehensive planning in your investment strategy.
@@ -259,7 +259,7 @@ export default function HomePage() {
       {/* CFP Partnership Highlight */}
       <section className="mb-20 p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
         <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-white">CFP Partnership Program</h2>
-        <p className="mb-6 text-lg text-neutral-700 dark:text-neutral-300">
+        <p className="mb-6 text-lg text-gray-900 dark:text-gray-100">
           Are you a Certified Financial Planner looking to expand your service offerings with 
           expert real estate services? Partner with us to provide your clients with comprehensive 
           real estate guidance that complements your financial planning services.
@@ -281,7 +281,7 @@ export default function HomePage() {
             {targetFAQQuestions.financialPlanner.slice(0, 3).map((faq, index) => (
               <div key={index} className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg section-shadow">
                 <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">{faq.question}</h3>
-                <p className="text-neutral-700 dark:text-neutral-300">{faq.answer}</p>
+                <p className="text-gray-900 dark:text-gray-100">{faq.answer}</p>
               </div>
             ))}
           </div>
@@ -299,7 +299,7 @@ export default function HomePage() {
       {/* Final CTA */}
       <section className="mb-20 p-12 bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 rounded-2xl text-center">
         <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-white">Ready to Enhance Your Financial Planning Practice?</h2>
-        <p className="mb-6 text-lg text-neutral-700 dark:text-neutral-300 max-w-2xl mx-auto">
+        <p className="mb-6 text-lg text-gray-900 dark:text-gray-100 max-w-2xl mx-auto font-medium">
           Schedule a free consultation with a Las Vegas real estate expert to learn how our 
           real estate services can support your CERTIFIED Financial Planner practice and help 
           your clients achieve their wealth transition goals.

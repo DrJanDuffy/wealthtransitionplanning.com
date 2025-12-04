@@ -81,7 +81,7 @@ export default function RootLayout({
       <head>
         <LocalBusinessSchema />
       </head>
-      <body className="antialiased bg-white text-gray-900">
+      <body className="antialiased bg-white text-gray-900" style={{ color: '#111827', fontSize: '16px', lineHeight: '1.7' }}>
         <Navbar />
         <main className="min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {children}
