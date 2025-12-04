@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     title: 'Empty Nester Real Estate Services Las Vegas | Financial Planner Support',
     description: 'Expert empty nester real estate services in Las Vegas coordinated with financial planning goals.',
     url: `${baseUrl}/services/empty-nester`,
+    siteName: businessConfig.name,
+    locale: 'en_US',
+    type: 'website',
   },
 }
 

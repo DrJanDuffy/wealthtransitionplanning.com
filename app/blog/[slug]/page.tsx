@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import { formatDate, getBlogPosts } from 'app/blog/utils'
 import { baseUrl } from 'app/sitemap'
+import { businessConfig } from 'app/config/business'
 
 export async function generateStaticParams() {
   let posts = getBlogPosts()
@@ -36,6 +37,8 @@ export function generateMetadata({ params }) {
       type: 'article',
       publishedTime,
       url: `${baseUrl}/blog/${post.slug}`,
+      siteName: businessConfig.name,
+      locale: 'en_US',
       images: [
         {
           url: ogImage,

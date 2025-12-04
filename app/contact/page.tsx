@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     title: `Contact Us | Real Estate Services for Financial Planners | ${businessConfig.name}`,
     description: `Contact Dr. Janet Duffy for real estate services that support financial planners in Las Vegas, Nevada.`,
     url: `${baseUrl}/contact`,
+    siteName: businessConfig.name,
+    locale: 'en_US',
+    type: 'website',
   },
 }
 

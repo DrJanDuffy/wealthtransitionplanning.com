@@ -33,6 +33,9 @@ export async function generateMetadata({
       title: `${tier.name} - Real Estate Services for Financial Planners | ${businessConfig.name}`,
       description: tier.description,
       url: `${baseUrl}/services/${tier.id}`,
+      siteName: businessConfig.name,
+      locale: 'en_US',
+      type: 'website',
     },
   }
 }

@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     title: 'Wealth Transition Planning Las Vegas | Real Estate & Financial Planning',
     description: 'Supporting CFP clients & fiduciary advisors with strategic real estate planning in Las Vegas. Free consultation.',
     url: baseUrl,
+    siteName: businessConfig.name,
+    locale: 'en_US',
+    type: 'website',
     images: [
       {
         url: `${baseUrl}/og?title=${encodeURIComponent('Wealth Transition Planning Las Vegas')}`,

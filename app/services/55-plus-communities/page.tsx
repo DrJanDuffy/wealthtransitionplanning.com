@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     title: '55+ Community Planning Las Vegas | Active Adult Communities | Financial Planner Support',
     description: 'Expert 55+ community planning services in Las Vegas coordinated with financial planning goals.',
     url: `${baseUrl}/services/55-plus-communities`,
+    siteName: businessConfig.name,
+    locale: 'en_US',
+    type: 'website',
   },
 }
 

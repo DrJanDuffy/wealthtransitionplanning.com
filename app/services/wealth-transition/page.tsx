@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     title: 'Wealth Transition Real Estate Planning Las Vegas | Estate Planning Integration',
     description: 'Expert wealth transition real estate planning in Las Vegas coordinated with financial planning goals.',
     url: `${baseUrl}/services/wealth-transition`,
+    siteName: businessConfig.name,
+    locale: 'en_US',
+    type: 'website',
   },
 }
 

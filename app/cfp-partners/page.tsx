@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     title: 'Financial Advisor Partnership Program | Las Vegas Real Estate Planning',
     description: 'Partner with a Las Vegas real estate expert to support your CERTIFIED Financial Planner practice.',
     url: `${baseUrl}/cfp-partners`,
+    siteName: businessConfig.name,
+    locale: 'en_US',
+    type: 'website',
   },
 }
 

@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     title: 'About Dr. Janet Duffy | Best Financial Advisors in Las Vegas | Fiduciary Real Estate Expert',
     description: 'One of the best financial advisors in Las Vegas specializing in fiduciary real estate services for CERTIFIED Financial Planners.',
     url: `${baseUrl}/about`,
+    siteName: businessConfig.name,
+    locale: 'en_US',
+    type: 'website',
   },
 }
 

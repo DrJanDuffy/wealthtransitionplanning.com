@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     title: `Real Estate Resources for Financial Planners | ${businessConfig.name}`,
     description: 'Free and premium real estate resources designed to support financial planners and their clients.',
     url: `${baseUrl}/resources`,
+    siteName: businessConfig.name,
+    locale: 'en_US',
+    type: 'website',
   },
 }
 
