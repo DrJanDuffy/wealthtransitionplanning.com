@@ -215,10 +215,24 @@ export default function CFPPartnersPage() {
           </div>
         </section>
 
-        {/* Benefits Section */}
-        <section className="mb-12">
-          {/* Improved Benefits Grid */}
-          <BenefitsGrid />
+        {/* Benefits Section - Link to dedicated page */}
+        <section className="mb-12 p-12 bg-blue-50 rounded-xl border border-blue-200">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-semibold mb-6 text-gray-900">Benefits for Certified Financial Planners</h2>
+            <p className="mb-6 text-lg text-gray-900 max-w-3xl mx-auto leading-relaxed">
+              When you partner with <strong>{businessConfig.name}</strong>, you're not just 
+              adding real estate services to your practice—you're gaining a trusted collaborator 
+              who understands the financial planning landscape and how real estate decisions impact 
+              your clients' overall financial health.
+            </p>
+            <Link
+              href="/cfp-partners/benefits"
+              className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg"
+            >
+              View All Partnership Benefits →
+            </Link>
+          </div>
+        </section>
           
           <div className="grid md:grid-cols-2 gap-6 mb-8 hidden">
             <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
@@ -456,76 +470,22 @@ export default function CFPPartnersPage() {
           </div>
         </section>
 
-        {/* How It Works */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6">How the Partnership Works</h2>
-          <p className="mb-4 text-lg">
-            Our partnership process is designed to be straightforward and seamless, ensuring that 
-            real estate services integrate smoothly with your financial planning practice. We work 
-            with you to establish clear processes, communication protocols, and collaboration 
-            methods that support your clients and enhance your practice.
-          </p>
-          
-          <div className="space-y-6">
-            <div className="p-6 border-l-4 border-blue-600">
-              <h3 className="text-xl font-semibold mb-3">Step 1: Initial Consultation</h3>
-              <p className="mb-2">
-                We begin with a comprehensive consultation to discuss your practice needs, client 
-                base, and how real estate services can enhance your service offerings. This 
-                consultation helps us understand your practice structure, client demographics, 
-                and specific real estate needs.
-              </p>
-              <p>
-                During this consultation, we explore how real estate services can complement your 
-                financial planning, identify opportunities to serve your clients better, and 
-                establish initial partnership parameters that work for your practice.
-              </p>
-            </div>
-
-            <div className="p-6 border-l-4 border-blue-600">
-              <h3 className="text-xl font-semibold mb-3">Step 2: Partnership Agreement</h3>
-              <p className="mb-2">
-                We establish clear partnership terms, referral processes, and collaboration 
-                guidelines that ensure smooth operations and optimal client outcomes. The partnership 
-                agreement outlines communication protocols, service delivery methods, and 
-                collaboration processes.
-              </p>
-              <p>
-                This agreement ensures that all parties understand expectations, responsibilities, 
-                and processes, creating a foundation for successful long-term collaboration that 
-                benefits your practice and your clients.
-              </p>
-            </div>
-
-            <div className="p-6 border-l-4 border-blue-600">
-              <h3 className="text-xl font-semibold mb-3">Step 3: Resource Access</h3>
-              <p className="mb-2">
-                You receive access to partnership resources, client education materials, marketing 
-                support, and real estate tools that enhance your ability to serve clients. These 
-                resources include guides, market analysis tools, and educational materials that 
-                support your client relationships.
-              </p>
-              <p>
-                Resource access includes ongoing updates, new materials, and tools that help you 
-                provide comprehensive real estate services to your clients while maintaining your 
-                focus on financial planning excellence.
-              </p>
-            </div>
-
-            <div className="p-6 border-l-4 border-blue-600">
-              <h3 className="text-xl font-semibold mb-3">Step 4: Ongoing Collaboration</h3>
-              <p className="mb-2">
-                We work together on client referrals, consultations, and complex real estate 
-                scenarios, ensuring that all services align with your financial planning 
-                recommendations and client goals. This ongoing collaboration ensures seamless 
-                service delivery and optimal client outcomes.
-              </p>
-              <p>
-                Regular communication, coordinated strategies, and shared client information ensure 
-                that real estate services complement your financial planning, maximizing outcomes 
-                for your clients and enhancing your practice's value proposition.
-              </p>
-            </div>
+        {/* How It Works - Link to dedicated page */}
+        <section className="mb-12 p-12 bg-neutral-50 rounded-xl border border-gray-200">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-semibold mb-6 text-gray-900">How the Partnership Works</h2>
+            <p className="mb-6 text-lg text-gray-900 max-w-3xl mx-auto leading-relaxed">
+              Our partnership process is designed to be straightforward and seamless, ensuring that 
+              real estate services integrate smoothly with your financial planning practice. We work 
+              with you to establish clear processes, communication protocols, and collaboration 
+              methods that support your clients and enhance your practice.
+            </p>
+            <Link
+              href="/cfp-partners/process"
+              className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg"
+            >
+              Learn About the Partnership Process →
+            </Link>
           </div>
         </section>
 

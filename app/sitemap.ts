@@ -44,10 +44,34 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/cfp-partners/benefits`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/cfp-partners/process`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/resources`,
       lastModified: new Date().toISOString().split('T')[0],
       changeFrequency: 'monthly',
       priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/resources/free`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/premium`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
     {
       url: `${baseUrl}/blog`,
