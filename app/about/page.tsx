@@ -122,102 +122,42 @@ export default function AboutPage() {
           </p>
         </section>
 
-        {/* Credentials Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6">Credentials & Certifications</h2>
-          <p className="mb-4 text-lg">
-            Dr. Janet Duffy maintains the highest professional standards and holds multiple 
-            certifications and credentials that demonstrate her expertise in real estate 
-            services, financial planning, and wealth transition strategies.
-          </p>
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Real Estate Credentials</h3>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Licensed Real Estate Professional in Nevada</li>
-                <li>Certified Real Estate Specialist for Financial Planners</li>
-                <li>Expert in Empty Nester Real Estate Transitions</li>
-                <li>55+ Community Planning Specialist</li>
-                <li>Wealth Transition Real Estate Advisor</li>
-              </ul>
-            </div>
-            <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Financial Planning Credentials</h3>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Certified Wealth Transition Planning Expert</li>
-                <li>Licensed Financial Planner</li>
-                <li>Estate Planning Specialist</li>
-                <li>Retirement Planning Advisor</li>
-                <li>Tax Planning Strategist</li>
-              </ul>
-            </div>
+        {/* Credentials Section - Link to dedicated page */}
+        <section className="mb-12 p-12 bg-blue-50 rounded-xl border border-blue-200">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-semibold mb-6 text-gray-900">Credentials & Certifications</h2>
+            <p className="mb-6 text-lg text-gray-900 max-w-3xl mx-auto leading-relaxed">
+              Dr. Janet Duffy maintains the highest professional standards and holds multiple 
+              certifications and credentials that demonstrate her expertise in real estate 
+              services, financial planning, and wealth transition strategies.
+            </p>
+            <Link
+              href="/about/credentials"
+              className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg"
+            >
+              View All Credentials & Certifications →
+            </Link>
           </div>
-          <p className="text-sm text-gray-900">
-            * Specific credentials to be updated with actual certifications
-          </p>
         </section>
 
-        {/* Philosophy Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6">Professional Philosophy and Approach</h2>
-          <p className="mb-4 text-lg">
-            Dr. Duffy believes that successful real estate services for financial planners 
-            require more than just property expertise—they demand a deep understanding of 
-            financial planning principles, tax strategies, and wealth transition objectives. 
-            As a fiduciary financial advisor in Las Vegas, her approach integrates real estate 
-            expertise with financial planning knowledge to ensure optimal outcomes for clients 
-            and their financial advisors.
-          </p>
-          <p className="mb-4 text-lg">
-            Her fiduciary principles and trust-based approach ensure that every recommendation 
-            prioritizes clients' best interests. She understands that real estate decisions 
-            significantly impact clients' financial plans, tax situations, and wealth 
-            transition strategies. Every recommendation she makes considers these broader 
-            financial implications, ensuring that real estate decisions support rather than 
-            complicate clients' financial objectives.
-          </p>
-          <p className="mb-4 text-lg">
-            Recognized as one of the best financial advisors in Las Vegas for real estate 
-            planning, Dr. Duffy maintains the highest standards of fiduciary responsibility, 
-            ensuring that all real estate recommendations align with clients' financial goals 
-            and support their long-term success.
-          </p>
-          
-          <h3 className="text-2xl font-semibold mb-4 mt-8">Collaborative Approach with Financial Planners</h3>
-          <p className="mb-4">
-            Dr. Duffy's philosophy centers on collaboration with Certified Financial Planners. 
-            She believes that the best outcomes occur when real estate services are fully 
-            integrated with financial planning strategies, ensuring that property decisions 
-            support clients' comprehensive financial goals.
-          </p>
-          <p className="mb-4">
-            This collaborative approach includes regular communication with financial planners, 
-            shared understanding of clients' financial situations, and coordinated strategies 
-            that maximize financial outcomes while minimizing complications.
-          </p>
-          
-          <h3 className="text-2xl font-semibold mb-4 mt-8">Key Principles of Her Approach</h3>
-          <ul className="list-disc pl-6 space-y-3 mb-4">
-            <li><strong>Financial Planning Alignment:</strong> Every real estate recommendation 
-            aligns with clients' financial plans, tax strategies, and wealth transition 
-            objectives. Dr. Duffy ensures that property decisions support rather than 
-            complicate financial planning goals.</li>
-            <li><strong>Education and Transparency:</strong> Clients and their financial 
-            planners receive comprehensive education about real estate decisions, market 
-            conditions, and financial implications. This transparency ensures informed 
-            decision-making and builds trust.</li>
-            <li><strong>Comprehensive Planning:</strong> Real estate services integrate with 
-            estate planning, retirement planning, tax strategies, and wealth transfer goals. 
-            This comprehensive approach ensures that property decisions support clients' 
-            overall financial success.</li>
-            <li><strong>Client-Focused Service:</strong> Every recommendation prioritizes 
-            clients' best interests, financial goals, and long-term success. Dr. Duffy 
-            maintains a fiduciary approach that ensures clients receive unbiased, expert 
-            guidance.</li>
-            <li><strong>Practice Integration:</strong> Services are designed to seamlessly 
-            integrate with financial planning practices, enhancing rather than complicating 
-            client relationships and service delivery.</li>
-          </ul>
+        {/* Philosophy Section - Link to dedicated page */}
+        <section className="mb-12 p-12 bg-neutral-50 rounded-xl border border-gray-200">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-semibold mb-6 text-gray-900">Professional Philosophy and Approach</h2>
+            <p className="mb-6 text-lg text-gray-900 max-w-3xl mx-auto leading-relaxed">
+              Dr. Duffy believes that successful real estate services for financial planners 
+              require more than just property expertise—they demand a deep understanding of 
+              financial planning principles, tax strategies, and wealth transition objectives. 
+              As a fiduciary financial advisor in Las Vegas, her approach integrates real estate 
+              expertise with financial planning knowledge to ensure optimal outcomes.
+            </p>
+            <Link
+              href="/about/philosophy"
+              className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg"
+            >
+              Learn More About Our Philosophy →
+            </Link>
+          </div>
         </section>
 
         {/* Real Estate Expertise */}

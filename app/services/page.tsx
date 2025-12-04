@@ -82,11 +82,47 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* Improved How We Work Section */}
-        <HowWeWorkSection />
+        {/* How We Work - Link to dedicated page */}
+        <section className="mb-16 p-12 bg-blue-50 rounded-xl border border-blue-200">
+          <div className="text-center mb-8">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+              How We Work With Financial Planners
+            </h2>
+            <p className="text-lg md:text-xl text-gray-900 max-w-4xl mx-auto leading-relaxed mb-8">
+              Our real estate services are designed to seamlessly integrate with your financial 
+              planning practice. We understand that you need real estate partners who can provide 
+              specialized expertise while maintaining alignment with your financial planning 
+              strategies and client relationships.
+            </p>
+            <Link
+              href="/services/how-we-work"
+              className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg"
+            >
+              Learn More About How We Work →
+            </Link>
+          </div>
+        </section>
 
-        {/* Improved Market Expertise Section */}
-        <MarketExpertiseSection />
+        {/* Market Expertise - Link to dedicated page */}
+        <section className="mb-16 p-12 bg-neutral-50 rounded-xl border border-gray-200">
+          <div className="text-center mb-8">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+              Las Vegas Real Estate Market Expertise
+            </h2>
+            <p className="text-lg md:text-xl text-gray-900 max-w-4xl mx-auto leading-relaxed mb-8">
+              Our team specializes in the Las Vegas real estate market, with deep expertise in 
+              empty nester transitions, 55+ communities, and wealth transition properties. We 
+              understand the unique characteristics of the Las Vegas market, including neighborhood 
+              trends, property values, and market timing factors.
+            </p>
+            <Link
+              href="/services/market-expertise"
+              className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg"
+            >
+              Explore Our Market Expertise →
+            </Link>
+          </div>
+        </section>
 
         {/* Philosophy Section */}
         <PhilosophySection />

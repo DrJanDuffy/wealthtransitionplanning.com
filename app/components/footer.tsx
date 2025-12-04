@@ -209,6 +209,8 @@ export default function Footer() {
                   width={120}
                   height={40}
                   className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy"
+                  fetchPriority="low"
                 />
               </div>
             )}
