@@ -85,10 +85,10 @@ export default function ServicesPage() {
         {/* How We Work - Link to dedicated page */}
         <section className="mb-16 p-12 bg-blue-50 rounded-xl border border-blue-200">
           <div className="text-center mb-8">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111827' }}>
               How We Work With Financial Planners
             </h2>
-            <p className="text-lg md:text-xl text-gray-800 dark:text-gray-200 max-w-4xl mx-auto leading-relaxed mb-8">
+            <p className="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed mb-8" style={{ color: '#1f2937' }}>
               Our real estate services are designed to seamlessly integrate with your financial 
               planning practice. We understand that you need real estate partners who can provide 
               specialized expertise while maintaining alignment with your financial planning 
@@ -106,10 +106,10 @@ export default function ServicesPage() {
         {/* Market Expertise - Link to dedicated page */}
         <section className="mb-16 p-12 bg-neutral-50 rounded-xl border border-gray-200">
           <div className="text-center mb-8">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111827' }}>
               Las Vegas Real Estate Market Expertise
             </h2>
-            <p className="text-lg md:text-xl text-gray-900 dark:text-gray-100 max-w-4xl mx-auto leading-relaxed mb-8">
+            <p className="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed mb-8" style={{ color: '#111827' }}>
               Our team specializes in the Las Vegas real estate market, with deep expertise in 
               empty nester transitions, 55+ communities, and wealth transition properties. We 
               understand the unique characteristics of the Las Vegas market, including neighborhood 

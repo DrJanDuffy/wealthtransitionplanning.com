@@ -85,10 +85,10 @@ export default function PremiumResourcesPage() {
 
       <article className="prose prose-lg max-w-none">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111827' }}>
             Premium Real Estate Resources for Financial Planners
           </h1>
-          <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl max-w-3xl mx-auto leading-relaxed" style={{ color: '#111827' }}>
             Download comprehensive guides, checklists, and templates to support your real estate 
             services and enhance your financial planning practice. These premium resources require 
             email registration to access and provide in-depth guidance on empty nester transitions, 
@@ -100,9 +100,9 @@ export default function PremiumResourcesPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {premiumResources.map((resource, index) => (
               <div key={index} className="p-6 border-2 border-gray-200 rounded-xl hover:border-blue-300 hover:shadow-lg transition-all">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">{resource.title}</h3>
-                <p className="text-sm text-gray-900 dark:text-gray-100 mb-4 leading-relaxed">{resource.description}</p>
-                <p className="text-sm text-gray-900 dark:text-gray-100 mb-4 leading-relaxed">{resource.details}</p>
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#111827' }}>{resource.title}</h3>
+                <p className="text-sm mb-4 leading-relaxed" style={{ color: '#111827' }}>{resource.description}</p>
+                <p className="text-sm mb-4 leading-relaxed" style={{ color: '#111827' }}>{resource.details}</p>
                 <Link
                   href={resource.href}
                   className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium text-sm"
@@ -115,7 +115,7 @@ export default function PremiumResourcesPage() {
         </section>
 
         <section className="mb-16 p-8 bg-blue-50 rounded-xl border border-blue-200">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100">Resource Categories</h2>
+          <h2 className="text-3xl font-bold mb-6" style={{ color: '#111827' }}>Resource Categories</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-6 bg-white dark:bg-neutral-900 rounded-lg border border-gray-200 dark:border-neutral-700">
               <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Empty Nester Real Estate Resources</h3>

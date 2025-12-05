@@ -74,15 +74,15 @@ export default function ContactPage() {
           </p>
           <div className="grid md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">For Certified Financial Planners</h3>
-              <p className="mb-4 text-gray-800 dark:text-gray-200">
+              <h3 className="text-xl font-semibold mb-3" style={{ color: '#111827' }}>For Certified Financial Planners</h3>
+              <p className="mb-4" style={{ color: '#1f2937' }}>
                 If you're a CFP looking to offer comprehensive real estate services to your 
                 clients, we can help. Our partnership program provides expert real estate 
                 guidance that seamlessly integrates with your financial planning practice, 
                 enhancing your value proposition and improving client outcomes.
               </p>
-              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Partnership Benefits:</h4>
-              <ul className="list-disc pl-6 space-y-1 text-sm text-gray-800 dark:text-gray-200">
+              <h4 className="text-lg font-semibold mb-2" style={{ color: '#111827' }}>Partnership Benefits:</h4>
+              <ul className="list-disc pl-6 space-y-1 text-sm" style={{ color: '#1f2937' }}>
                 <li>Expert real estate services for your clients</li>
                 <li>Seamless integration with financial planning</li>
                 <li>Enhanced value proposition</li>
@@ -91,8 +91,8 @@ export default function ContactPage() {
               </ul>
             </div>
             <div className="p-6 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">For Financial Planning Clients</h3>
-              <p className="mb-4 text-gray-800 dark:text-gray-200">
+              <h3 className="text-xl font-semibold mb-3" style={{ color: '#111827' }}>For Financial Planning Clients</h3>
+              <p className="mb-4" style={{ color: '#1f2937' }}>
                 If you're working with a financial planner and need expert real estate guidance, 
                 we can help. Our services ensure that your real estate decisions support your 
                 financial plans, tax strategies, and wealth transition goals, coordinated with 
