@@ -282,10 +282,10 @@ export default function ServiceTierPage({ params }: { params: { tier: string } }
         </section>
 
         {/* Fees Section */}
-        <section className="mb-12 p-8 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
-          <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Transparent Fees and Pricing</h2>
-          <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">{tier.fees}</p>
-          <p className="mb-4 text-gray-900 dark:text-gray-100">
+        <section className="mb-12 p-8 bg-neutral-50 rounded-lg">
+          <h2 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Transparent Fees and Pricing</h2>
+          <p className="mb-4 text-lg" style={{ color: '#111827' }}>{tier.fees}</p>
+          <p className="mb-4" style={{ color: '#111827' }}>
             All fees are transparent and discussed upfront. No hidden costs, no commissions. 
             Our {tier.name} service level provides comprehensive real estate services at a 
             transparent fee that fits your practice needs and client situations.

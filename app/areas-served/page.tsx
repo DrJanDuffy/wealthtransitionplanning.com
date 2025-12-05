@@ -54,10 +54,10 @@ export default function AreasServedPage() {
     <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#111827' }}>
           Areas We Serve
         </h1>
-        <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto">
+        <p className="text-xl max-w-3xl mx-auto" style={{ color: '#111827' }}>
           {businessConfig.name} proudly serves clients throughout the {businessConfig.serviceArea.city} metropolitan area and surrounding communities
         </p>
       </div>
@@ -65,13 +65,13 @@ export default function AreasServedPage() {
       {/* Primary Service Area */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 mb-12">
         <div className="text-center">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+          <h2 className="text-2xl font-bold mb-4" style={{ color: '#111827' }}>
             Primary Service Area
           </h2>
-          <p className="text-lg text-gray-800 dark:text-gray-200 mb-2">
+          <p className="text-lg mb-2" style={{ color: '#1f2937' }}>
             <strong>{businessConfig.address.city}, {businessConfig.address.state}</strong>
           </p>
-          <p className="text-gray-800 dark:text-gray-200">
+          <p style={{ color: '#1f2937' }}>
             {businessConfig.address.full}
           </p>
         </div>
@@ -84,15 +84,15 @@ export default function AreasServedPage() {
             key={index}
             className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
           >
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-3">
+            <h3 className="text-2xl font-bold mb-3" style={{ color: '#111827' }}>
               {area.name}
             </h3>
-            <p className="text-gray-900 dark:text-gray-100 mb-4 leading-relaxed">
+            <p className="mb-4 leading-relaxed" style={{ color: '#111827' }}>
               {area.description}
             </p>
             <div>
-              <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Key Areas:</h4>
-              <ul className="list-disc pl-6 space-y-1 text-gray-900 dark:text-gray-100">
+              <h4 className="font-semibold mb-2" style={{ color: '#111827' }}>Key Areas:</h4>
+              <ul className="list-disc pl-6 space-y-1" style={{ color: '#111827' }}>
                 {area.highlights.map((highlight, highlightIndex) => (
                   <li key={highlightIndex}>{highlight}</li>
                 ))}
