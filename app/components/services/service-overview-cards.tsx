@@ -55,10 +55,10 @@ export function ServiceOverviewCards() {
   return (
     <section className="mb-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
           Real Estate Services That Support Financial Planning
         </h2>
-        <p className="text-lg md:text-xl text-gray-900 max-w-4xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-gray-900 dark:text-gray-100 max-w-4xl mx-auto leading-relaxed">
           Our real estate services are specifically designed to complement financial planning 
           practices. We understand that real estate decisions significantly impact your clients' 
           financial plans, tax situations, and wealth transition strategies. Every service we 
@@ -74,15 +74,15 @@ export function ServiceOverviewCards() {
             className="group p-8 bg-blue-50 rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-lg transition-all duration-300"
           >
             <div className="text-5xl mb-4">{service.icon}</div>
-            <h3 className="text-2xl font-bold mb-4 text-gray-900 group-hover:text-blue-700 transition-colors">
+            <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100 group-hover:text-blue-700 dark:group-hover:text-blue-400 transition-colors">
               {service.title}
             </h3>
-            <p className="mb-6 text-gray-900 leading-relaxed">
+            <p className="mb-6 text-gray-800 dark:text-gray-200 leading-relaxed">
               {service.description}
             </p>
             <div className="mb-6">
-              <h4 className="text-lg font-semibold mb-3 text-gray-900">Key Services:</h4>
-              <ul className="list-disc pl-6 space-y-2 text-sm text-gray-900">
+              <h4 className="text-lg font-semibold mb-3 text-gray-900 dark:text-gray-100">Key Services:</h4>
+              <ul className="list-disc pl-6 space-y-2 text-sm text-gray-800 dark:text-gray-200">
                 {service.services.map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}
@@ -90,7 +90,7 @@ export function ServiceOverviewCards() {
             </div>
             <Link
               href={service.link}
-              className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold group-hover:underline transition-all"
+              className="inline-flex items-center text-blue-700 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-semibold group-hover:underline transition-all"
             >
               Learn More
               <svg

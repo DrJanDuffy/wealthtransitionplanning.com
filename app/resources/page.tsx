@@ -40,9 +40,9 @@ export default function ResourcesPage() {
       </nav>
       <article className="prose prose-lg max-w-none">
 
-      <h1 className="text-4xl font-bold mb-4">Real Estate Resources for Financial Planners</h1>
+      <h1 className="text-4xl font-bold mb-4 text-gray-900 dark:text-gray-100">Real Estate Resources for Financial Planners</h1>
       
-      <p className="text-xl text-gray-900 mb-8">
+      <p className="text-xl text-gray-900 dark:text-gray-100 mb-8">
         Educational resources to support financial planners and their clients in real estate 
         decision-making, empty nester transitions, 55+ community planning, and wealth transition 
         strategies in Las Vegas, Nevada.
@@ -50,21 +50,21 @@ export default function ResourcesPage() {
 
       {/* Introduction */}
       <section className="mb-12">
-        <h2 className="text-3xl font-semibold mb-6">Comprehensive Real Estate Resources for Financial Planning Success</h2>
-        <p className="mb-4 text-lg text-gray-900">
+        <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Comprehensive Real Estate Resources for Financial Planning Success</h2>
+        <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">
           As a Certified Financial Planner, you understand that real estate decisions are 
           integral to your clients' overall financial picture. Whether your clients are empty 
           nesters looking to downsize, retirees considering 55+ communities, or families planning 
           wealth transitions, real estate plays a crucial role in their financial success.
         </p>
-        <p className="mb-4 text-lg text-gray-900">
+        <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">
           Our comprehensive resource library provides you and your clients with expert guidance, 
           educational materials, and practical tools to support real estate decision-making that 
           aligns with financial planning goals. These resources are specifically designed to 
           complement your financial planning practice and enhance your ability to serve clients 
           comprehensively.
         </p>
-        <p className="mb-4 text-lg text-gray-900">
+        <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">
           From free educational content to premium guides and checklists, our resources cover 
           empty nester real estate transitions, 55+ community planning, wealth transition 
           strategies, and Las Vegas market insights that support your financial planning 
@@ -75,8 +75,8 @@ export default function ResourcesPage() {
       {/* Free Resources Section - Link to dedicated page */}
       <section className="mb-12 p-12 bg-blue-50 rounded-xl border border-blue-200">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-semibold mb-6 text-gray-900">Free Resources for Financial Planners and Clients</h2>
-          <p className="mb-6 text-lg text-gray-900 max-w-3xl mx-auto leading-relaxed">
+          <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Free Resources for Financial Planners and Clients</h2>
+          <p className="mb-6 text-lg text-gray-800 dark:text-gray-200 max-w-3xl mx-auto leading-relaxed">
             Access our free educational content including blog articles, calculators, and guides 
             to help you and your clients understand real estate decision-making, empty nester 
             transitions, 55+ community planning, and how real estate decisions impact financial 
@@ -94,8 +94,8 @@ export default function ResourcesPage() {
       {/* Premium Resources Section - Link to dedicated page */}
       <section className="mb-12 p-12 bg-neutral-50 rounded-xl border border-gray-200">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-semibold mb-6 text-gray-900">Premium Real Estate Resources for Financial Planners</h2>
-          <p className="mb-6 text-lg text-gray-900 max-w-3xl mx-auto leading-relaxed">
+          <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Premium Real Estate Resources for Financial Planners</h2>
+          <p className="mb-6 text-lg text-gray-900 dark:text-gray-100 max-w-3xl mx-auto leading-relaxed">
             Download comprehensive guides, checklists, and templates to support your real estate 
             services and enhance your financial planning practice. These premium resources require 
             email registration to access and provide in-depth guidance on empty nester transitions, 
@@ -112,14 +112,14 @@ export default function ResourcesPage() {
 
       {/* CTA Section */}
       <section className="mb-12 p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-        <h2 className="text-3xl font-semibold mb-4">Need Personalized Real Estate Guidance?</h2>
-        <p className="mb-6 text-lg text-gray-900">
+        <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Need Personalized Real Estate Guidance?</h2>
+        <p className="mb-6 text-lg text-gray-800 dark:text-gray-200">
           While these resources provide valuable information, every client situation is unique. 
           Schedule a consultation to discuss how our real estate services can support your 
           financial planning practice and help your clients achieve their real estate and 
           financial goals.
         </p>
-        <p className="mb-6 text-gray-900">
+        <p className="mb-6 text-gray-800 dark:text-gray-200">
           Our real estate services are specifically designed to complement financial planning, 
           ensuring that every property recommendation aligns with your clients' financial plans, 
           tax strategies, and wealth transition objectives. Let's discuss how we can support 
@@ -134,7 +134,7 @@ export default function ResourcesPage() {
           </Link>
           <Link
             href="/cfp-partners"
-            className="inline-block px-6 py-3 border border-blue-600 text-blue-600 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/40 transition-colors font-medium"
+              className="inline-block px-6 py-3 border border-blue-600 text-blue-700 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/40 transition-colors font-medium"
           >
             Learn About CFP Partnerships
           </Link>
@@ -143,7 +143,7 @@ export default function ResourcesPage() {
 
       {/* Internal Links */}
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Explore More</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Explore More</h2>
         <ul className="list-disc pl-6 space-y-2">
           <li>
             <Link href="/blog" className="text-blue-600 dark:text-blue-400 hover:underline">

@@ -8,7 +8,7 @@ export function PhilosophySection() {
   return (
     <section className="mb-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4">
+        <h2 className="text-4xl font-bold mb-4 text-gray-900 dark:text-gray-100">
           Our Financial Planning Philosophy For Wealth Transition
         </h2>
         <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto font-medium">
@@ -34,7 +34,7 @@ export function PhilosophySection() {
               />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold mb-3">Fee-Only Fiduciary</h3>
+          <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Fee-Only Fiduciary</h3>
           <p className="text-gray-900 dark:text-gray-100">
             As Fee-Only financial planners, we work for you. Our fiduciary obligation is to work 
             solely in your best interests with no commissions or sales pitch.
@@ -57,7 +57,7 @@ export function PhilosophySection() {
               />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold mb-3">Comprehensive Planning</h3>
+          <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Comprehensive Planning</h3>
           <p className="text-gray-900 dark:text-gray-100">
             We'll make sure all the pieces of your financial life fit together - estate planning, 
             retirement, real estate, and wealth transfer strategies.
@@ -80,7 +80,7 @@ export function PhilosophySection() {
               />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold mb-3">We Walk Our Talk</h3>
+          <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">We Walk Our Talk</h3>
           <p className="text-gray-900 dark:text-gray-100">
             We're wealth transition planning experts, financial planners, and estate planning 
             specialists. Because we understand both wealth management and estate planning, 

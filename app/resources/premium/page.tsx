@@ -85,10 +85,10 @@ export default function PremiumResourcesPage() {
 
       <article className="prose prose-lg max-w-none">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
             Premium Real Estate Resources for Financial Planners
           </h1>
-          <p className="text-xl text-gray-900 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto leading-relaxed">
             Download comprehensive guides, checklists, and templates to support your real estate 
             services and enhance your financial planning practice. These premium resources require 
             email registration to access and provide in-depth guidance on empty nester transitions, 
@@ -100,9 +100,9 @@ export default function PremiumResourcesPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {premiumResources.map((resource, index) => (
               <div key={index} className="p-6 border-2 border-gray-200 rounded-xl hover:border-blue-300 hover:shadow-lg transition-all">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">{resource.title}</h3>
-                <p className="text-sm text-gray-900 mb-4 leading-relaxed">{resource.description}</p>
-                <p className="text-sm text-gray-900 mb-4 leading-relaxed">{resource.details}</p>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">{resource.title}</h3>
+                <p className="text-sm text-gray-900 dark:text-gray-100 mb-4 leading-relaxed">{resource.description}</p>
+                <p className="text-sm text-gray-900 dark:text-gray-100 mb-4 leading-relaxed">{resource.details}</p>
                 <Link
                   href={resource.href}
                   className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium text-sm"
@@ -115,17 +115,17 @@ export default function PremiumResourcesPage() {
         </section>
 
         <section className="mb-16 p-8 bg-blue-50 rounded-xl border border-blue-200">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">Resource Categories</h2>
+          <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100">Resource Categories</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Empty Nester Real Estate Resources</h3>
-              <p className="text-sm text-gray-900 mb-4">
+            <div className="p-6 bg-white dark:bg-neutral-900 rounded-lg border border-gray-200 dark:border-neutral-700">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Empty Nester Real Estate Resources</h3>
+              <p className="text-sm text-gray-900 dark:text-gray-100 mb-4">
                 Comprehensive guides, checklists, and resources for empty nester real estate 
                 transitions. These resources help financial planners guide clients through 
                 downsizing decisions that support financial goals and retirement planning.
               </p>
-              <h4 className="text-lg font-semibold mb-2 text-gray-900">Resources Include:</h4>
-              <ul className="list-disc pl-6 space-y-1 text-sm text-gray-900">
+              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Resources Include:</h4>
+              <ul className="list-disc pl-6 space-y-1 text-sm text-gray-900 dark:text-gray-100">
                 <li>Empty nester transition guides</li>
                 <li>Downsizing decision frameworks</li>
                 <li>Market timing analysis tools</li>
@@ -134,15 +134,15 @@ export default function PremiumResourcesPage() {
               </ul>
             </div>
 
-            <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">55+ Community Planning Resources</h3>
-              <p className="text-sm text-gray-900 mb-4">
+            <div className="p-6 bg-white dark:bg-neutral-900 rounded-lg border border-gray-200 dark:border-neutral-700">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">55+ Community Planning Resources</h3>
+              <p className="text-sm text-gray-900 dark:text-gray-100 mb-4">
                 Resources for retirement transitions and 55+ community planning strategies. These 
                 materials help financial planners assist clients in finding communities that align 
                 with retirement goals and financial situations.
               </p>
-              <h4 className="text-lg font-semibold mb-2 text-gray-900">Resources Include:</h4>
-              <ul className="list-disc pl-6 space-y-1 text-sm text-gray-900">
+              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Resources Include:</h4>
+              <ul className="list-disc pl-6 space-y-1 text-sm text-gray-900 dark:text-gray-100">
                 <li>55+ community market guides</li>
                 <li>Financial impact assessments</li>
                 <li>Community evaluation tools</li>
@@ -151,15 +151,15 @@ export default function PremiumResourcesPage() {
               </ul>
             </div>
 
-            <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Wealth Transition Real Estate Resources</h3>
-              <p className="text-sm text-gray-900 mb-4">
+            <div className="p-6 bg-white dark:bg-neutral-900 rounded-lg border border-gray-200 dark:border-neutral-700">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Wealth Transition Real Estate Resources</h3>
+              <p className="text-sm text-gray-900 dark:text-gray-100 mb-4">
                 Guides for wealth transition real estate planning, estate integration, and 
                 multi-generational property strategies. These resources support financial planners 
                 in managing clients' real estate assets for optimal wealth transfer outcomes.
               </p>
-              <h4 className="text-lg font-semibold mb-2 text-gray-900">Resources Include:</h4>
-              <ul className="list-disc pl-6 space-y-1 text-sm text-gray-900">
+              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Resources Include:</h4>
+              <ul className="list-disc pl-6 space-y-1 text-sm text-gray-900 dark:text-gray-100">
                 <li>Real estate portfolio analysis</li>
                 <li>Estate planning integration guides</li>
                 <li>Tax-efficient strategies</li>
@@ -172,8 +172,8 @@ export default function PremiumResourcesPage() {
 
         <section className="mb-16 p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl">
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-6 text-gray-900">Also Check Out Our Free Resources</h2>
-            <p className="text-xl text-gray-900 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100">Also Check Out Our Free Resources</h2>
+            <p className="text-xl text-gray-800 dark:text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
               Access free blog articles, calculators, and educational content designed to support 
               your financial planning practice.
             </p>

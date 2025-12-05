@@ -41,10 +41,10 @@ export default function FreeResourcesPage() {
 
       <article className="prose prose-lg max-w-none">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
             Free Resources for Financial Planners and Clients
           </h1>
-          <p className="text-xl text-gray-900 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto leading-relaxed">
             Access our free educational content to help you and your clients understand real estate 
             decision-making, empty nester transitions, 55+ community planning, and how real estate 
             decisions impact financial planning strategies.
@@ -54,8 +54,8 @@ export default function FreeResourcesPage() {
         {/* Latest Blog Posts */}
         <section className="mb-16">
           <div className="mb-8">
-            <h2 className="text-3xl font-bold mb-4 text-gray-900">Latest Real Estate Articles for Financial Planners</h2>
-            <p className="mb-6 text-lg text-gray-900 leading-relaxed">
+            <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">Latest Real Estate Articles for Financial Planners</h2>
+            <p className="mb-6 text-lg text-gray-900 dark:text-gray-100 leading-relaxed">
               Stay informed with our latest blog posts on real estate topics relevant to financial 
               planners, including empty nester transitions, 55+ community planning, wealth transition 
               strategies, and Las Vegas market insights. These articles provide expert analysis, 
@@ -77,8 +77,8 @@ export default function FreeResourcesPage() {
 
         {/* Free Calculators */}
         <section className="mb-16 p-8 bg-blue-50 rounded-xl border border-blue-200">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">Free Real Estate Planning Calculators</h2>
-          <p className="mb-6 text-lg text-gray-900 leading-relaxed">
+          <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100">Free Real Estate Planning Calculators</h2>
+          <p className="mb-6 text-lg text-gray-800 dark:text-gray-200 leading-relaxed">
             Our free calculators help you and your clients assess real estate decisions, analyze 
             financial implications, and understand how property choices impact financial planning 
             strategies. These tools provide valuable insights that support informed decision-making 
@@ -86,47 +86,47 @@ export default function FreeResourcesPage() {
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Empty Nester Real Estate Transition Calculator</h3>
-              <p className="mb-4 text-gray-900">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Empty Nester Real Estate Transition Calculator</h3>
+              <p className="mb-4 text-gray-900 dark:text-gray-100">
                 Analyze the financial implications of downsizing, including sale proceeds, purchase 
                 costs, and impact on retirement planning.
               </p>
-              <p className="text-sm text-gray-900 italic">Coming soon</p>
+              <p className="text-sm text-gray-900 dark:text-gray-100 italic">Coming soon</p>
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">55+ Community Financial Impact Calculator</h3>
-              <p className="mb-4 text-gray-900">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">55+ Community Financial Impact Calculator</h3>
+              <p className="mb-4 text-gray-900 dark:text-gray-100">
                 Assess how 55+ community choices impact retirement income, estate planning, and 
                 long-term financial security.
               </p>
-              <p className="text-sm text-gray-900 italic">Coming soon</p>
+              <p className="text-sm text-gray-900 dark:text-gray-100 italic">Coming soon</p>
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Wealth Transition Real Estate Calculator</h3>
-              <p className="mb-4 text-gray-900">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Wealth Transition Real Estate Calculator</h3>
+              <p className="mb-4 text-gray-900 dark:text-gray-100">
                 Evaluate real estate portfolio strategies for wealth transfer, tax optimization, 
                 and estate planning objectives.
               </p>
-              <p className="text-sm text-gray-900 italic">Coming soon</p>
+              <p className="text-sm text-gray-900 dark:text-gray-100 italic">Coming soon</p>
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Real Estate Tax Impact Calculator</h3>
-              <p className="mb-4 text-gray-900">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Real Estate Tax Impact Calculator</h3>
+              <p className="mb-4 text-gray-900 dark:text-gray-100">
                 Understand tax implications of real estate transactions and how they affect overall 
                 tax planning strategies.
               </p>
-              <p className="text-sm text-gray-900 italic">Coming soon</p>
+              <p className="text-sm text-gray-900 dark:text-gray-100 italic">Coming soon</p>
             </div>
           </div>
         </section>
 
         <section className="mb-16 p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl">
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-6 text-gray-900">Need More Comprehensive Resources?</h2>
-            <p className="text-xl text-gray-900 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100">Need More Comprehensive Resources?</h2>
+            <p className="text-xl text-gray-800 dark:text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
               Explore our premium resources including comprehensive guides, detailed checklists, 
               and in-depth workbooks designed specifically for financial planners.
             </p>
