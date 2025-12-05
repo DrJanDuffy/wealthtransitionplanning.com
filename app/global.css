@@ -104,6 +104,20 @@ body {
   background-color: #ffffff !important;
 }
 
+/* Force main content area to have visible text */
+main {
+  color: #111827 !important;
+}
+
+main *:not([class*="bg-blue-"]):not([class*="bg-gradient"]):not([class*="text-white"]):not([class*="text-blue-"]) {
+  color: #111827 !important;
+}
+
+/* Override any dark mode classes in main when in light mode */
+html:not(.dark) main *[class*="dark:text-"] {
+  color: #111827 !important;
+}
+
 /* Force text visibility in all prose article sections - CRITICAL FIX */
 article.prose,
 article.prose-lg,
