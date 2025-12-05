@@ -125,8 +125,8 @@ export default function AboutPage() {
         {/* Credentials Section - Link to dedicated page */}
         <section className="mb-12 p-12 bg-blue-50 rounded-xl border border-blue-200">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-semibold mb-6 text-gray-900">Credentials & Certifications</h2>
-            <p className="mb-6 text-lg text-gray-900 max-w-3xl mx-auto leading-relaxed">
+            <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Credentials & Certifications</h2>
+            <p className="mb-6 text-lg text-gray-800 dark:text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Dr. Janet Duffy maintains the highest professional standards and holds multiple 
               certifications and credentials that demonstrate her expertise in real estate 
               services, financial planning, and wealth transition strategies.
@@ -143,8 +143,8 @@ export default function AboutPage() {
         {/* Philosophy Section - Link to dedicated page */}
         <section className="mb-12 p-12 bg-neutral-50 rounded-xl border border-gray-200">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-semibold mb-6 text-gray-900">Professional Philosophy and Approach</h2>
-            <p className="mb-6 text-lg text-gray-900 max-w-3xl mx-auto leading-relaxed">
+            <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Professional Philosophy and Approach</h2>
+            <p className="mb-6 text-lg text-gray-900 dark:text-gray-100 max-w-3xl mx-auto leading-relaxed">
               Dr. Duffy believes that successful real estate services for financial planners 
               require more than just property expertise—they demand a deep understanding of 
               financial planning principles, tax strategies, and wealth transition objectives. 
@@ -162,7 +162,7 @@ export default function AboutPage() {
 
         {/* Real Estate Expertise */}
         <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6">Real Estate Expertise for Financial Planners</h2>
+          <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Real Estate Expertise for Financial Planners</h2>
           <p className="mb-4 text-lg text-gray-900">
             Dr. Duffy's real estate expertise is specifically tailored to support financial 
             planners and their clients. She understands the unique needs of CFPs who require 
@@ -216,26 +216,26 @@ export default function AboutPage() {
 
         {/* Service Area */}
         <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6">Service Area and Market Expertise</h2>
+          <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Service Area and Market Expertise</h2>
           <p className="mb-4 text-lg text-gray-900">
             Dr. Janet Duffy serves clients throughout the Las Vegas metropolitan area, 
             providing expert real estate services that support financial planners and their 
             clients across the region.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-gray-900 dark:text-gray-100">
             Her deep knowledge of the Las Vegas real estate market includes understanding 
             neighborhood trends, property values, market timing factors, and community 
             characteristics that impact clients' financial decisions. This market expertise 
             ensures that real estate recommendations are informed, accurate, and support 
             clients' financial objectives.
           </p>
-          <h3 className="text-2xl font-semibold mb-4 mt-8">Primary Service Areas</h3>
+          <h3 className="text-2xl font-semibold mb-4 mt-8 text-gray-900 dark:text-gray-100">Primary Service Areas</h3>
           <ul className="list-disc pl-6 space-y-2 mb-4">
             {businessConfig.serviceArea.regions.map((region) => (
-              <li key={region} className="text-lg">{region}, Nevada</li>
+              <li key={region} className="text-lg text-gray-900 dark:text-gray-100">{region}, Nevada</li>
             ))}
           </ul>
-          <p className="mb-4">
+          <p className="mb-4 text-gray-900 dark:text-gray-100">
             Each service area receives specialized attention, with Dr. Duffy maintaining 
             detailed knowledge of local market conditions, property trends, and community 
             characteristics that impact clients' real estate decisions and financial outcomes.
@@ -244,27 +244,27 @@ export default function AboutPage() {
 
         {/* Professional Associations */}
         <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6">Professional Associations and Community Involvement</h2>
-          <p className="mb-4 text-lg">
+          <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Professional Associations and Community Involvement</h2>
+          <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">
             Dr. Duffy maintains active membership in professional organizations dedicated to 
             real estate excellence, financial planning, estate planning, and wealth management. 
             These associations provide ongoing education, networking opportunities, and access 
             to industry best practices that enhance her ability to serve financial planners 
             and their clients.
           </p>
-          <h3 className="text-2xl font-semibold mb-4 mt-8">Real Estate Associations</h3>
+          <h3 className="text-2xl font-semibold mb-4 mt-8 text-gray-900 dark:text-gray-100">Real Estate Associations</h3>
           <ul className="list-disc pl-6 space-y-2 mb-4">
-            <li>Nevada Association of Realtors</li>
-            <li>Las Vegas Real Estate Professionals Association</li>
-            <li>National Association of Realtors</li>
-            <li>Real Estate Services for Financial Planners Network</li>
+            <li className="text-gray-900 dark:text-gray-100">Nevada Association of Realtors</li>
+            <li className="text-gray-900 dark:text-gray-100">Las Vegas Real Estate Professionals Association</li>
+            <li className="text-gray-900 dark:text-gray-100">National Association of Realtors</li>
+            <li className="text-gray-900 dark:text-gray-100">Real Estate Services for Financial Planners Network</li>
           </ul>
-          <h3 className="text-2xl font-semibold mb-4 mt-8">Financial Planning Associations</h3>
+          <h3 className="text-2xl font-semibold mb-4 mt-8 text-gray-900 dark:text-gray-100">Financial Planning Associations</h3>
           <ul className="list-disc pl-6 space-y-2 mb-4">
-            <li>Financial Planning Association (FPA)</li>
-            <li>National Association of Personal Financial Advisors (NAPFA)</li>
-            <li>Estate Planning Council</li>
-            <li>Las Vegas Financial Planning Association</li>
+            <li className="text-gray-900 dark:text-gray-100">Financial Planning Association (FPA)</li>
+            <li className="text-gray-900 dark:text-gray-100">National Association of Personal Financial Advisors (NAPFA)</li>
+            <li className="text-gray-900 dark:text-gray-100">Estate Planning Council</li>
+            <li className="text-gray-900 dark:text-gray-100">Las Vegas Financial Planning Association</li>
           </ul>
           <p className="text-sm text-gray-900">
             * Specific associations to be updated
@@ -274,32 +274,32 @@ export default function AboutPage() {
         {/* Who Are Our Clients */}
         <section className="mb-12 p-12 bg-neutral-50 dark:bg-neutral-900 rounded-2xl">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-semibold mb-4">Who Are Our Clients?</h2>
+            <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Who Are Our Clients?</h2>
           </div>
           <div className="max-w-4xl mx-auto mb-8">
-            <p className="text-lg mb-6">
+            <p className="text-lg mb-6 text-gray-900 dark:text-gray-100">
               We work with Certified Financial Planners and their clients who need expert real 
               estate services to support their financial planning goals. Our clients include:
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <ul className="list-disc pl-6 space-y-3">
-              <li><strong>Certified Financial Planners</strong> looking to offer comprehensive 
+              <li className="text-gray-900 dark:text-gray-100"><strong>Certified Financial Planners</strong> looking to offer comprehensive 
               real estate services to their clients</li>
-              <li><strong>CFP clients</strong> who are empty nesters planning real estate transitions</li>
-              <li><strong>Retirees</strong> considering 55+ communities in Las Vegas</li>
+              <li className="text-gray-900 dark:text-gray-100"><strong>CFP clients</strong> who are empty nesters planning real estate transitions</li>
+              <li className="text-gray-900 dark:text-gray-100"><strong>Retirees</strong> considering 55+ communities in Las Vegas</li>
             </ul>
             <ul className="list-disc pl-6 space-y-3">
-              <li><strong>Wealth transition clients</strong> needing real estate planning support</li>
-              <li><strong>Estate planning clients</strong> with real estate assets to manage</li>
-              <li><strong>Financial planning practices</strong> seeking real estate partnership services</li>
+              <li className="text-gray-900 dark:text-gray-100"><strong>Wealth transition clients</strong> needing real estate planning support</li>
+              <li className="text-gray-900 dark:text-gray-100"><strong>Estate planning clients</strong> with real estate assets to manage</li>
+              <li className="text-gray-900 dark:text-gray-100"><strong>Financial planning practices</strong> seeking real estate partnership services</li>
             </ul>
           </div>
         </section>
 
         {/* FAQ Section */}
         <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Frequently Asked Questions</h2>
           <div className="max-w-4xl mx-auto">
             <TargetFAQ category="all" />
             <div className="space-y-6 mt-8">
@@ -309,8 +309,8 @@ export default function AboutPage() {
                 ...targetFAQQuestions.communities.slice(0, 1),
               ].map((faq, index) => (
                 <div key={index} className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
-                  <h3 className="text-xl font-semibold mb-3">{faq.question}</h3>
-                  <p className="text-gray-900">{faq.answer}</p>
+                  <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">{faq.question}</h3>
+                  <p className="text-gray-900 dark:text-gray-100">{faq.answer}</p>
                 </div>
               ))}
             </div>
@@ -319,8 +319,8 @@ export default function AboutPage() {
 
         {/* CTA Section */}
         <section className="mb-12 p-8 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
-          <h2 className="text-3xl font-semibold mb-4">Ready to Partner with Dr. Janet Duffy?</h2>
-          <p className="mb-6 text-lg">
+          <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Ready to Partner with Dr. Janet Duffy?</h2>
+          <p className="mb-6 text-lg text-gray-900 dark:text-gray-100">
             If you're a CERTIFIED Financial Planner looking to enhance your practice with 
             expert real estate services, or if you're a client seeking real estate guidance 
             that supports your financial planning goals, schedule a free consultation with Dr. 
@@ -339,7 +339,7 @@ export default function AboutPage() {
 
         {/* Internal Links */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Learn More</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Learn More</h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>
               <Link href="/cfp-partners" className="text-blue-600 dark:text-blue-400 hover:underline">
