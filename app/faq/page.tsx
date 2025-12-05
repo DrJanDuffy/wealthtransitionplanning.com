@@ -104,10 +104,10 @@ export default function FAQPage() {
 
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold style={{ color: '#111827' }} mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#111827' }}>
           Frequently Asked Questions
         </h1>
-        <p className="text-xl style={{ color: '#111827' }}">
+        <p className="text-xl" style={{ color: '#111827' }}>
           Find answers to common questions about our wealth transition planning services
         </p>
       </div>
@@ -118,10 +118,10 @@ export default function FAQPage() {
 
       {/* Contact CTA */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 text-center mb-12">
-        <h2 className="text-2xl font-bold style={{ color: '#111827' }} mb-4">
+        <h2 className="text-2xl font-bold mb-4" style={{ color: '#111827' }}>
           Still Have Questions?
         </h2>
-        <p className="style={{ color: '#1f2937' }} mb-6">
+        <p className="mb-6" style={{ color: '#1f2937' }}>
           We're here to help! Schedule a free consultation to discuss your specific situation and get personalized answers.
         </p>
         <FinancialCheckupCTA />

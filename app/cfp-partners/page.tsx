@@ -246,22 +246,22 @@ export default function CFPPartnersPage() {
           
           <div className="space-y-8">
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 style={{ color: '#111827' }}">Empty Nester Real Estate Services</h3>
-              <p className="mb-4 text-lg style={{ color: '#1f2937' }}">
+              <h3 className="text-2xl font-semibold mb-4" style={{ color: '#111827' }}>Empty Nester Real Estate Services</h3>
+              <p className="mb-4 text-lg" style={{ color: '#1f2937' }}>
                 Empty nesters face unique real estate challenges that require specialized expertise. 
                 When your clients' children have moved out, they often need to transition from 
                 large family homes to properties that better suit their current lifestyle and 
                 financial situation. This transition involves complex considerations that impact 
                 their financial plans, tax situations, and retirement strategies.
               </p>
-              <p className="mb-4 style={{ color: '#1f2937' }}">
+              <p className="mb-4" style={{ color: '#1f2937' }}>
                 Our empty nester real estate services help your clients navigate this transition 
                 successfully. We provide comprehensive market analysis to determine optimal timing 
                 for selling their current property, identify suitable downsizing options that align 
                 with their lifestyle goals, and coordinate the transaction to minimize tax 
                 implications and maximize financial outcomes.
               </p>
-              <p className="mb-4 style={{ color: '#1f2937' }}">
+              <p className="mb-4" style={{ color: '#1f2937' }}>
                 We work closely with you to understand your clients' financial plans, retirement 
                 goals, and estate planning objectives. This collaboration ensures that every real 
                 estate recommendation supports their broader financial strategy and helps them 
@@ -288,21 +288,21 @@ export default function CFPPartnersPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 style={{ color: '#111827' }}">55+ Community Planning Services</h3>
-              <p className="mb-4 text-lg style={{ color: '#1f2937' }}">
+              <h3 className="text-2xl font-semibold mb-4" style={{ color: '#111827' }}>55+ Community Planning Services</h3>
+              <p className="mb-4 text-lg" style={{ color: '#1f2937' }}>
                 Las Vegas offers exceptional 55+ active adult communities that provide retirees 
                 with vibrant lifestyles, excellent amenities, and maintenance-free living. However, 
                 choosing the right 55+ community requires careful consideration of financial 
                 implications, lifestyle factors, and long-term planning objectives.
               </p>
-              <p className="mb-4 style={{ color: '#1f2937' }}">
+              <p className="mb-4" style={{ color: '#1f2937' }}>
                 Our 55+ community planning services help your clients find communities that align 
                 with their retirement goals, financial situation, and lifestyle preferences. We 
                 provide comprehensive community analysis, including financial impact assessments, 
                 amenity evaluations, and long-term value considerations that support your retirement 
                 planning recommendations.
               </p>
-              <p className="mb-4 style={{ color: '#1f2937' }}">
+              <p className="mb-4" style={{ color: '#1f2937' }}>
                 We understand that 55+ community decisions impact your clients' retirement income 
                 planning, estate planning, and overall financial security. Our services integrate 
                 with your financial planning to ensure community choices support long-term financial 
@@ -329,22 +329,22 @@ export default function CFPPartnersPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 style={{ color: '#111827' }}">Wealth Transition Real Estate Planning</h3>
-              <p className="mb-4 text-lg style={{ color: '#1f2937' }}">
+              <h3 className="text-2xl font-semibold mb-4" style={{ color: '#111827' }}>Wealth Transition Real Estate Planning</h3>
+              <p className="mb-4 text-lg" style={{ color: '#1f2937' }}>
                 Real estate is often the largest and most complex asset in your clients' portfolios, 
                 and strategic real estate planning is essential for successful wealth transitions. 
                 Whether your clients are planning estate transfers, optimizing tax strategies, or 
                 managing multi-generational properties, real estate decisions significantly impact 
                 their financial outcomes.
               </p>
-              <p className="mb-4 style={{ color: '#1f2937' }}">
+              <p className="mb-4" style={{ color: '#1f2937' }}>
                 Our wealth transition real estate planning services help your clients make strategic 
                 real estate decisions that support their estate planning, tax optimization, and 
                 wealth transfer goals. We work closely with you to understand your clients' 
                 comprehensive financial situation and ensure real estate strategies align with their 
                 broader wealth transition objectives.
               </p>
-              <p className="mb-4 style={{ color: '#1f2937' }}">
+              <p className="mb-4" style={{ color: '#1f2937' }}>
                 This integrated approach ensures that real estate decisions complement your financial 
                 planning recommendations, maximize tax efficiency, and support successful wealth 
                 transitions for your clients and their families.

@@ -57,20 +57,20 @@ export default function FiftyFivePlusCommunitiesPage() {
         {/* Overview */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold mb-8">Comprehensive 55+ Community Planning Services</h2>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             Las Vegas offers exceptional 55+ active adult communities that provide retirees with 
             vibrant lifestyles, excellent amenities, and maintenance-free living. However, choosing 
             the right 55+ community requires careful consideration of financial implications, 
             lifestyle factors, and long-term planning objectives.
           </p>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             Our 55+ community planning services help your clients find communities that align 
             with their retirement goals, financial situation, and lifestyle preferences. We 
             provide comprehensive community analysis, including financial impact assessments, 
             amenity evaluations, and long-term value considerations that support your retirement 
             planning recommendations.
           </p>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             We understand that 55+ community decisions impact your clients' retirement income 
             planning, estate planning, and overall financial security. Our services integrate 
             with your financial planning to ensure community choices support long-term financial 
@@ -84,7 +84,7 @@ export default function FiftyFivePlusCommunitiesPage() {
           
           <div className="space-y-8">
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Community Market Analysis</h3>
+              <h3 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Community Market Analysis</h3>
               <p className="text-lg mb-4 style={{ color: '#1f2937' }}">
                 Comprehensive analysis of Las Vegas 55+ communities, including pricing trends, 
                 availability, and value propositions that support your clients' financial goals. 
@@ -110,7 +110,7 @@ export default function FiftyFivePlusCommunitiesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Financial Impact Assessment</h3>
+              <h3 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Financial Impact Assessment</h3>
               <p className="text-lg mb-4">
                 Detailed analysis of how 55+ community choices impact retirement income, estate 
                 planning, and long-term financial security. Our financial impact assessment 
@@ -136,7 +136,7 @@ export default function FiftyFivePlusCommunitiesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Lifestyle and Amenity Evaluation</h3>
+              <h3 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Lifestyle and Amenity Evaluation</h3>
               <p className="text-lg mb-4">
                 Assessment of community amenities, lifestyle offerings, and long-term value to ensure 
                 your clients find communities that match their preferences and support their 
@@ -162,7 +162,7 @@ export default function FiftyFivePlusCommunitiesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Retirement Planning Integration</h3>
+              <h3 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Retirement Planning Integration</h3>
               <p className="text-lg mb-4">
                 Coordination with your retirement planning strategies to ensure community choices 
                 support income planning, tax strategies, and estate planning objectives. Our 
@@ -187,7 +187,7 @@ export default function FiftyFivePlusCommunitiesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Transaction Support</h3>
+              <h3 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Transaction Support</h3>
               <p className="text-lg mb-4">
                 Expert guidance through the 55+ community purchase process, ensuring smooth 
                 transactions that align with your clients' financial plans and timelines. Our 
@@ -216,7 +216,7 @@ export default function FiftyFivePlusCommunitiesPage() {
         {/* Financial Planning Integration */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold mb-8">Financial Planning Integration</h2>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             Our 55+ community planning services are specifically designed to integrate seamlessly 
             with financial planning practices. We understand that 55+ community decisions impact 
             retirement income, tax strategies, estate planning, and overall financial security, 
@@ -281,7 +281,7 @@ export default function FiftyFivePlusCommunitiesPage() {
 
         {/* CTA Section */}
         <section className="mb-16 p-12 bg-blue-50 dark:bg-blue-900/20 rounded-2xl text-center">
-          <h2 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Ready to Help Your Clients with 55+ Community Planning?</h2>
+          <h2 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Ready to Help Your Clients with 55+ Community Planning?</h2>
           <p className="mb-6 text-lg max-w-2xl mx-auto style={{ color: '#1f2937' }}">
             Contact us today to learn how our 55+ community planning services can support your 
             financial planning practice and help your clients find the perfect active adult community.
