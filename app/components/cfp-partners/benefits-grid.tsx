@@ -45,7 +45,7 @@ export function BenefitsGrid() {
   return (
     <section className="mb-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111827' }}>
           Benefits for Certified Financial Planners
         </h2>
       </div>
