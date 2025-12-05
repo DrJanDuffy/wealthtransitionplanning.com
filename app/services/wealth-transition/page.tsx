@@ -55,20 +55,20 @@ export default function WealthTransitionPage() {
         {/* Overview */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold mb-8">Comprehensive Wealth Transition Real Estate Planning</h2>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             Real estate is often the largest and most complex asset in your clients' portfolios, 
             and strategic real estate planning is essential for successful wealth transitions. Whether 
             your clients are planning estate transfers, optimizing tax strategies, or managing 
             multi-generational properties, real estate decisions significantly impact their financial outcomes.
           </p>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             Our wealth transition real estate planning services help your clients make strategic 
             real estate decisions that support their estate planning, tax optimization, and wealth 
             transfer goals. We work closely with you to understand your clients' comprehensive 
             financial situation and ensure real estate strategies align with their broader wealth 
             transition objectives.
           </p>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             This integrated approach ensures that real estate decisions complement your financial 
             planning recommendations, maximize tax efficiency, and support successful wealth 
             transitions for your clients and their families.
@@ -210,7 +210,7 @@ export default function WealthTransitionPage() {
         {/* Financial Planning Integration */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold mb-8">Financial Planning Integration</h2>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             Our wealth transition real estate planning services are specifically designed to integrate 
             seamlessly with financial planning and estate planning practices. We understand that wealth 
             transitions impact retirement planning, tax strategies, estate planning, and overall 

@@ -24,8 +24,8 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
         <span className="text-sm font-semibold text-blue-600 uppercase tracking-wide">
           {tier.tagline}
         </span>
-        <h3 className="text-3xl font-bold mt-2 mb-4 style={{ color: '#111827' }}">{tier.name}</h3>
-        <p className="text-lg mb-4 style={{ color: '#111827' }}">{tier.description}</p>
+        <h3 className="text-3xl font-bold mt-2 mb-4" style={{ color: '#111827' }}>{tier.name}</h3>
+        <p className="text-lg mb-4" style={{ color: '#111827' }}>{tier.description}</p>
         <p className="style={{ color: '#111827' }} italic mb-6">
           <strong>Best for:</strong> {tier.bestFor}
         </p>
