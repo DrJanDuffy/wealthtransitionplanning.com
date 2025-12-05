@@ -6,10 +6,10 @@ export function MarketExpertiseSection() {
   return (
     <section className="mb-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 style={{ color: '#111827' }}">
           Las Vegas Real Estate Market Expertise
         </h2>
-        <p className="text-lg md:text-xl text-gray-900 dark:text-gray-100 max-w-4xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl style={{ color: '#111827' }} max-w-4xl mx-auto leading-relaxed">
           Our team specializes in the Las Vegas real estate market, with deep expertise in 
           empty nester transitions, 55+ communities, and wealth transition properties. We 
           understand the unique characteristics of the Las Vegas market, including neighborhood 
@@ -26,17 +26,17 @@ export function MarketExpertiseSection() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Market Knowledge</h3>
+            <h3 className="text-2xl font-bold style={{ color: '#111827' }}">Market Knowledge</h3>
           </div>
-          <p className="mb-6 text-gray-900 dark:text-gray-100 leading-relaxed">
+          <p className="mb-6 style={{ color: '#111827' }} leading-relaxed">
             Our specialized knowledge of the Las Vegas real estate market allows us to provide 
             your clients with accurate market analysis, informed property recommendations, and 
             strategic timing advice that supports their financial goals and your planning 
             recommendations.
           </p>
           <div>
-            <h4 className="text-lg font-semibold mb-3 text-gray-900 dark:text-gray-100">Market Expertise Includes:</h4>
-            <ul className="list-disc pl-6 space-y-2 text-gray-900 dark:text-gray-100">
+            <h4 className="text-lg font-semibold mb-3 style={{ color: '#111827' }}">Market Expertise Includes:</h4>
+            <ul className="list-disc pl-6 space-y-2 style={{ color: '#111827' }}">
               <li>Las Vegas neighborhood trends and values</li>
               <li>Empty nester property market analysis</li>
               <li>55+ community market knowledge</li>
@@ -54,17 +54,17 @@ export function MarketExpertiseSection() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Service Area Coverage</h3>
+            <h3 className="text-2xl font-bold style={{ color: '#111827' }}">Service Area Coverage</h3>
           </div>
-          <p className="mb-6 text-gray-900 dark:text-gray-100 leading-relaxed">
+          <p className="mb-6 style={{ color: '#111827' }} leading-relaxed">
             We serve clients throughout the Las Vegas metropolitan area, including Las Vegas, 
             Henderson, Summerlin, and North Las Vegas. Our comprehensive market knowledge 
             across these areas ensures that your clients receive expert guidance regardless 
             of their location preferences.
           </p>
           <div>
-            <h4 className="text-lg font-semibold mb-3 text-gray-900 dark:text-gray-100">Primary Service Areas:</h4>
-            <ul className="list-disc pl-6 space-y-2 text-gray-900 dark:text-gray-100">
+            <h4 className="text-lg font-semibold mb-3 style={{ color: '#111827' }}">Primary Service Areas:</h4>
+            <ul className="list-disc pl-6 space-y-2 style={{ color: '#111827' }}">
               <li>Las Vegas - Comprehensive market coverage</li>
               <li>Henderson - 55+ community expertise</li>
               <li>Summerlin - Luxury property knowledge</li>
