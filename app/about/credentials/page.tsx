@@ -43,10 +43,10 @@ export default function CredentialsPage() {
 
       <article className="prose prose-lg max-w-none">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111827' }}>
             Professional Credentials & Certifications
           </h1>
-          <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl max-w-3xl mx-auto leading-relaxed" style={{ color: '#111827' }}>
             Dr. Janet Duffy maintains the highest professional standards and holds multiple 
             certifications and credentials that demonstrate her expertise in real estate 
             services, financial planning, and wealth transition strategies.
@@ -57,8 +57,8 @@ export default function CredentialsPage() {
 
         <section className="mb-16">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">Why Credentials Matter</h2>
-            <p className="text-lg text-gray-900 dark:text-gray-100 max-w-3xl mx-auto leading-relaxed">
+            <h2 className="text-3xl font-bold mb-4" style={{ color: '#111827' }}>Why Credentials Matter</h2>
+            <p className="text-lg max-w-3xl mx-auto leading-relaxed" style={{ color: '#111827' }}>
               Professional credentials and certifications demonstrate a commitment to ongoing 
               education, ethical standards, and expertise in financial planning and real estate 
               services. When you work with a CERTIFIED Financial Planner and fiduciary advisor, 

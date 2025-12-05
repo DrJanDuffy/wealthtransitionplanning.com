@@ -45,8 +45,8 @@ export default function PhilosophyPage() {
 
         <section className="mb-16">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">Our Approach to Real Estate and Financial Planning</h2>
-            <p className="text-lg text-gray-900 dark:text-gray-100 max-w-3xl mx-auto leading-relaxed">
+            <h2 className="text-3xl font-bold mb-4" style={{ color: '#111827' }}>Our Approach to Real Estate and Financial Planning</h2>
+            <p className="text-lg max-w-3xl mx-auto leading-relaxed" style={{ color: '#111827' }}>
               Our philosophy extends to how we approach real estate services for financial planners. 
               We believe that real estate decisions should always align with your clients' comprehensive 
               financial plans, tax strategies, and wealth transition goals. Every recommendation we 
@@ -57,8 +57,8 @@ export default function PhilosophyPage() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-200 dark:border-blue-800">
-              <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Client-Centered Approach</h3>
-              <p className="text-gray-800 dark:text-gray-200 leading-relaxed mb-4">
+              <h3 className="text-2xl font-bold mb-4" style={{ color: '#111827' }}>Client-Centered Approach</h3>
+              <p className="leading-relaxed mb-4" style={{ color: '#1f2937' }}>
                 We put your clients' best interests first, always. As a fiduciary advisor, Dr. Duffy 
                 is legally obligated to act in your clients' best interests, ensuring that every real 
                 estate recommendation supports their financial goals and long-term success.
@@ -66,8 +66,8 @@ export default function PhilosophyPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-200 dark:border-blue-800">
-              <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Collaborative Partnership</h3>
-              <p className="text-gray-800 dark:text-gray-200 leading-relaxed mb-4">
+              <h3 className="text-2xl font-bold mb-4" style={{ color: '#111827' }}>Collaborative Partnership</h3>
+              <p className="leading-relaxed mb-4" style={{ color: '#1f2937' }}>
                 We work as your partner, not a replacement. Our real estate services are designed to 
                 complement your financial planning practice, enhancing your value proposition while 
                 maintaining your role as the primary advisor.
