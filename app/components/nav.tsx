@@ -51,7 +51,7 @@ export function Navbar() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-0">
+          <nav className="hidden md:flex items-center space-x-1">
             {navItems.map((item) => (
               <Link
                 key={item.path}
@@ -63,7 +63,8 @@ export function Navbar() {
             ))}
             <Link
               href="/contact"
-              className="ml-3 px-5 py-2 bg-[#2563eb] text-white text-sm font-semibold rounded-md hover:bg-[#1d4ed8] transition-colors whitespace-nowrap shadow-sm"
+              className="ml-4 px-6 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors whitespace-nowrap shadow-md hover:shadow-lg relative z-10"
+              style={{ color: '#ffffff', backgroundColor: '#2563eb' }}
             >
               Free Consultation
             </Link>
@@ -118,8 +119,9 @@ export function Navbar() {
               ))}
               <Link
                 href="/contact"
-                className="block mt-3 px-3 py-2 bg-[#2563eb] text-white text-base font-semibold rounded-md hover:bg-[#1d4ed8] text-center shadow-sm"
+                className="block mt-3 px-4 py-3 bg-blue-600 text-white text-base font-semibold rounded-lg hover:bg-blue-700 text-center shadow-md hover:shadow-lg transition-all"
                 onClick={() => setIsMenuOpen(false)}
+                style={{ color: '#ffffff', backgroundColor: '#2563eb' }}
               >
                 Free Consultation
               </Link>
