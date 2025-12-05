@@ -154,7 +154,7 @@ export default function HomePage() {
       {/* CFP Partnership Highlight */}
       <section className="mb-20 p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
         <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-white">CFP Partnership Program</h2>
-        <p className="mb-6 text-lg text-gray-900 dark:text-gray-100">
+        <p className="mb-6 text-lg" style={{ color: '#111827' }}>
           Are you a Certified Financial Planner looking to expand your service offerings with 
           expert real estate services? Partner with us to provide your clients with comprehensive 
           real estate guidance that complements your financial planning services.
@@ -175,8 +175,8 @@ export default function HomePage() {
           <div className="space-y-6 mt-8">
             {targetFAQQuestions.financialPlanner.slice(0, 3).map((faq, index) => (
               <div key={index} className="p-6 bg-neutral-50 rounded-lg section-shadow">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">{faq.question}</h3>
-                <p className="text-gray-900 dark:text-gray-100">{faq.answer}</p>
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#111827' }}>{faq.question}</h3>
+                <p style={{ color: '#111827' }}>{faq.answer}</p>
               </div>
             ))}
           </div>
