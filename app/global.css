@@ -76,9 +76,10 @@ h1, h2, h3, h4, h5, h6 {
     --sh-keyword: #f47067;
     --sh-string: #0fa295;
   }
-  html {
+  /* Only apply dark mode if explicitly enabled */
+  /* html {
     color-scheme: dark;
-  }
+  } */
 }
 
 html {
@@ -103,23 +104,66 @@ body {
   background-color: #ffffff !important;
 }
 
-/* Force text visibility in all prose article sections */
+/* Force text visibility in all prose article sections - CRITICAL FIX */
 article.prose,
-article.prose-lg {
+article.prose-lg,
+.prose,
+.prose-lg {
   color: #111827 !important;
 }
 
-article.prose *:not([class*="bg-blue-"]):not([class*="bg-gradient"]):not([class*="text-white"]):not([class*="text-blue-"]):not(a) {
+/* Force all text elements in prose to be visible - OVERRIDE ALL DARK MODE CLASSES IN LIGHT MODE */
+article.prose p,
+article.prose-lg p,
+.prose p,
+.prose-lg p,
+article.prose li,
+article.prose-lg li,
+.prose li,
+.prose-lg li,
+article.prose span:not([class*="text-white"]):not([class*="text-blue-"]),
+article.prose-lg span:not([class*="text-white"]):not([class*="text-blue-"]),
+.prose span:not([class*="text-white"]):not([class*="text-blue-"]),
+.prose-lg span:not([class*="text-white"]):not([class*="text-blue-"]),
+article.prose div:not([class*="bg-blue-"]):not([class*="bg-gradient"]):not([class*="text-white"]):not([class*="text-blue-"]),
+article.prose-lg div:not([class*="bg-blue-"]):not([class*="bg-gradient"]):not([class*="text-white"]):not([class*="text-blue-"]),
+.prose div:not([class*="bg-blue-"]):not([class*="bg-gradient"]):not([class*="text-white"]):not([class*="text-blue-"]),
+.prose-lg div:not([class*="bg-blue-"]):not([class*="bg-gradient"]):not([class*="text-white"]):not([class*="text-blue-"]) {
+  color: #111827 !important;
+}
+
+/* Override dark mode classes when in light mode */
+html:not(.dark) article.prose *[class*="dark:text-"],
+html:not(.dark) article.prose-lg *[class*="dark:text-"],
+html:not(.dark) .prose *[class*="dark:text-"],
+html:not(.dark) .prose-lg *[class*="dark:text-"] {
   color: #111827 !important;
 }
 
 @media (prefers-color-scheme: dark) {
   article.prose,
-  article.prose-lg {
+  article.prose-lg,
+  .prose,
+  .prose-lg {
     color: #f3f4f6 !important;
   }
   
-  article.prose *:not([class*="bg-blue-"]):not([class*="bg-gradient"]):not([class*="text-white"]):not([class*="text-blue-"]):not(a) {
+  article.prose p,
+  article.prose-lg p,
+  .prose p,
+  .prose-lg p,
+  article.prose li,
+  article.prose-lg li,
+  .prose li,
+  .prose-lg li,
+  article.prose span:not([class*="text-"]),
+  article.prose-lg span:not([class*="text-"]),
+  .prose span:not([class*="text-"]),
+  .prose-lg span:not([class*="text-"]),
+  article.prose div:not([class*="bg-"]):not([class*="text-"]):not([class*="border-"]),
+  article.prose-lg div:not([class*="bg-"]):not([class*="text-"]):not([class*="border-"]),
+  .prose div:not([class*="bg-"]):not([class*="text-"]):not([class*="border-"]),
+  .prose-lg div:not([class*="bg-"]):not([class*="text-"]):not([class*="border-"]) {
     color: #f3f4f6 !important;
   }
 }
