@@ -98,8 +98,8 @@ export default function ContactPage() {
                 financial plans, tax strategies, and wealth transition goals, coordinated with 
                 your financial planner's recommendations.
               </p>
-              <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Client Benefits:</h4>
-              <ul className="list-disc pl-6 space-y-1 text-sm text-gray-800 dark:text-gray-200">
+              <h4 className="text-lg font-semibold mb-2" style={{ color: '#111827' }}>Client Benefits:</h4>
+              <ul className="list-disc pl-6 space-y-1 text-sm" style={{ color: '#1f2937' }}>
                 <li>Real estate guidance aligned with financial plans</li>
                 <li>Coordination with your financial planner</li>
                 <li>Expert Las Vegas market knowledge</li>
