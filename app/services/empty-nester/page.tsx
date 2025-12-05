@@ -57,21 +57,21 @@ export default function EmptyNesterServicesPage() {
         {/* Overview */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold mb-8">Comprehensive Empty Nester Real Estate Services</h2>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             Empty nesters face unique real estate challenges that require specialized expertise. When 
             your clients' children have moved out, they often need to transition from large family 
             homes to properties that better suit their current lifestyle and financial situation. 
             This transition involves complex considerations that impact their financial plans, tax 
             situations, and retirement strategies.
           </p>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             Our empty nester real estate services in Las Vegas help your clients navigate this 
             transition successfully. We provide comprehensive market analysis to determine optimal 
             timing for selling their current property, identify suitable downsizing options that 
             align with their lifestyle goals, and coordinate the transaction to minimize tax 
             implications and maximize financial outcomes.
           </p>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             We work closely with you to understand your clients' financial plans, retirement 
             goals, and estate planning objectives. This collaboration ensures that every real 
             estate recommendation supports their broader financial strategy and helps them 
@@ -85,7 +85,7 @@ export default function EmptyNesterServicesPage() {
           
           <div className="space-y-8">
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Market Timing Analysis</h3>
+              <h3 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Market Timing Analysis</h3>
               <p className="text-lg mb-4 style={{ color: '#1f2937' }}">
                 We analyze current Las Vegas market conditions to help your clients sell at optimal 
                 times, maximizing their proceeds and supporting their financial goals. Our market 
@@ -110,7 +110,7 @@ export default function EmptyNesterServicesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Property Valuation</h3>
+              <h3 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Property Valuation</h3>
               <p className="text-lg mb-4 style={{ color: '#1f2937' }}">
                 Accurate property valuations ensure your clients understand their home's true market 
                 value and can make informed financial planning decisions. We provide comprehensive 
@@ -135,7 +135,7 @@ export default function EmptyNesterServicesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Downsizing Recommendations</h3>
+              <h3 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Downsizing Recommendations</h3>
               <p className="text-lg mb-4 style={{ color: '#1f2937' }}">
                 We identify properties that match your clients' lifestyle needs while supporting 
                 their financial objectives and retirement planning strategies. Our downsizing 
@@ -161,7 +161,7 @@ export default function EmptyNesterServicesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Tax Strategy Coordination</h3>
+              <h3 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Tax Strategy Coordination</h3>
               <p className="text-lg mb-4 style={{ color: '#1f2937' }}">
                 We coordinate with you to ensure real estate transactions are structured to minimize 
                 tax implications and maximize after-tax proceeds for your clients. Our tax strategy 
@@ -186,7 +186,7 @@ export default function EmptyNesterServicesPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <h3 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Transaction Management</h3>
+              <h3 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Transaction Management</h3>
               <p className="text-lg mb-4 style={{ color: '#1f2937' }}">
                 We handle all aspects of the real estate transaction, allowing you to focus on financial 
                 planning while ensuring smooth, efficient processes for your clients. Our transaction 
@@ -215,7 +215,7 @@ export default function EmptyNesterServicesPage() {
         {/* Financial Planning Integration */}
         <section className="mb-16">
           <h2 className="text-4xl font-bold mb-8">Financial Planning Integration</h2>
-          <p className="text-lg mb-6 style={{ color: '#111827' }}">
+          <p className="text-lg mb-6" style={{ color: '#111827' }}>
             Our empty nester real estate services are specifically designed to integrate seamlessly 
             with financial planning practices. We understand that empty nester transitions impact 
             retirement planning, tax strategies, estate planning, and overall financial security, 
@@ -280,7 +280,7 @@ export default function EmptyNesterServicesPage() {
 
         {/* CTA Section */}
         <section className="mb-16 p-12 bg-blue-50 dark:bg-blue-900/20 rounded-2xl text-center">
-          <h2 className="text-3xl font-semibold mb-4 style={{ color: '#111827' }}">Ready to Help Your Empty Nester Clients?</h2>
+          <h2 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>Ready to Help Your Empty Nester Clients?</h2>
           <p className="mb-6 text-lg max-w-2xl mx-auto style={{ color: '#1f2937' }}">
             Contact us today to learn how our empty nester real estate services can support your 
             financial planning practice and help your clients achieve successful property transitions.
