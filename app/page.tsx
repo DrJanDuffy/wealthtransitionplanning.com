@@ -174,9 +174,9 @@ export default function HomePage() {
           <TargetFAQ category="financialPlanner" />
           <div className="space-y-6 mt-8">
             {targetFAQQuestions.financialPlanner.slice(0, 3).map((faq, index) => (
-              <div key={index} className="p-6 bg-neutral-50 rounded-lg section-shadow">
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">{faq.question}</h3>
-                <p className="text-gray-900">{faq.answer}</p>
+              <div key={index} className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg section-shadow">
+                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">{faq.question}</h3>
+                <p className="text-gray-900 dark:text-gray-100">{faq.answer}</p>
               </div>
             ))}
           </div>

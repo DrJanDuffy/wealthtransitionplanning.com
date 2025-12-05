@@ -104,10 +104,10 @@ export default function FAQPage() {
 
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           Frequently Asked Questions
         </h1>
-        <p className="text-xl text-gray-900">
+        <p className="text-xl text-gray-900 dark:text-gray-100">
           Find answers to common questions about our wealth transition planning services
         </p>
       </div>
@@ -118,10 +118,10 @@ export default function FAQPage() {
 
       {/* Contact CTA */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 text-center mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           Still Have Questions?
         </h2>
-        <p className="text-gray-900 mb-6">
+        <p className="text-gray-800 dark:text-gray-200 mb-6">
           We're here to help! Schedule a free consultation to discuss your specific situation and get personalized answers.
         </p>
         <FinancialCheckupCTA />

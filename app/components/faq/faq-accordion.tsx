@@ -26,21 +26,21 @@ export function FAQAccordion({ faqs, title }: FAQAccordionProps) {
   return (
     <section className="mb-12">
       {title && (
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">{title}</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-6">{title}</h2>
       )}
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-blue-300 transition-all duration-300"
+            className="bg-white dark:bg-neutral-900 border-2 border-gray-200 dark:border-neutral-700 rounded-xl overflow-hidden hover:border-blue-300 dark:hover:border-blue-600 transition-all duration-300"
           >
             <button
               onClick={() => toggleFAQ(index)}
               className="w-full p-6 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
-              <h3 className="text-xl font-semibold text-gray-900 pr-4">{faq.question}</h3>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 pr-4">{faq.question}</h3>
               <svg
-                className={`w-6 h-6 text-blue-600 flex-shrink-0 transition-transform duration-300 ${
+                className={`w-6 h-6 text-blue-600 dark:text-blue-400 flex-shrink-0 transition-transform duration-300 ${
                   openIndex === index ? 'transform rotate-180' : ''
                 }`}
                 fill="none"
@@ -56,7 +56,7 @@ export function FAQAccordion({ faqs, title }: FAQAccordionProps) {
               }`}
             >
               <div className="px-6 pb-6">
-                <p className="text-gray-900 leading-relaxed">{faq.answer}</p>
+                <p className="text-gray-900 dark:text-gray-100 leading-relaxed">{faq.answer}</p>
               </div>
             </div>
           </div>
