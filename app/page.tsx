@@ -183,7 +183,7 @@ export default function HomePage() {
           <div className="text-center mt-8">
             <Link
               href="/contact"
-              className="inline-block px-6 py-3 text-blue-600 dark:text-blue-400 hover:underline font-medium"
+              className="inline-block px-6 py-3 text-blue-600 hover:underline font-medium"
             >
               View All FAQs →
             </Link>
@@ -208,7 +208,7 @@ export default function HomePage() {
           </Link>
           <Link
             href="/resources"
-            className="inline-block px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/40 transition-colors font-semibold text-lg"
+            className="inline-block px-8 py-4 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors font-semibold text-lg"
           >
             View Free Resources
           </Link>

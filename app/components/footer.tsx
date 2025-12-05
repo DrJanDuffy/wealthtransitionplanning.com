@@ -183,15 +183,15 @@ export default function Footer() {
             The information being provided is strictly as a courtesy. When you link to any of the websites provided here, 
             you are leaving this website. We make no representation as to the completeness or accuracy of the information 
             provided at these websites.{' '}
-            <Link href="/resources" className="text-blue-700 dark:text-blue-400 hover:underline">
+            <Link href="/resources" className="text-blue-700 hover:underline">
               Read More
             </Link>
             {' '}|{' '}
-            <Link href="/privacy" className="text-blue-700 dark:text-blue-400 hover:underline">
+            <Link href="/privacy" className="text-blue-700 hover:underline">
               Privacy Policy
             </Link>
             {' '}|{' '}
-            <Link href="/terms" className="text-blue-700 dark:text-blue-400 hover:underline">
+            <Link href="/terms" className="text-blue-700 hover:underline">
               Terms of Service
             </Link>
           </p>
