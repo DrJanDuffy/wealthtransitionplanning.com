@@ -91,34 +91,34 @@ export default function FreeResourcesPage() {
                 Analyze the financial implications of downsizing, including sale proceeds, purchase 
                 costs, and impact on retirement planning.
               </p>
-              <p className="text-sm text-gray-900 dark:text-gray-100 italic">Coming soon</p>
+              <p className="text-sm italic" style={{ color: '#111827' }}>Coming soon</p>
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">55+ Community Financial Impact Calculator</h3>
-              <p className="mb-4 text-gray-900 dark:text-gray-100">
+              <h3 className="text-xl font-semibold mb-3" style={{ color: '#111827' }}>55+ Community Financial Impact Calculator</h3>
+              <p className="mb-4" style={{ color: '#111827' }}>
                 Assess how 55+ community choices impact retirement income, estate planning, and 
                 long-term financial security.
               </p>
-              <p className="text-sm text-gray-900 dark:text-gray-100 italic">Coming soon</p>
+              <p className="text-sm italic" style={{ color: '#111827' }}>Coming soon</p>
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Wealth Transition Real Estate Calculator</h3>
-              <p className="mb-4 text-gray-900 dark:text-gray-100">
+              <h3 className="text-xl font-semibold mb-3" style={{ color: '#111827' }}>Wealth Transition Real Estate Calculator</h3>
+              <p className="mb-4" style={{ color: '#111827' }}>
                 Evaluate real estate portfolio strategies for wealth transfer, tax optimization, 
                 and estate planning objectives.
               </p>
-              <p className="text-sm text-gray-900 dark:text-gray-100 italic">Coming soon</p>
+              <p className="text-sm italic" style={{ color: '#111827' }}>Coming soon</p>
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Real Estate Tax Impact Calculator</h3>
-              <p className="mb-4 text-gray-900 dark:text-gray-100">
+              <h3 className="text-xl font-semibold mb-3" style={{ color: '#111827' }}>Real Estate Tax Impact Calculator</h3>
+              <p className="mb-4" style={{ color: '#111827' }}>
                 Understand tax implications of real estate transactions and how they affect overall 
                 tax planning strategies.
               </p>
-              <p className="text-sm text-gray-900 dark:text-gray-100 italic">Coming soon</p>
+              <p className="text-sm italic" style={{ color: '#111827' }}>Coming soon</p>
             </div>
           </div>
         </section>
