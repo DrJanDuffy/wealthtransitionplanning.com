@@ -146,12 +146,21 @@ article.prose-lg div:not([class*="bg-blue-"]):not([class*="bg-gradient"]):not([c
   color: #111827 !important;
 }
 
-/* Override dark mode classes when in light mode */
+/* Override dark mode classes when in light mode - AGGRESSIVE FIX */
+html:not(.dark) *[class*="dark:text-gray-100"],
+html:not(.dark) *[class*="dark:text-gray-200"],
+html:not(.dark) *[class*="dark:text-gray-300"],
 html:not(.dark) article.prose *[class*="dark:text-"],
 html:not(.dark) article.prose-lg *[class*="dark:text-"],
 html:not(.dark) .prose *[class*="dark:text-"],
 html:not(.dark) .prose-lg *[class*="dark:text-"] {
   color: #111827 !important;
+}
+
+/* Override dark mode classes in blue-50 backgrounds */
+html:not(.dark) .bg-blue-50 *[class*="dark:text-gray-200"],
+html:not(.dark) .bg-blue-50 *[class*="dark:text-gray-100"] {
+  color: #1f2937 !important;
 }
 
 @media (prefers-color-scheme: dark) {
