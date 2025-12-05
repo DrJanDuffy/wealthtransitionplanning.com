@@ -9,7 +9,7 @@ export function HowWeWorkSection() {
         <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111827' }}>
           How We Work With Financial Planners
         </h2>
-        <p className="text-lg md:text-xl style={{ color: '#111827' }} max-w-4xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed" style={{ color: '#111827' }}>
           Our real estate services are designed to seamlessly integrate with your financial 
           planning practice. We understand that you need real estate partners who can provide 
           specialized expertise while maintaining alignment with your financial planning 

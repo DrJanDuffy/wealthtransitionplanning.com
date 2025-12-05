@@ -11,7 +11,7 @@ export function PhilosophySection() {
         <h2 className="text-4xl font-bold mb-4" style={{ color: '#111827' }}>
           Our Financial Planning Philosophy For Wealth Transition
         </h2>
-        <p className="text-xl style={{ color: '#111827' }} max-w-3xl mx-auto font-medium">
+        <p className="text-xl max-w-3xl mx-auto font-medium" style={{ color: '#111827' }}>
           We believe in comprehensive, personalized wealth transition planning that integrates 
           all aspects of your financial life to help you achieve your legacy goals.
         </p>
