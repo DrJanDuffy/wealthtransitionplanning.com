@@ -21,31 +21,31 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
       } text-gray-900`}
     >
       <div className="mb-4">
-        <span className="text-sm font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wide">
+        <span className="text-sm font-semibold text-blue-600 uppercase tracking-wide">
           {tier.tagline}
         </span>
-        <h3 className="text-3xl font-bold mt-2 mb-4 text-gray-900 dark:text-gray-100">{tier.name}</h3>
-        <p className="text-lg mb-4 text-gray-900 dark:text-gray-100">{tier.description}</p>
-        <p className="text-gray-900 dark:text-gray-100 italic mb-6">
+        <h3 className="text-3xl font-bold mt-2 mb-4 style={{ color: '#111827' }}">{tier.name}</h3>
+        <p className="text-lg mb-4 style={{ color: '#111827' }}">{tier.description}</p>
+        <p className="style={{ color: '#111827' }} italic mb-6">
           <strong>Best for:</strong> {tier.bestFor}
         </p>
       </div>
 
       <div className="mb-6">
-        <h4 className="font-semibold text-lg mb-3 text-gray-900 dark:text-gray-100">Why Choose {tier.name}?</h4>
+        <h4 className="font-semibold text-lg mb-3 style={{ color: '#111827' }}">Why Choose {tier.name}?</h4>
         <ul className="space-y-2">
           {tier.whyChoose.slice(0, 3).map((item, index) => (
             <li key={index} className="flex items-start">
-              <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-              <span className="text-gray-900 dark:text-gray-100">{item}</span>
+              <span className="text-blue-600 mr-2">✓</span>
+              <span className="style={{ color: '#111827' }}">{item}</span>
             </li>
           ))}
         </ul>
       </div>
 
       <div className="mb-6">
-        <h4 className="font-semibold text-lg mb-3 text-gray-900 dark:text-gray-100">What to Expect</h4>
-        <ul className="space-y-2 text-sm text-gray-900 dark:text-gray-100">
+        <h4 className="font-semibold text-lg mb-3 style={{ color: '#111827' }}">What to Expect</h4>
+        <ul className="space-y-2 text-sm style={{ color: '#111827' }}">
           {tier.whatToExpect.slice(0, 3).map((item, index) => (
             <li key={index} className="flex items-start">
               <span className="mr-2">•</span>
@@ -55,8 +55,8 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
         </ul>
       </div>
 
-      <div className="mb-6 p-4 bg-neutral-50 dark:bg-neutral-900 rounded">
-        <p className="text-sm text-gray-900 dark:text-gray-100">
+      <div className="mb-6 p-4 bg-neutral-50  rounded">
+        <p className="text-sm style={{ color: '#111827' }}">
           <strong>Fees:</strong> {tier.fees}
         </p>
       </div>
@@ -75,7 +75,7 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
         {tier.freeGuide && (
           <Link
             href="/resources"
-            className="block w-full text-center px-6 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/40 transition-colors font-medium"
+            className="block w-full text-center px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50  transition-colors font-medium"
           >
             {tier.cta.secondary}
           </Link>
@@ -83,12 +83,12 @@ export function ServiceTierCard({ tier, featured = false }: ServiceTierCardProps
       </div>
 
       {tier.freeGuide && (
-        <div className="mt-6 p-4 bg-yellow-50 dark:bg-yellow-900/20 rounded border border-yellow-200 dark:border-yellow-800">
-          <p className="text-sm font-semibold mb-1 text-gray-900 dark:text-gray-100">FREE GUIDE</p>
-          <p className="text-sm text-gray-900 dark:text-gray-100">{tier.freeGuide}</p>
+        <div className="mt-6 p-4 bg-yellow-50  rounded border border-yellow-200 ">
+          <p className="text-sm font-semibold mb-1 style={{ color: '#111827' }}">FREE GUIDE</p>
+          <p className="text-sm style={{ color: '#111827' }}">{tier.freeGuide}</p>
           <Link
             href="/resources"
-            className="text-sm text-blue-600 dark:text-blue-400 hover:underline mt-2 inline-block"
+            className="text-sm text-blue-600 hover:underline mt-2 inline-block"
           >
             Download Our Free Guide →
           </Link>
