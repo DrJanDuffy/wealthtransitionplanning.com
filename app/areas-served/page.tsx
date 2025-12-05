@@ -54,10 +54,10 @@ export default function AreasServedPage() {
     <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           Areas We Serve
         </h1>
-        <p className="text-xl text-gray-900 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto">
           {businessConfig.name} proudly serves clients throughout the {businessConfig.serviceArea.city} metropolitan area and surrounding communities
         </p>
       </div>
@@ -104,7 +104,7 @@ export default function AreasServedPage() {
 
       {/* Services by Area */}
       <div className="bg-gray-50 rounded-lg p-8 mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">
           Services Available Throughout Our Service Area
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -114,8 +114,8 @@ export default function AreasServedPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
               </svg>
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">Empty Nester Services</h3>
-            <p className="text-gray-900">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">Empty Nester Services</h3>
+            <p className="text-gray-900 dark:text-gray-100">
               Help downsizing from family homes to more manageable properties
             </p>
           </div>
@@ -126,8 +126,8 @@ export default function AreasServedPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">55+ Community Planning</h3>
-            <p className="text-gray-900">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">55+ Community Planning</h3>
+            <p className="text-gray-900 dark:text-gray-100">
               Expert guidance for active adult community transitions
             </p>
           </div>
@@ -137,8 +137,8 @@ export default function AreasServedPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">Wealth Transition</h3>
-            <p className="text-gray-900">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">Wealth Transition</h3>
+            <p className="text-gray-900 dark:text-gray-100">
               Strategic real estate planning aligned with financial goals
             </p>
           </div>
@@ -147,10 +147,10 @@ export default function AreasServedPage() {
 
       {/* CFP Partnership Note */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4 text-center">
           Working with Financial Planners
         </h2>
-        <p className="text-gray-900 mb-6 text-center leading-relaxed">
+        <p className="text-gray-800 dark:text-gray-200 mb-6 text-center leading-relaxed">
           We work closely with CERTIFIED Financial Planners throughout our service area to provide integrated wealth transition planning. 
           If you're a CFP serving clients in the Las Vegas area, learn more about our partnership program.
         </p>
@@ -166,10 +166,10 @@ export default function AreasServedPage() {
 
       {/* Contact Section */}
       <div className="text-center">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           Ready to Get Started?
         </h2>
-        <p className="text-gray-900 mb-6">
+        <p className="text-gray-900 dark:text-gray-100 mb-6">
           Whether you're in Las Vegas, Henderson, Summerlin, or another area in our service region, 
           we're here to help with your wealth transition planning needs.
         </p>
