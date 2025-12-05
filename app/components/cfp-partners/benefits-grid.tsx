@@ -55,11 +55,11 @@ export function BenefitsGrid() {
             key={index}
             className="p-8 bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl text-white hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
           >
-            <div className="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center mb-6 text-white">
+            <div className="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center mb-6" style={{ color: '#ffffff' }}>
               {benefit.icon}
             </div>
-            <h3 className="text-2xl font-bold mb-4 text-white">{benefit.title}</h3>
-            <p className="text-lg text-gray-100 leading-relaxed">{benefit.description}</p>
+            <h3 className="text-2xl font-bold mb-4" style={{ color: '#ffffff' }}>{benefit.title}</h3>
+            <p className="text-lg leading-relaxed" style={{ color: '#f3f4f6' }}>{benefit.description}</p>
           </div>
         ))}
       </div>

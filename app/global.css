@@ -147,13 +147,14 @@ article.prose-lg div:not([class*="bg-blue-"]):not([class*="bg-gradient"]):not([c
 }
 
 /* Override dark mode classes when in light mode - AGGRESSIVE FIX */
-html:not(.dark) *[class*="dark:text-gray-100"],
-html:not(.dark) *[class*="dark:text-gray-200"],
-html:not(.dark) *[class*="dark:text-gray-300"],
-html:not(.dark) article.prose *[class*="dark:text-"],
-html:not(.dark) article.prose-lg *[class*="dark:text-"],
-html:not(.dark) .prose *[class*="dark:text-"],
-html:not(.dark) .prose-lg *[class*="dark:text-"] {
+/* BUT don't override text on dark backgrounds */
+html:not(.dark) *[class*="dark:text-gray-100"]:not([class*="bg-gray-"]):not([class*="bg-blue-"]):not([class*="from-gray-"]):not([class*="to-gray-"]),
+html:not(.dark) *[class*="dark:text-gray-200"]:not([class*="bg-gray-"]):not([class*="bg-blue-"]):not([class*="from-gray-"]):not([class*="to-gray-"]),
+html:not(.dark) *[class*="dark:text-gray-300"]:not([class*="bg-gray-"]):not([class*="bg-blue-"]):not([class*="from-gray-"]):not([class*="to-gray-"]),
+html:not(.dark) article.prose *[class*="dark:text-"]:not([class*="bg-gray-"]):not([class*="bg-blue-"]):not([class*="from-gray-"]):not([class*="to-gray-"]),
+html:not(.dark) article.prose-lg *[class*="dark:text-"]:not([class*="bg-gray-"]):not([class*="bg-blue-"]):not([class*="from-gray-"]):not([class*="to-gray-"]),
+html:not(.dark) .prose *[class*="dark:text-"]:not([class*="bg-gray-"]):not([class*="bg-blue-"]):not([class*="from-gray-"]):not([class*="to-gray-"]),
+html:not(.dark) .prose-lg *[class*="dark:text-"]:not([class*="bg-gray-"]):not([class*="bg-blue-"]):not([class*="from-gray-"]):not([class*="to-gray-"]) {
   color: #111827 !important;
 }
 
@@ -161,6 +162,27 @@ html:not(.dark) .prose-lg *[class*="dark:text-"] {
 html:not(.dark) .bg-blue-50 *[class*="dark:text-gray-200"],
 html:not(.dark) .bg-blue-50 *[class*="dark:text-gray-100"] {
   color: #1f2937 !important;
+}
+
+/* Ensure white text stays white on dark backgrounds */
+[class*="bg-gray-900"],
+[class*="bg-gray-800"],
+[class*="from-gray-900"],
+[class*="to-gray-800"],
+[class*="bg-blue-600"],
+[class*="bg-blue-700"],
+[class*="bg-blue-800"] {
+  color: #ffffff !important;
+}
+
+[class*="bg-gray-900"] *,
+[class*="bg-gray-800"] *,
+[class*="from-gray-900"] *,
+[class*="to-gray-800"] *,
+[class*="bg-blue-600"] *,
+[class*="bg-blue-700"] *,
+[class*="bg-blue-800"] * {
+  color: #ffffff !important;
 }
 
 @media (prefers-color-scheme: dark) {
