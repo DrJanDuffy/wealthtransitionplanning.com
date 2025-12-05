@@ -8,7 +8,7 @@ export function PhilosophySection() {
   return (
     <section className="mb-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4 style={{ color: '#111827' }}">
+        <h2 className="text-4xl font-bold mb-4" style={{ color: '#111827' }}>
           Our Financial Planning Philosophy For Wealth Transition
         </h2>
         <p className="text-xl style={{ color: '#111827' }} max-w-3xl mx-auto font-medium">

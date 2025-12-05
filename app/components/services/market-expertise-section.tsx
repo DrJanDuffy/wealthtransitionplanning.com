@@ -6,7 +6,7 @@ export function MarketExpertiseSection() {
   return (
     <section className="mb-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 style={{ color: '#111827' }}">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111827' }}>
           Las Vegas Real Estate Market Expertise
         </h2>
         <p className="text-lg md:text-xl style={{ color: '#111827' }} max-w-4xl mx-auto leading-relaxed">
