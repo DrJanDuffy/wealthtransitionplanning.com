@@ -219,7 +219,7 @@ export default function CFPPartnersPage() {
         <section className="mb-12 p-12 bg-blue-50 rounded-xl border border-blue-200">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-semibold mb-6 text-gray-900">Benefits for Certified Financial Planners</h2>
-            <p className="mb-6 text-lg text-gray-900 dark:text-gray-100 max-w-3xl mx-auto leading-relaxed">
+            <p className="mb-6 text-lg style={{ color: '#111827' }} max-w-3xl mx-auto leading-relaxed">
               When you partner with <strong>{businessConfig.name}</strong>, you're not just 
               adding real estate services to your practice—you're gaining a trusted collaborator 
               who understands the financial planning landscape and how real estate decisions impact 
@@ -246,29 +246,29 @@ export default function CFPPartnersPage() {
           
           <div className="space-y-8">
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Empty Nester Real Estate Services</h3>
-              <p className="mb-4 text-lg text-gray-800 dark:text-gray-200">
+              <h3 className="text-2xl font-semibold mb-4 style={{ color: '#111827' }}">Empty Nester Real Estate Services</h3>
+              <p className="mb-4 text-lg style={{ color: '#1f2937' }}">
                 Empty nesters face unique real estate challenges that require specialized expertise. 
                 When your clients' children have moved out, they often need to transition from 
                 large family homes to properties that better suit their current lifestyle and 
                 financial situation. This transition involves complex considerations that impact 
                 their financial plans, tax situations, and retirement strategies.
               </p>
-              <p className="mb-4 text-gray-800 dark:text-gray-200">
+              <p className="mb-4 style={{ color: '#1f2937' }}">
                 Our empty nester real estate services help your clients navigate this transition 
                 successfully. We provide comprehensive market analysis to determine optimal timing 
                 for selling their current property, identify suitable downsizing options that align 
                 with their lifestyle goals, and coordinate the transaction to minimize tax 
                 implications and maximize financial outcomes.
               </p>
-              <p className="mb-4 text-gray-800 dark:text-gray-200">
+              <p className="mb-4 style={{ color: '#1f2937' }}">
                 We work closely with you to understand your clients' financial plans, retirement 
                 goals, and estate planning objectives. This collaboration ensures that every real 
                 estate recommendation supports their broader financial strategy and helps them 
                 achieve their long-term goals.
               </p>
-              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Empty Nester Services Include:</h4>
-              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
+              <h4 className="text-xl font-semibold mb-3 style={{ color: '#111827' }}">Empty Nester Services Include:</h4>
+              <ul className="list-disc pl-6 space-y-2 style={{ color: '#1f2937' }}">
                 <li><strong>Market Timing Analysis:</strong> We analyze current Las Vegas market 
                 conditions to help your clients sell at optimal times, maximizing their proceeds 
                 and supporting their financial goals.</li>
@@ -288,28 +288,28 @@ export default function CFPPartnersPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">55+ Community Planning Services</h3>
-              <p className="mb-4 text-lg text-gray-800 dark:text-gray-200">
+              <h3 className="text-2xl font-semibold mb-4 style={{ color: '#111827' }}">55+ Community Planning Services</h3>
+              <p className="mb-4 text-lg style={{ color: '#1f2937' }}">
                 Las Vegas offers exceptional 55+ active adult communities that provide retirees 
                 with vibrant lifestyles, excellent amenities, and maintenance-free living. However, 
                 choosing the right 55+ community requires careful consideration of financial 
                 implications, lifestyle factors, and long-term planning objectives.
               </p>
-              <p className="mb-4 text-gray-800 dark:text-gray-200">
+              <p className="mb-4 style={{ color: '#1f2937' }}">
                 Our 55+ community planning services help your clients find communities that align 
                 with their retirement goals, financial situation, and lifestyle preferences. We 
                 provide comprehensive community analysis, including financial impact assessments, 
                 amenity evaluations, and long-term value considerations that support your retirement 
                 planning recommendations.
               </p>
-              <p className="mb-4 text-gray-800 dark:text-gray-200">
+              <p className="mb-4 style={{ color: '#1f2937' }}">
                 We understand that 55+ community decisions impact your clients' retirement income 
                 planning, estate planning, and overall financial security. Our services integrate 
                 with your financial planning to ensure community choices support long-term financial 
                 objectives and retirement success.
               </p>
-              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">55+ Community Services Include:</h4>
-              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
+              <h4 className="text-xl font-semibold mb-3 style={{ color: '#111827' }}">55+ Community Services Include:</h4>
+              <ul className="list-disc pl-6 space-y-2 style={{ color: '#1f2937' }}">
                 <li><strong>Community Market Analysis:</strong> Comprehensive analysis of Las Vegas 
                 55+ communities, including pricing trends, availability, and value propositions 
                 that support your clients' financial goals.</li>
@@ -329,28 +329,28 @@ export default function CFPPartnersPage() {
             </div>
 
             <div className="p-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Wealth Transition Real Estate Planning</h3>
-              <p className="mb-4 text-lg text-gray-800 dark:text-gray-200">
+              <h3 className="text-2xl font-semibold mb-4 style={{ color: '#111827' }}">Wealth Transition Real Estate Planning</h3>
+              <p className="mb-4 text-lg style={{ color: '#1f2937' }}">
                 Real estate is often the largest and most complex asset in your clients' portfolios, 
                 and strategic real estate planning is essential for successful wealth transitions. 
                 Whether your clients are planning estate transfers, optimizing tax strategies, or 
                 managing multi-generational properties, real estate decisions significantly impact 
                 their financial outcomes.
               </p>
-              <p className="mb-4 text-gray-800 dark:text-gray-200">
+              <p className="mb-4 style={{ color: '#1f2937' }}">
                 Our wealth transition real estate planning services help your clients make strategic 
                 real estate decisions that support their estate planning, tax optimization, and 
                 wealth transfer goals. We work closely with you to understand your clients' 
                 comprehensive financial situation and ensure real estate strategies align with their 
                 broader wealth transition objectives.
               </p>
-              <p className="mb-4 text-gray-800 dark:text-gray-200">
+              <p className="mb-4 style={{ color: '#1f2937' }}">
                 This integrated approach ensures that real estate decisions complement your financial 
                 planning recommendations, maximize tax efficiency, and support successful wealth 
                 transitions for your clients and their families.
               </p>
-              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Wealth Transition Services Include:</h4>
-              <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
+              <h4 className="text-xl font-semibold mb-3 style={{ color: '#111827' }}">Wealth Transition Services Include:</h4>
+              <ul className="list-disc pl-6 space-y-2 style={{ color: '#1f2937' }}">
                 <li><strong>Real Estate Portfolio Analysis:</strong> Comprehensive analysis of your 
                 clients' real estate holdings to identify optimization opportunities, tax strategies, 
                 and wealth transfer planning considerations.</li>
@@ -374,8 +374,8 @@ export default function CFPPartnersPage() {
         {/* How It Works - Link to dedicated page */}
         <section className="mb-12 p-12 bg-neutral-50 rounded-xl border border-gray-200">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">How the Partnership Works</h2>
-            <p className="mb-6 text-lg text-gray-900 dark:text-gray-100 max-w-3xl mx-auto leading-relaxed">
+            <h2 className="text-3xl font-semibold mb-6 style={{ color: '#111827' }}">How the Partnership Works</h2>
+            <p className="mb-6 text-lg style={{ color: '#111827' }} max-w-3xl mx-auto leading-relaxed">
               Our partnership process is designed to be straightforward and seamless, ensuring that 
               real estate services integrate smoothly with your financial planning practice. We work 
               with you to establish clear processes, communication protocols, and collaboration 
@@ -392,15 +392,15 @@ export default function CFPPartnersPage() {
 
         {/* Case Studies Preview */}
         <section className="mb-12">
-          <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Partnership Success Stories</h2>
-          <p className="mb-4 text-lg text-gray-900 dark:text-gray-100">
+          <h2 className="text-3xl font-semibold mb-6 style={{ color: '#111827' }}">Partnership Success Stories</h2>
+          <p className="mb-4 text-lg style={{ color: '#111827' }}">
             See how CFP partnerships have helped financial planners expand their services and 
             better serve their clients with expert real estate guidance:
           </p>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Case Study: Empty Nester Transition</h3>
-              <p className="text-sm text-gray-900 dark:text-gray-100 mb-4">
+              <p className="text-sm style={{ color: '#111827' }} mb-4">
                 How a CFP partnership helped clients navigate downsizing and wealth transition 
                 with expert real estate guidance that aligned with their financial plans.
               </p>
@@ -413,7 +413,7 @@ export default function CFPPartnersPage() {
             </div>
             <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Case Study: CFP Partnership Success</h3>
-              <p className="text-sm text-gray-900 dark:text-gray-100 mb-4">
+              <p className="text-sm style={{ color: '#111827' }} mb-4">
                 A successful collaboration that expanded service offerings, improved client 
                 satisfaction, and enhanced the financial planning practice's value proposition.
               </p>
@@ -426,7 +426,7 @@ export default function CFPPartnersPage() {
             </div>
             <div className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Case Study: 55+ Community Move</h3>
-              <p className="text-sm text-gray-900 dark:text-gray-100 mb-4">
+              <p className="text-sm style={{ color: '#111827' }} mb-4">
                 Comprehensive real estate planning for clients transitioning to active adult 
                 communities, coordinated with retirement planning strategies.
               </p>
