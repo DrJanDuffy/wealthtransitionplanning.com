@@ -37,10 +37,10 @@ export function Certifications() {
         {certifications.map((cert, index) => (
           <div
             key={index}
-            className="p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg text-center"
+            className="p-6 border border-neutral-200 rounded-lg text-center"
           >
             {cert.abbreviation && (
-              <div className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">
+              <div className="text-4xl font-bold text-blue-600 mb-2">
                 {cert.abbreviation}
               </div>
             )}
@@ -55,7 +55,7 @@ export function Certifications() {
           {affiliations.map((affiliation, index) => (
             <span
               key={index}
-              className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-full text-sm"
+              className="px-4 py-2 bg-neutral-100 rounded-full text-sm"
             >
               {affiliation}
             </span>

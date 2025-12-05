@@ -18,7 +18,7 @@ export function MediaFeatures() {
     <section className="mb-16 py-12 bg-neutral-50">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold mb-2">Planning Expertise Featured In</h2>
-        <p className="text-gray-900 dark:text-gray-100">
+        <p style={{ color: '#111827' }}>
           Dr. Janet Duffy's expertise has been recognized by leading financial publications
         </p>
       </div>
@@ -39,7 +39,7 @@ export function MediaFeatures() {
       <div className="text-center mt-8">
         <Link
           href="/about"
-          className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+          className="text-blue-600 hover:underline font-medium"
         >
           Learn More About Dr. Janet Duffy →
         </Link>

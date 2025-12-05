@@ -152,8 +152,8 @@ export default function HomePage() {
       </section>
 
       {/* CFP Partnership Highlight */}
-      <section className="mb-20 p-8 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-white">CFP Partnership Program</h2>
+      <section className="mb-20 p-8 bg-blue-50 rounded-xl">
+        <h2 className="text-3xl font-semibold mb-4" style={{ color: '#111827' }}>CFP Partnership Program</h2>
         <p className="mb-6 text-lg" style={{ color: '#111827' }}>
           Are you a Certified Financial Planner looking to expand your service offerings with 
           expert real estate services? Partner with us to provide your clients with comprehensive 
@@ -169,7 +169,7 @@ export default function HomePage() {
 
       {/* FAQ Section */}
       <section className="mb-20">
-        <h2 className="text-4xl font-bold mb-8 text-center text-gray-900 dark:text-white">Frequently Asked Questions</h2>
+        <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: '#111827' }}>Frequently Asked Questions</h2>
         <div className="max-w-4xl mx-auto">
           <TargetFAQ category="financialPlanner" />
           <div className="space-y-6 mt-8">
