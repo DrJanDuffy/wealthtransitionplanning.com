@@ -105,8 +105,8 @@ export default function HomePage() {
       {/* Our Solutions Preview */}
       <section className="mb-20">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-gray-900 dark:text-white">OUR SOLUTIONS</h2>
-          <p className="text-xl text-gray-900 dark:text-gray-100 max-w-3xl mx-auto font-medium">
+          <h2 className="text-4xl font-bold mb-4" style={{ color: '#111827' }}>OUR SOLUTIONS</h2>
+          <p className="text-xl max-w-3xl mx-auto font-medium" style={{ color: '#111827' }}>
             First, we listen. Then we help you develop a realistic financial plan to get where 
             you want to go, whether that's planning your wealth transition, becoming a first-time 
             estate planner, or including comprehensive planning in your investment strategy.
@@ -140,10 +140,10 @@ export default function HomePage() {
       {/* Latest Blog Posts */}
       <section className="mb-20">
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">Latest Articles</h2>
+          <h2 className="text-3xl font-semibold" style={{ color: '#111827' }}>Latest Articles</h2>
           <Link
             href="/blog"
-            className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+            className="text-blue-600 hover:underline font-medium"
           >
             View All Posts →
           </Link>
@@ -174,7 +174,7 @@ export default function HomePage() {
           <TargetFAQ category="financialPlanner" />
           <div className="space-y-6 mt-8">
             {targetFAQQuestions.financialPlanner.slice(0, 3).map((faq, index) => (
-              <div key={index} className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg section-shadow">
+              <div key={index} className="p-6 bg-neutral-50 rounded-lg section-shadow">
                 <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">{faq.question}</h3>
                 <p className="text-gray-900 dark:text-gray-100">{faq.answer}</p>
               </div>
